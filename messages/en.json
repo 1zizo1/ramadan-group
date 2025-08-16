@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Global Import & Export Solutions",
+    "subtitle": "Connecting businesses worldwide with top-quality goods and logistics expertise",
+    "cta": "Get in Touch"
+  }
+}
