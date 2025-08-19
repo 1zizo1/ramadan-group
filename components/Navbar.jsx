@@ -1,8 +1,9 @@
 "use client";
 import Link from 'next/link'
 import Image from "next/image";
-import { assets, BagIcon, BoxIcon, CartIcon, HomeIcon } from "/assets/assets";
-import LanguageSwitcher from './LanguageSwitcher';
+import { assets } from "@/assets/assets";
+// import LanguageSwitcher from './LanguageSwitcher';
+import LocaleSwitcher from './LocaleSwitcher';
 
 export default function Navbar() {
   return (
@@ -27,7 +28,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <LanguageSwitcher/>
+      <LocaleSwitcher/>
     </nav>
   )
 }
