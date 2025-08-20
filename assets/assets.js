@@ -1,7 +1,11 @@
 import logo from "./logo.png";
+import heroImg from "./Picture1.png"
+import dLogo from "./Picture2.png"
 
 export const assets = {
   logo,
+  heroImg,
+  dLogo
 };
 
 // export const BagIcon = () => {
