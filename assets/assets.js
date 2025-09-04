@@ -1,30 +1,20 @@
-import logo from "./logo.png";
-import heroImg from "./Picture1.png"
-import dLogo from "./Picture2.png"
-import containers from "./Picture5.png"
-import ships from "./image55.jpg"
-import dock from "./Picture3.png"
-import logs from "./Picture4.png"
-import wave from "./wave.svg"
-import wave2 from "./wave.svg"
-import wave3 from "./wave.svg"
-import wave4 from "./wave.svg"
+// import heroImg from "./Picture1.png"
+// import ships from "./image55.jpg"
+// import dock from "./Picture3.png"
+// import logs from "./Picture4.png"
+// import wave from "./wave.svg"
+
 
 
 export const assets = {
-  logo,
-  heroImg,
-  dLogo,
-  containers,
-  ships,
-  dock,
-  logs,
-  wave,
-  wave2,
-  wave3,
-  wave4,
-
+  heroImg: { id: "Picture1_dnxzec",w:"6600",h:"3713" },
+  ships: { id: "image55_evnhiy",w:"2294",h:"2294"},
+  dock: { id: "Picture3_twt8sw",w:"6600",h:"3713" },
+  logs: { id: "Picture4_cjuewq",w:"6600",h:"3713" },
+  wave: { id: "Picture4_cjuewq", w:"6600",h:"3713"},
+  container:{id:"Picture5_nqovvi",w:"6600",h:"3713"}
 };
+
 
 // export const BagIcon = () => {
 //   return (

@@ -1,16 +1,21 @@
 "use client";
-import { assets } from "@/assets/assets";
-import { Button, Quote, Text } from "@radix-ui/themes";
+import { Button, Text } from "@radix-ui/themes";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import TrueFocus from "@/components/TrueFocus";
+import { CldImage } from "next-cloudinary";
 
 export default function Hero() {
   const t = useTranslations("hero");
 
   return (
     <section className="h-[100vh] flex flex-col justify-center items-center text-center  text-white ">
-      <Image src={assets.heroImg} className="absolute -z-10 top-0 h-[100vh]" />
+      <CldImage
+        src="Picture1_dnxzec"
+        width="6600"
+        height="3713"
+        alt="Ramadan Group Hero"
+        className="absolute -z-10 top-0 h-[100vh]"
+      />
       <div className="">
         <div className="flex items-center flex-col">
           <div className="min-w-1/2 p-18 m-2 ">
@@ -67,8 +72,11 @@ export default function Hero() {
             </div>
 
             <div className=" w-1/3 rounded-2xl flex items-center justify-center m-2">
-              <Image
-                src={assets.dLogo}
+              <CldImage
+                src="Picture2_jbvhwg"
+                width="2294"
+                height="2294"
+                alt="Company Logo"
                 className="w-1/2 opacity-80 hover:opacity-100 hover:scale-110 transition "
               />
             </div>

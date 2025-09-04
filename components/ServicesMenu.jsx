@@ -4,10 +4,8 @@ import * as HoverCard from "@radix-ui/react-hover-card";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Briefcase, Building2, Package, Users, X } from "lucide-react";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
-import Image from "next/image";
-
 import Link from "next/link";
-import { assets } from "@/assets/assets";
+import { CldImage } from "next-cloudinary";
 
 
 const services = [
@@ -60,13 +58,12 @@ const services = [
     icon: <Building2 className="w-5 h-5 text-yellow-600" />,
   },
 ];
-const simg= assets.containers;
 
 export default function ServicesMenu() {
   return (
     <div className="flex justify-center items-center">
       {/* Desktop HoverCard */}
-      <div className="hidden md:block z-20 ">
+      <div className="hidden md:block z-50 ">
         <HoverCard.Root openDelay={200}>
           <HoverCard.Trigger asChild>
            <Link href="/services" className="hover:text-yellow-500 flex items-center">
@@ -132,9 +129,11 @@ function ServicesContent() {
 
       {/* Right side (image + CTA) */}
       <div className="relative hidden md:block">
-        <Image
-          src={simg}
-          alt="Services"
+        <CldImage
+          src="Picture5_nqovvi"
+          alt="cintainers"
+          width="6600"
+          height="3713"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-start p-6 text-white">

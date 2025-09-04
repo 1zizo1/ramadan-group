@@ -1,6 +1,7 @@
+"use client"
 import { assets } from "@/assets/assets";
 import { Text, Flex } from "@radix-ui/themes";
-import Image from "next/image";
+import { CldImage } from "next-cloudinary";
 
 export default function ImageBanner() {
   return (
@@ -18,11 +19,11 @@ export default function ImageBanner() {
           </Flex>
         </div>
         <div className="">
-          <Image
-            src={assets.heroImg}
+          <CldImage
+            src={assets.heroImg.id}
             alt={"alt"}
-            width={600}
-            height={400}
+            width={assets.heroImg.w}
+            height={assets.heroImg.h}
             className="object-cover w-full h-auto transition-transform duration-500 rounded-2xl  hover:scale-105 "
           />
         </div>

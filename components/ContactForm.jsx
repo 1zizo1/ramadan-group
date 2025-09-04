@@ -17,6 +17,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
 import Image from "next/image";
+import { CldImage } from "next-cloudinary";
 
 export function ContactForm() {
   const t = useTranslations("contactForm");
@@ -101,9 +102,11 @@ export function ContactForm() {
         </div>
         {/* Right side: Image + CTA */}
         <div className=" relative hidden md:block md:col-span-1">
-          <Image
-            src={assets.ships}
+          <CldImage
+            src={assets.ships.id}
             alt="Services"
+            width={assets.ships.w}
+            height={assets.ships.h}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/40 flex flex-col justify-end items-start p-6 text-white">

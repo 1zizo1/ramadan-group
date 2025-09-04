@@ -1,5 +1,6 @@
 "use client";
 
+import { CldImage } from "next-cloudinary";
 import Image from "next/image";
 
 export function ServiceCardOverlay({
@@ -14,7 +15,7 @@ export function ServiceCardOverlay({
       className={`relative overflow-hidden group rounded-xl cursor-pointer ${className}`}
     >
       {/* Image */}
-      <Image
+      <CldImage
         src={image}
         alt={title}
         width={600}

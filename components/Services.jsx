@@ -3,25 +3,32 @@ import { Box, Card, Inset, Text, Flex, Button } from "@radix-ui/themes";
 import { BackpackIcon, PaperPlaneIcon } from "@radix-ui/react-icons";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
+import { CldImage } from "next-cloudinary";
 export default function Services() {
   const services = [
     {
       title: "Import Solutions",
       desc: "Reliable sourcing and delivery worldwide 123.",
       btn: "learn more",
-      image: assets.logs,
+      image: assets.logs.id,
+      imgW: assets.logs.w,
+      imgH: assets.logs.h,
     },
     {
       title: "Export Services",
       desc: "Expand your business across global markets.",
       btn: "learn more",
-      image: assets.ships,
+      image: assets.ships.id,
+      imgW: assets.ships.w,
+      imgH: assets.ships.h,
     },
     {
       title: "Logistics",
       desc: "Smooth shipping and customs clearance.",
       btn: "learn more",
-      image: assets.dock,
+      image: assets.dock.id,
+      imgW: assets.dock.w,
+      imgH: assets.dock.h,
     },
   ];
 
@@ -35,9 +42,11 @@ export default function Services() {
           <Box maxWidth="" key={i}>
             <Card size="3">
               <Inset clip="padding-box" side="top" pb="current">
-                <Image
+                <CldImage
                   src={s.image}
                   alt="Bold typography"
+                  width={s.imgW}
+                  height={s.imgH}
                   style={{
                     display: "block",
                     objectFit: "cover",

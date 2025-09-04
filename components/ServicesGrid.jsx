@@ -4,9 +4,9 @@ import { ServiceCardOverlay } from "./ServiceCardOverlay";
 
 
 const services = [
-  { title: "General & Private Contracting", image: assets.dock},
-  { title: "Public Cleaning Services", image: assets.ships },
-  { title: "Commercial Agencies", image:assets.logs },
+  { title: "General & Private Contracting", image: assets.dock.id},
+  { title: "Public Cleaning Services", image: assets.ships.id },
+  { title: "Commercial Agencies", image:assets.logs.id },
 ];
 
 export default function ServicesGrid() {
