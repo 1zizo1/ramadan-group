@@ -3,7 +3,7 @@ import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import ServicesGrid from '@/components/ServicesGrid';
 import WhyUs from '@/components/WhyUs';
-import Vision from '@/components/vision';
+import Vision from '@/components/Vision';
 
 export default function HomePage() {
   return (
