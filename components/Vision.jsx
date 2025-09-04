@@ -1,7 +1,6 @@
-import React from 'react'
 import ImageBanner from './ImageBanner'
 
-export default function vision() {
+export default function Vision() {
   return (
     <section className='py-16 max-w-6xl mx-auto px-2'>
       <h2 className="text-2xl font-bold mb-10 text-amber-400">
