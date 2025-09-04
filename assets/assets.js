@@ -1,21 +1,20 @@
-// import heroImg from "./Picture1.png"
-// import ships from "./image55.jpg"
-// import dock from "./Picture3.png"
-// import logs from "./Picture4.png"
-// import wave from "./wave.svg"
-
-
-
+import face from "@/assets/facebook_icon.svg"
 export const assets = {
-  heroImg: { id: "Picture1_dnxzec",w:"6600",h:"3713" },
-  ships: { id: "image55_evnhiy",w:"2294",h:"2294"},
-  dock: { id: "Picture3_twt8sw",w:"6600",h:"3713" },
-  logs: { id: "Picture4_cjuewq",w:"6600",h:"3713" },
-  wave: { id: "Picture4_cjuewq", w:"6600",h:"3713"},
-  container:{id:"Picture5_nqovvi",w:"6600",h:"3713"}
+  heroImg: { id: "Picture1_dnxzec", w: "6600", h: "3713" },
+  ships: { id: "image55_evnhiy", w: "2294", h: "2294" },
+  dock: { id: "Picture3_twt8sw", w: "6600", h: "3713" },
+  logs: { id: "Picture4_cjuewq", w: "6600", h: "3713" },
+  wave: { id: "Picture4_cjuewq", w: "6600", h: "3713" },
+  container: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
+  SilderImg01: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
+  SilderImg02: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
+  SilderImg03: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
+  SilderImg04: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
+  SilderIcon01: { id: face, w: "6600", h: "3713" },
+  SilderIcon02: { id: face, w: "6600", h: "3713" },
+  SilderIcon03: { id: face, w: "6600", h: "3713" },
+  SilderIcon04: { id: face, w: "6600", h: "3713" },
 };
-
-
 // export const BagIcon = () => {
 //   return (
 //     <svg className="w-5 h-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">

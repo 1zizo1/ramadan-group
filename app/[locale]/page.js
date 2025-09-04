@@ -4,6 +4,7 @@ import Services from '@/components/Services';
 import ServicesGrid from '@/components/ServicesGrid';
 import WhyUs from '@/components/WhyUs';
 import Vision from '@/components/Vision';
+import ProgressSliderPage from '@/components/ProgressSlider';
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
         </div>
       </section>
       <Vision />
+<ProgressSliderPage/>
       <WhyUs />
     </div>
   );

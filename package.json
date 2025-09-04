@@ -10,6 +10,7 @@
     "tailwind:init": "tailwindcss init -p"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.7",
     "@hookform/resolvers": "^5.2.1",
     "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/themes": "^3.2.1",
