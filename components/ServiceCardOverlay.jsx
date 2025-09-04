@@ -11,7 +11,7 @@ export function ServiceCardOverlay({
     <div 
     
     // className="overflow-hidden relative group cursor-pointer rounded-xl  shadow-lg ${}"
-      className={`relative overflow-hidden group ${className}`}
+      className={`relative overflow-hidden group rounded-xl cursor-pointer ${className}`}
     >
       {/* Image */}
       <Image

@@ -6,9 +6,69 @@
     "contact": "Contact"
   },
   "hero": {
-    "slogan":"Bringing the world to your doorstep",
+    "slogan": "Bringing the world to your doorstep",
     "title": " Your Best Partner for Business Growth in Egypt and Beyond.",
     "subtitle": "We Offer a Comprehensive Range of Services and Innovative Solutions to Develop Your Business and Facilitate Your Company's Success.",
     "cta": "Get in Touch"
+  },
+  "serviceCard": {
+    "Title": "Why choose us ?",
+    "Subtitle": "What sets us apart",
+    "members": {
+      "0": {
+        "title": "Expertise in the Egyptian and Global Markets",
+        "data": "With Years of Experience in Both the Egyptian and Global Markets..."
+      },
+      "1": {
+        "title": "Customized Solutions for Each Client.",
+        "data": "We Believe That Every Client Has Unique Needs..."
+      },
+      "2": {
+        "title": "Continuous support and competitive prices",
+        "data": "We Strive to Offer Competitive Pricing While Providing Ongoing Support..."
+      },
+      "3": {
+        "title": "Speed and Efficiency in Service Execution.",
+        "data": "We Are Committed to Delivering Our Services with Efficiency and Speed..."
+      }
+    }
+  },
+  "contactCard": {
+    "Title": "Contact Us",
+    "Subtitle": "Contact us in any way suits you",
+    "members": {
+      "0": {
+        "title": "Address",
+        "data": "Cairo:",
+        "subData": "maadi - plastine st "
+      },
+      "1": {
+        "title": "Phone",
+        "data": "+20 1116946096",
+        "subData": "+20 1092499084:"
+      },
+      "2": {
+        "title": "working hours",
+        "data": " Saturday to Thursday ",
+        "subData": "From 9 am to 5 pm"
+      },
+      "3": {
+        "title": "Email",
+        "data": "info@ramadangroup.com",
+        "subData": "sales@ramadangroup.com"
+      }
+    }
+  },
+   "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "desc":"at Ramadan Group, we care about our customers' opinions. Their success is our priority, and their opinions are a testament to the quality of our services and our role in achieving confident and stable business growth."
+  },
+  "validation": {
+    "invalid": "Email invalid",
+    "required": "Name required",
+    "min": "Message required to be at least 10 characters"
   }
 }

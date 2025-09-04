@@ -1,15 +1,39 @@
+'use client'
+import Cards from "@/components/Cards";
+import Wave from "@/components/ui/wave"
+import { useTranslations } from "next-intl";
+import { FaceIcon, ImageIcon, SunIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
+import { assets } from "@/assets/assets";
+import {Text } from "@radix-ui/themes";
+import TrueFocus from "@/components/TrueFocus";
+import { ContactForm } from "@/components/ContactForm";
+
 export default function Contact() {
+  const t = useTranslations("contactCard");
+  const icons = [SunIcon, ImageIcon, FaceIcon, SunIcon];
   return (
-    <section className="py-16 max-w-4xl mx-auto px-6">
-      <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
-      <form className="space-y-4">
-        <input type="text" placeholder="Name" className="w-full p-3 border rounded" />
-        <input type="email" placeholder="Email" className="w-full p-3 border rounded" />
-        <textarea placeholder="Message" className="w-full p-3 border rounded h-32"></textarea>
-        <button type="submit" className="w-full bg-blue-900 text-white py-3 rounded hover:bg-blue-700">
-          Send Message
-        </button>
-      </form>
+    <section className="relative">
+      <div className="bg-black/50 ">
+       <div className=" absolute w-full p-18 m-2 flex items-center justify-center">
+            <Text className="text-yellow-500 capitalize text-5xl">
+              <TrueFocus
+              
+                text={t("Title")}
+                typingSpeed={75}
+                pauseDuration={1500}
+                showCursor={true}
+                cursorCharacter="|"
+              />
+            </Text>
+          </div>
+      <Image src={assets.ships} className="-z-10 relative h-[50vh] object-cover" alt="contact-us"/>
+
+      </div>
+      <Cards t={t} icons={icons} />
+      
+      {/* Form */}
+     <ContactForm/>
     </section>
   )
 }

@@ -1,25 +1,27 @@
+"use client";
 import { assets } from "@/assets/assets";
-import { Button ,Quote,Text } from "@radix-ui/themes";
+import { Button, Quote, Text } from "@radix-ui/themes";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import TrueFocus from "@/components/TrueFocus";
+
 export default function Hero() {
   const t = useTranslations("hero");
 
   return (
     <section className="h-[100vh] flex flex-col justify-center items-center text-center  text-white ">
-      {/* <h1 className="text-5xl font-bold mb-4">{t?.hero?.title}</h1> */}
-      <Image src={assets.heroImg} className="absolute -z-10 aspect-video" />
+      <Image src={assets.heroImg} className="absolute -z-10 top-0 h-[100vh]" />
       <div className="">
         <div className="flex items-center flex-col">
           <div className="min-w-1/2 p-18 m-2 ">
-            {/* <Image
-              src={assets.dLogo}
-              className="w-1/3 opacity-80 hover:opacity-100 hover:scale-110 transition "
-            /> */}
             <Text className="text-yellow-500 capitalize text-5xl">
-              <Quote >
-                {t("slogan")}
-              </Quote>
+              <TrueFocus
+                text={t("slogan")}
+                typingSpeed={75}
+                pauseDuration={1500}
+                showCursor={true}
+                cursorCharacter="|"
+              />
             </Text>
           </div>
 

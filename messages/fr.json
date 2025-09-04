@@ -10,5 +10,68 @@
     "title": " Votre meilleur partenaire pour la croissance de votre entreprise en Égypte et au-delà.",
     "subtitle": "Nous offrons une gamme complète de services et des solutions innovantes pour développer votre entreprise et faciliter la réussite de votre société.",
     "cta": "Contactez-nous"
+  },
+  "serviceCard": {
+    "Title": "Pourquoi nous choisir ?",
+    "Subtitle": "Ce qui nous distingue",
+    "members": {
+      "0": {
+        "title": "Expertise sur les marchés égyptien et mondial",
+        "data": "Avec des années d’expérience sur les marchés égyptien et mondial, nous offrons des solutions adaptées aux besoins des entreprises dans divers secteurs."
+      },
+      "1": {
+        "title": "Des solutions personnalisées pour chaque client",
+        "data": "Nous croyons que chaque client a des besoins uniques, c’est pourquoi nous proposons des solutions sur mesure pour garantir des résultats optimaux."
+      },
+      "2": {
+        "title": "Un soutien continu et des prix compétitifs",
+        "data": "Nous nous efforçons d’offrir des prix compétitifs tout en assurant un accompagnement continu pour le confort et le succès de nos clients."
+      },
+      "3": {
+        "title": "Rapidité et efficacité dans l’exécution des services",
+        "data": "Nous nous engageons à fournir nos services avec le plus haut niveau d’efficacité et de rapidité, sans compromettre la qualité ni la précision."
+      }
+    }
+  },
+  "contactCard": {
+  "Title": "Contactez-nous",
+  "Subtitle": "Contactez-nous de la manière qui vous convient",
+  "members": {
+    "0": {
+      "title": "Adresse",
+      "data": "Le Caire :",
+      "subData": "Maadi - Rue Palestine"
+    },
+    "1": {
+      "title": "Téléphone",
+      "data": "+20 1116946096",
+      "subData": "+20 1092499084"
+    },
+    "2": {
+      "title": "Horaires de travail",
+      "data": "Du samedi au jeudi",
+      "subData": "De 9h à 17h"
+    },
+    "3": {
+      "title": "E-mail",
+      "data": "info@ramadangroup.com",
+      "subData": "sales@ramadangroup.com"
+    }
   }
+},
+"contactForm": {
+  "name": "Nom",
+  "email": "E-mail",
+  "message": "Message",
+  "submit": "Envoyer",
+  "desc": "Chez Ramadan Group, nous nous soucions des avis de nos clients. Leur succès est notre priorité, et leurs opinions témoignent de la qualité de nos services et de notre rôle dans la réalisation d'une croissance commerciale stable et confiante."
+
+},
+"validation": {
+  "invalid": "E-mail invalide",
+  "required": "Nom requis",
+  "min": "Le message doit contenir au moins 10 caractères"
+}
+
+
 }

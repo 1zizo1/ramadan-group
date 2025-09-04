@@ -1,22 +1,27 @@
+'use client'
 import { Box, Card, Inset, Text, Flex, Button } from "@radix-ui/themes";
 import { BackpackIcon, PaperPlaneIcon } from "@radix-ui/react-icons";
-
+import { assets } from "@/assets/assets";
+import Image from "next/image";
 export default function Services() {
   const services = [
     {
       title: "Import Solutions",
       desc: "Reliable sourcing and delivery worldwide 123.",
       btn: "learn more",
+      image: assets.logs,
     },
     {
       title: "Export Services",
       desc: "Expand your business across global markets.",
       btn: "learn more",
+      image: assets.ships,
     },
     {
       title: "Logistics",
       desc: "Smooth shipping and customs clearance.",
       btn: "learn more",
+      image: assets.dock,
     },
   ];
 
@@ -30,8 +35,8 @@ export default function Services() {
           <Box maxWidth="" key={i}>
             <Card size="3">
               <Inset clip="padding-box" side="top" pb="current">
-                <img
-                  src="https://images.unsplash.com/photo-1617050318658-a9a3175e34cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                <Image
+                  src={s.image}
                   alt="Bold typography"
                   style={{
                     display: "block",

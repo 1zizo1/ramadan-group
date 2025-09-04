@@ -1,10 +1,14 @@
 import React from "react";
 import { assets } from "/assets/assets";
 import Image from "next/image";
-
+import Wave from "./ui/wave";
 const Footer = () => {
   return (
-    <footer>
+    <footer className="relative">
+      <div className="absolute bottom-0 w-full -z-10">
+              <Wave />
+            </div>
+      
       <div className="bg-yellow-500 flex shadow p-6 rounded-lg items-center hover:shadow-lg transition m-4">
         <div className="w-3/4 p-5">
             <p>

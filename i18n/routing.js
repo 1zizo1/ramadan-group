@@ -12,10 +12,15 @@ export const routing = defineRouting({
     {
       en:"/contact",
       fr:"/contactez-moi",
-      ar:"/toasel m3na",
+      ar:"/تواصل معنا",
     }
   }
 });
 // export type Locale = (typeof routing.locales)[number];
 export const { Link, redirect, usePathname, useRouter } =
   createNavigation(routing);
+
+
+
+
+  
