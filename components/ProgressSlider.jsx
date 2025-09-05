@@ -31,6 +31,20 @@ export default function ProgressSlider() {
       desc: "Omnichannel",
       buttonIcon: assets.SilderIcon02.id,
     },
+    {
+      img: assets.SilderImg03.id,
+      w:assets.SilderImg03.w,
+      h:assets.SilderImg03.h,
+      desc: "Omnichannel",
+      buttonIcon: assets.SilderIcon03.id,
+    },
+    {
+      img: assets.SilderImg04.id,
+      w:assets.SilderImg04.w,
+      h:assets.SilderImg04.h,
+      desc: "Omnichannel",
+      buttonIcon: assets.SilderIcon04.id,
+    },
     // {
     //   img: SilderImg03,
     //   desc: "Interpolate",

@@ -5,6 +5,7 @@ import ServicesGrid from '@/components/ServicesGrid';
 import WhyUs from '@/components/WhyUs';
 import Vision from '@/components/Vision';
 import ProgressSliderPage from '@/components/ProgressSlider';
+import AccordionBox from '@/components/AccordionBox';
 
 export default function HomePage() {
   return (
@@ -22,7 +23,8 @@ export default function HomePage() {
         </div>
       </section>
       <Vision />
-<ProgressSliderPage/>
+      <ProgressSliderPage />
+      <AccordionBox/>
       <WhyUs />
     </div>
   );
