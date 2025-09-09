@@ -59,16 +59,121 @@
       }
     }
   },
-   "contactForm": {
+  "contactForm": {
     "name": "Name",
     "email": "Email",
     "message": "Message",
     "submit": "Submit",
-    "desc":"at Ramadan Group, we care about our customers' opinions. Their success is our priority, and their opinions are a testament to the quality of our services and our role in achieving confident and stable business growth."
+    "desc": "at Ramadan Group, we care about our customers' opinions. Their success is our priority, and their opinions are a testament to the quality of our services and our role in achieving confident and stable business growth."
   },
   "validation": {
     "invalid": "Email invalid",
     "required": "Name required",
     "min": "Message required to be at least 10 characters"
+  },
+  "values": {
+    "Title": "Our values",
+    "Subtitle": "What remains for ever",
+    "members": {
+      "0": {
+        "title": "Integrity",
+        "desc": "Honesty in every deal."
+      },
+      "1": {
+        "title": "Quality",
+        "desc": "Products that meet and exceed expectations."
+      },
+      "2": {
+        "title": "Innovation",
+        "desc": "Smarter ways to connect markets."
+      },
+      "3": {
+        "title": "Partnership",
+        "desc": "Building relationships that last."
+      }
+    }
+  },
+  "Advantage": {
+    "Title": "Ramadan Group Advantage",
+    "Desc": " What sets us apart is not just the products we deliver, but the way we do business. With a strong leadership team, a wide network, and a commitment to customer satisfaction, we ensure every partnership is built on trust and mutual growth.",
+    "Button": "Work with us"
+  },
+  "ImgBanner": {
+    "Title": "High-Quality Service",
+    "Desc": " We provide top-notch solutions tailored to your business needs with professional expertise and guaranteed satisfaction.",
+    "Button": " Order Now"
+  },
+  "Vision": {
+    "Title": "Vision & Mission",
+    "Intro": "At Ramadan Group, our vision and mission drive us forward — combining integrity, quality, and innovation to create lasting partnerships across global markets.",
+    "MissionTitle": "Mission",
+    "MissionPoints": [
+      "Providing innovative trade solutions with integrity.",
+      "Building long-term partnerships based on trust.",
+      "Ensuring quality and professionalism in every deal."
+    ],
+    "VisionTitle": "Vision",
+    "VisionPoints": [
+      "To be a trusted global leader in import & export.",
+      "Delivering sustainable solutions that connect markets.",
+      "Driving growth through quality, integrity, and innovation."
+    ],
+    "Button": "Learn more"
+  },
+  "ExprotService": {
+    "Title": "Export Services",
+    "Desc": "We proudly export fresh agricultural products and other Egyptian goods to global markets. Every shipment is handled with care to maintain freshness, quality, and compliance with international standards.",
+    "Button": "Learn more"
+  },
+  "ImportService": {
+    "Title": " Import Services",
+    "Desc": "In addition to exports, we help our partners import high-quality goods into Egypt, offering sourcing solutions that meet market demands with competitive pricing and efficient logistics.",
+    "Button": "Learn more"
+  },
+  "Logistics": {
+    "Title": "Logistics & Supply Chain",
+    "Desc": "From sourcing and packaging to shipping and customs clearance — every step is designed to deliver reliability and growth.",
+    "steps": {
+      "0": {
+      "title": "Sourcing & Procurement",
+      "desc": "Identify reliable suppliers and align specs to market demand."
+      },
+      "1": {
+      "title": "Quality Control & Packaging",
+      "desc": "Inspect, grade, and package to meet international standards."
+      },
+      "2": {
+      "title": "Documentation",
+      "desc": "Prepare invoices, certificates, and compliance paperwork."
+      },
+      "3": {
+      "title": "Shipping & Customs",
+      "desc": "Book freight, clear customs, and track shipments end-to-end."
+      },
+      "4": {
+      "title": "Delivery & Support",
+      "desc": "On-time delivery with post-delivery support and feedback loop."
+      }
+    }
+  },
+  "QualtiyAsure": {
+    "Title": "Quality Assurance",
+    "Desc": "We believe that trust begins with quality. Ramadan Group enforces",
+    "info":"strict quality control measures",
+    "high":"to guarantee that every product shipped meets the highest international standards.",
+    "Button": "Certified Excellence"
+  },
+  "Partners": {
+    "Title": "Partnership Approach",
+    "at": "At",
+    "info": ", we don’t just work with clients — we build",
+    "Desc": ". Our success is rooted in collaboration, trust, and a commitment to shared growth. With every handshake, we promise dedication, transparency, and results.",
+    "highRG": "Ramadan Group",
+    "high": "long-term partnerships",
+    "Button": "Let’s Grow Together"
+  },
+  "serviceHeading":{
+    "Title": "Our Services",
+    "Desc": "At Ramadan Group, we specialize in creating strong trade connections between Egypt and the world. Our services are designed to make international business simple, reliable, and profitable for our partners."
   }
 }

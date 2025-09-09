@@ -1,7 +1,6 @@
 "use client";
 
-import { Card, Box, Text, Flex } from "@radix-ui/themes";
-import { FaceIcon, ImageIcon, SunIcon } from "@radix-ui/react-icons";
+import { Card, Text, Flex } from "@radix-ui/themes";
 
 // Reusable component
 export default function Cards({ t ,icons =[] }) {

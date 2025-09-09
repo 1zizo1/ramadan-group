@@ -6,7 +6,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "slogan":"Apporter le monde jusqu’à votre porte",
+    "slogan": "Apporter le monde jusqu’à votre porte",
     "title": " Votre meilleur partenaire pour la croissance de votre entreprise en Égypte et au-delà.",
     "subtitle": "Nous offrons une gamme complète de services et des solutions innovantes pour développer votre entreprise et faciliter la réussite de votre société.",
     "cta": "Contactez-nous"
@@ -34,44 +34,148 @@
     }
   },
   "contactCard": {
-  "Title": "Contactez-nous",
-  "Subtitle": "Contactez-nous de la manière qui vous convient",
-  "members": {
-    "0": {
-      "title": "Adresse",
-      "data": "Le Caire :",
-      "subData": "Maadi - Rue Palestine"
-    },
-    "1": {
-      "title": "Téléphone",
-      "data": "+20 1116946096",
-      "subData": "+20 1092499084"
-    },
-    "2": {
-      "title": "Horaires de travail",
-      "data": "Du samedi au jeudi",
-      "subData": "De 9h à 17h"
-    },
-    "3": {
-      "title": "E-mail",
-      "data": "info@ramadangroup.com",
-      "subData": "sales@ramadangroup.com"
+    "Title": "Contactez-nous",
+    "Subtitle": "Contactez-nous de la manière qui vous convient",
+    "members": {
+      "0": {
+        "title": "Adresse",
+        "data": "Le Caire :",
+        "subData": "Maadi - Rue Palestine"
+      },
+      "1": {
+        "title": "Téléphone",
+        "data": "+20 1116946096",
+        "subData": "+20 1092499084"
+      },
+      "2": {
+        "title": "Horaires de travail",
+        "data": "Du samedi au jeudi",
+        "subData": "De 9h à 17h"
+      },
+      "3": {
+        "title": "E-mail",
+        "data": "info@ramadangroup.com",
+        "subData": "sales@ramadangroup.com"
+      }
     }
+  },
+  "contactForm": {
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "submit": "Envoyer",
+    "desc": "Chez Ramadan Group, nous nous soucions des avis de nos clients. Leur succès est notre priorité, et leurs opinions témoignent de la qualité de nos services et de notre rôle dans la réalisation d'une croissance commerciale stable et confiante."
+  },
+  "validation": {
+    "invalid": "E-mail invalide",
+    "required": "Nom requis",
+    "min": "Le message doit contenir au moins 10 caractères"
+  },
+  "values": {
+    "Title": "Nos valeurs",
+    "Subtitle": "Ce qui nous distingue",
+    "members": {
+      "0": {
+        "title": "Intégrité",
+        "desc": "Honnêteté dans chaque transaction."
+      },
+      "1": {
+        "title": "Qualité",
+        "desc": "Des produits qui répondent et dépassent les attentes."
+      },
+      "2": {
+        "title": "Innovation",
+        "desc": "Des moyens plus intelligents de connecter les marchés."
+      },
+      "3": {
+        "title": "Partenariat",
+        "desc": "Construire des relations durables."
+      }
+    }
+  },
+  "Advantage": {
+    "Title": "L’Avantage Ramadan Group",
+    "Desc": "Ce qui nous distingue, ce n’est pas seulement les produits que nous livrons, mais aussi notre façon de faire des affaires. Avec une équipe de direction solide, un large réseau et un engagement envers la satisfaction des clients, nous garantissons que chaque partenariat repose sur la confiance et une croissance mutuelle.",
+     "Button": "Travaillez avec nous"
+  },
+  "ImgBanner": {
+  "Title": "Service de haute qualité",
+  "Desc": "Nous fournissons des solutions de premier ordre adaptées aux besoins de votre entreprise, avec une expertise professionnelle et une satisfaction garantie.",
+  "Button": "Commander maintenant"
+},
+"Vision": {
+  "Title": "Vision & Mission",
+  "Intro": "Chez Ramadan Group, notre vision et notre mission nous guident — en combinant intégrité, qualité et innovation pour créer des partenariats durables à travers les marchés mondiaux.",
+  "MissionTitle": "Mission",
+  "MissionPoints": [
+    "Fournir des solutions commerciales innovantes basées sur l'intégrité.",
+    "Construire des partenariats durables basés sur la confiance.",
+    "Garantir la qualité et le professionnalisme dans chaque transaction."
+  ],
+  "VisionTitle": "Vision",
+  "VisionPoints": [
+    "Être un leader mondial de confiance dans l'import & l'export.",
+    "Fournir des solutions durables qui connectent les marchés.",
+    "Stimuler la croissance grâce à la qualité, l'intégrité et l'innovation."
+  ],
+  "Button": "En savoir plus"
+},"ExprotService": {
+  "Title": "Services d’exportation",
+  "Desc": "Nous exportons avec fierté des produits agricoles frais et d’autres biens égyptiens vers les marchés internationaux. Chaque expédition est soigneusement gérée afin de garantir la fraîcheur, la qualité et la conformité aux normes internationales.",
+  "Button": "En savoir plus"
+},
+"ImportService": {
+  "Title": "Services d’importation",
+  "Desc": "En plus des exportations, nous aidons nos partenaires à importer des produits de haute qualité en Égypte, en offrant des solutions d’approvisionnement adaptées aux besoins du marché avec des prix compétitifs et une logistique efficace.",
+  "Button": "En savoir plus"
+},
+"Logistics": {
+  "Title": "Logistique & Chaîne d’Approvisionnement",
+    "Desc": "De l’approvisionnement et l’emballage à l’expédition et au dédouanement — chaque étape est conçue pour garantir fiabilité et croissance.",
+    "steps": {
+      "0": {
+        "title": "Approvisionnement & Achats",
+        "desc": "Identifier des fournisseurs fiables et aligner les spécifications avec la demande du marché."
+      },
+      "1": {
+        "title": "Contrôle Qualité & Emballage",
+        "desc": "Inspecter, classer et emballer selon les normes internationales."
+      },
+      "2": {
+        "title": "Documentation",
+        "desc": "Préparer factures, certificats et documents de conformité."
+      },
+      "3": {
+        "title": "Expédition & Douanes",
+        "desc": "Réserver le transport, dédouaner et suivre les expéditions de bout en bout."
+      },
+      "4": {
+        "title": "Livraison & Support",
+        "desc": "Livraison à temps avec assistance post-livraison et boucle de retour."
+      }
+    }
+  
+},
+"QualtiyAsure": {
+  "Title": "Assurance Qualité",
+    "Desc": "Nous croyons que la confiance commence par la qualité. Ramadan Group applique",
+    "info": "des mesures strictes de contrôle qualité",
+    "high": "pour garantir que chaque produit expédié respecte les normes internationales les plus élevées.",
+    "Button": "Excellence Certifiée"
+},
+"Partners": {
+"Title": "Approche Partenariale",
+"at": "Chez",
+    "info": ", nous ne travaillons pas seulement avec des clients — nous construisons",
+    "Desc": ". Notre succès repose sur la collaboration, la confiance et un engagement envers une croissance partagée. À chaque poignée de main, nous promettons engagement, transparence et résultats.",
+    "highRG": "Ramadan Group",
+    "high": "partenariats à long terme",
+    "Button": "Grandissons Ensemble"
+}, "serviceHeading": {
+    "Title": "Nos Services",
+    "Desc": "Chez Ramadan Group, nous sommes spécialisés dans la création de solides liens commerciaux entre l'Égypte et le reste du monde. Nos services sont conçus pour rendre les affaires internationales simples, fiables et rentables pour nos partenaires."
   }
-},
-"contactForm": {
-  "name": "Nom",
-  "email": "E-mail",
-  "message": "Message",
-  "submit": "Envoyer",
-  "desc": "Chez Ramadan Group, nous nous soucions des avis de nos clients. Leur succès est notre priorité, et leurs opinions témoignent de la qualité de nos services et de notre rôle dans la réalisation d'une croissance commerciale stable et confiante."
 
-},
-"validation": {
-  "invalid": "E-mail invalide",
-  "required": "Nom requis",
-  "min": "Le message doit contenir au moins 10 caractères"
-}
 
 
 }

@@ -1,78 +1,103 @@
+"use client";
+
 import { Blockquote, Flex } from "@radix-ui/themes";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
+
 export default function Vision() {
+  const fadeUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0 },
+  };
+  const t = useTranslations("Vision");
+  const missionPoints = t.raw("MissionPoints");
+  const visionPoints = t.raw("VisionPoints");
   return (
-    <section className="py-16 max-w-6xl mx-auto px-2">
-      <h2 className="text-2xl font-bold mb-10 text-amber-400">Vision</h2>
-      <div className="mb-10">
-        <p>
-          Lorem ipsum2 dolor sit, amet consectetur adipisicing elit. Quisquam
-          autem earum debitis hic, fuga dolores, iusto recusandae harum,
-          laudantium nostrum nobis mollitia doloremque expedita accusamus nemo
-          deleniti facilis omnis ipsa.
-        </p>
-      </div>
+    <section className="py-16 max-w-6xl mx-auto px-4">
+      {/* Title */}
+      <motion.h2
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="text-3xl md:text-4xl font-bold mb-12 text-center text-amber-500"
+      >
+        {t("Title")}
+      </motion.h2>
 
-      <div className="grid grid-cols-2 gap-3 place-items-center mx-5">
-        <div className="p-6 max-w-3xl w-full bg-gray-400/20 rounded-2xl transition-transform duration-500 hover:scale-105 ">
-          <Flex direction={"column"} className="">
-            <h3 className="font-bold m-2 text-lg  text-amber-400">Misson</h3>
-            <ul>
-              <li className="my-2">
-                <Blockquote>
-                  Perfect typography is certainly the most elusive of all arts.
-                  Sculpture in stone alone comes near it in obstinacy.
-                </Blockquote>
-              </li>
-              <li className="my-2">
-                <Blockquote >
-                  Perfect typography is certainly the most elusive of all arts.
-                  Sculpture in stone alone comes near it in obstinacy.
-                </Blockquote>
-              </li>
-              <li className="my-2">
-                <Blockquote>
-                  Perfect typography is certainly the most elusive of all arts.
-                  Sculpture in stone alone comes near it in obstinacy.
-                </Blockquote>
-              </li>
+      {/* Intro */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="mb-12 max-w-3xl mx-auto text-center text-gray-600"
+      >
+        <p>{t("Intro")}</p>
+      </motion.div>
+
+      {/* Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
+        {/* Mission Card */}
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.7, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="p-6 w-full bg-gray-100 rounded-2xl hover:scale-105 shadow-md transition-all duration-400"
+        >
+          <Flex direction="column">
+            <h3 className="font-bold mb-4 text-xl text-amber-500">
+              {t("MissionTitle")}
+            </h3>
+            <ul className="space-y-4">
+              {missionPoints.map((point, idx) => (
+                <li key={idx} className="my-2">
+                  <Blockquote>{point}</Blockquote>
+                </li>
+              ))}
             </ul>
-
-            <Link href="/about" className="mt-3 mx-2 bg-yellow-500 w-1/4 self-end text-black px-4 py-2 rounded-md font-medium hover:bg-yellow-400 transition">
-              learn more
+            <Link
+              href="/about"
+              className="mt-6 bg-yellow-500 text-black px-5 py-2 rounded-md font-medium self-start hover:bg-yellow-400 transition"
+            >
+              {t("Button")}
             </Link>
           </Flex>
-        </div>
-        <div className="p-6 max-w-3xl w-full bg-gray-400/20 rounded-2xl transition-transform duration-500 hover:scale-105 ">
-          <Flex direction={"column"} className="">
-            <h3 className="font-bold m-2 text-lg  text-amber-400">Vision</h3>
-                       <ul>
-              <li className="my-2">
-                <Blockquote>
-                  Perfect typography is certainly the most elusive of all arts.
-                  Sculpture in stone alone comes near it in obstinacy.
-                </Blockquote>
-              </li>
-              <li className="my-2">
-                <Blockquote >
-                  Perfect typography is certainly the most elusive of all arts.
-                  Sculpture in stone alone comes near it in obstinacy.
-                </Blockquote>
-              </li>
-              <li className="my-2">
-                <Blockquote>
-                  Perfect typography is certainly the most elusive of all arts.
-                  Sculpture in stone alone comes near it in obstinacy.
-                </Blockquote>
-              </li>
+        </motion.div>
+
+        {/* Vision Card */}
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.7, delay: 0.4 }}
+          viewport={{ once: true }}
+          className="p-6 w-full bg-gray-100 rounded-2xl hover:scale-105 shadow-md transition-all duration-400"
+        >
+          <Flex direction="column">
+            <h3 className="font-bold mb-4 text-xl text-amber-500">
+              {t("VisionTitle")}
+              
+            </h3>
+            <ul className="space-y-4">
+              {visionPoints.map((point, idx) => (
+                <li key={idx} className="my-2">
+                  <Blockquote>{point}</Blockquote>
+                </li>
+              ))}
             </ul>
 
-            <Link href="/about" className="mt-3 mx-2 bg-yellow-500 w-1/4 self-end text-black px-4 py-2 rounded-md font-medium hover:bg-yellow-400 transition">
-              learn more
+            <Link
+              href="/about"
+              className="mt-6 bg-yellow-500 text-black px-5 py-2 rounded-md font-medium self-start hover:bg-yellow-400 transition"
+            >
+              {t("Button")}
             </Link>
           </Flex>
-        </div>
-        <div></div>
+        </motion.div>
       </div>
     </section>
   );

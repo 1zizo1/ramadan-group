@@ -6,9 +6,11 @@ import { CldImage } from "next-cloudinary";
 import { useTranslations } from "next-intl";
 import Vision from "@/components/Vision";
 import ImageBanner from "@/components/ImageBanner";
+import ValuesCard from "@/components/ValuesCard";
+import AdvantageCard from "@/components/AdvantageCard";
 
 export default function About() {
-  const t = useTranslations("contactCard");
+  const t = useTranslations("values");
 
   return (
     <section>
@@ -32,6 +34,8 @@ export default function About() {
       </div>
       <ImageBanner />
       <Vision />
+      <ValuesCard/>
+      <AdvantageCard/>
     </section>
   )
 }
