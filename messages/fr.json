@@ -174,6 +174,46 @@
 }, "serviceHeading": {
     "Title": "Nos Services",
     "Desc": "Chez Ramadan Group, nous sommes spécialisés dans la création de solides liens commerciaux entre l'Égypte et le reste du monde. Nos services sont conçus pour rendre les affaires internationales simples, fiables et rentables pour nos partenaires."
+  },
+   "FruitsProduct": {
+    "Title": "Fruits Frais",
+    "Desc": "Les fruits égyptiens sont célèbres dans le monde entier pour leur saveur riche et leur qualité. Ramadan Group approvisionne les marchés avec des variétés populaires, garantissant fraîcheur et longue durée de conservation durant l’expédition.",
+    "Button": "Commander"
+  },
+  "VegetablesProduct": {
+    "Title": "Légumes Frais",
+    "Desc": "Nous exportons une large gamme de légumes frais, connus pour leur goût naturel et leur valeur nutritionnelle. Des produits de base quotidiens aux cultures saisonnières, nos légumes sont cultivés dans le sol fertile d’Égypte et livrés frais aux cuisines du monde entier.",
+    "Button": "Commander"
+  },
+  "GrainsProduct": {
+    "Title": "Céréales & Légumineuses",
+    "Desc": "Notre portefeuille comprend également des céréales et des légumineuses, essentielles à de nombreuses cuisines mondiales. Nous fournissons des produits bien emballés et testés selon les normes internationales d’importation.",
+    "Button": "Commander"
+  },
+  "DatesProduct": {
+    "Title": "Dattes Premium",
+    "Desc": "L’Égypte est l’un des principaux producteurs mondiaux de dattes, reconnues pour leur douceur naturelle et leur qualité supérieure. Ramadan Group exporte des variétés premium soigneusement sélectionnées, transformées et emballées pour préserver leur goût riche et leur valeur nutritionnelle.",
+    "Button": "Commander"
+  },
+  "LightsProduct": {
+    "Title": "Éclairage LED & Luminaires",
+    "Desc": "Au-delà des produits alimentaires, Ramadan Group fournit des solutions d’éclairage LED à haute efficacité énergétique. Notre gamme inclut l’éclairage domestique, industriel et commercial, conforme aux normes internationales de sécurité et d’efficacité.",
+    "Button": "Commander"
+  },
+  "FrozenProduct": {
+    "Title": "Produits Surgelés",
+    "Desc": "Nous proposons une variété de fruits, légumes et plats prêts à cuire surgelés, conservant leur goût naturel et leurs nutriments. Nos méthodes avancées de congélation et d’emballage garantissent une longue durée de conservation et une fraîcheur optimale.",
+    "Button": "Commander"
+  },
+  "Packaging": {
+    "Title": "Excellence en Emballage",
+    "Desc": "Chaque produit est emballé selon les normes internationales d’exportation. Nous mettons l’accent sur l’hygiène, la durabilité et la présentation afin que les produits arrivent en parfait état, prêts pour la distribution.",
+    "Button": "Commander"
+  },
+  "CustomOrder": {
+    "Title": "Commandes Personnalisées",
+    "Desc": "Nous comprenons que chaque marché a des besoins différents. C’est pourquoi nous proposons des solutions d’approvisionnement personnalisées — du choix des produits aux tailles d’emballage — adaptées aux exigences spécifiques de chaque client.",
+    "Button": "Commander"
   }
 
 

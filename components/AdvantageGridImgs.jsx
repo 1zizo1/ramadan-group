@@ -1,16 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import "next-cloudinary/dist/cld-video-player.css";
-export default function AdvantageVideo({ t, img }) {
+import { CldImage } from "next-cloudinary";
 
+export default function AdvantageGridImgs({ t, images }) {
   return (
     <section className="relative py-20 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-yellow-50 via-white to-gray-50 overflow-hidden">
-      {/* Decorative background element */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-100 rounded-full blur-3xl opacity-40 -z-10" />
+      {/* Decorative blobs */}
+      <div className="absolute top-0 left-0 w-68 h-68 bg-yellow-100 rounded-full blur-3xl opacity-40 -z-10" />
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-yellow-200 rounded-full blur-3xl opacity-30 -z-10" />
 
-      <div className="max-w-6xl mx-auto text-center md:text-left">
+      <div className="max-w-4xl mx-auto text-center md:text-left">
         {/* Title */}
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
@@ -24,30 +24,7 @@ export default function AdvantageVideo({ t, img }) {
 
         {/* Content grid */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* left image */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.4 }}
-            viewport={{ once: true }}
-            className="flex justify-center md:justify-end"
-          >
-            <video
-              muted
-              loop
-              playsInline
-              autoPlay
-              controls={false}
-              className="rounded-lg shadow-lg max-w-full h-auto cursor-pointer"
-            >
-              <source
-                src={img}
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </motion.div>
-          {/* right text */}
+          {/* Left text */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -60,13 +37,38 @@ export default function AdvantageVideo({ t, img }) {
 
             {/* CTA Button */}
             <motion.a
-              href="/contact"
+              href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               className="inline-block mt-4 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-lg shadow-md transition"
             >
               {t("Button")}
             </motion.a>
+          </motion.div>
+
+          {/* Right image grid */}
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="grid grid-cols-2 gap-4"
+          >
+            {images.map((img, i) => (
+              <motion.div
+                key={i}
+                className="relative overflow-hidden rounded-lg shadow-md cursor-pointer group"
+                whileHover={{ scale: 1.05 }}
+              >
+                <CldImage
+                  src={img}
+                  alt={`Light product ${i + 1}`}
+                  width="800"
+                  height="500"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </motion.div>
+            ))}
           </motion.div>
         </div>
       </div>

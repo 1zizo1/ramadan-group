@@ -176,4 +176,50 @@
     "Title": "Our Services",
     "Desc": "At Ramadan Group, we specialize in creating strong trade connections between Egypt and the world. Our services are designed to make international business simple, reliable, and profitable for our partners."
   }
+  ,
+  "FruitsProduct": {
+    "Title": "Fresh Fruits",
+    "Desc": "Egyptian fruits are celebrated worldwide for their rich flavor and quality. Ramadan Group supplies markets with popular fruit varieties, ensuring freshness and excellent shelf life throughout the shipping process.",
+    "Button": " Order Now"
+    
+  },
+  "VegetablesProduct": {
+    "Title": "Fresh Vegetables",
+    "Desc": "We export a wide range of fresh vegetables, known for their natural taste and nutritional value. From everyday staples to seasonal crops, our vegetables are grown in Egypt’s fertile soil and delivered fresh to global kitchens.",
+    "Button": " Order Now"
+
+  },
+  "GrainsProduct": {
+    "Title": "Grains & Legumes",
+    "Desc": "Our product portfolio also includes grains and legumes, staples for many global cuisines. We provide well-packaged and quality-tested goods that meet international import requirements."
+  },
+  "DatesProduct": {
+    "Title": "Premium Dates",
+    "Desc": "Egypt is one of the world’s leading producers of dates, known for their natural sweetness and superior quality. Ramadan Group exports premium date varieties that are carefully selected, processed, and packaged to preserve their rich taste and nutritional value."
+  },
+  "LightsProduct": {
+    "Title": "LED Lights & Fixtures",
+    "Desc": "Beyond food products, Ramadan Group supplies energy-efficient LED lighting solutions. Our range includes household, industrial, and commercial lighting designed to meet international safety and efficiency standards.",
+    "Button": " Order Now"
+
+  },
+  "FrozenProduct": {
+    "Title": "Frozen Foods",
+    "Desc": "We provide a variety of frozen fruits, vegetables, and ready-to-cook products that maintain their natural taste and nutrients. Our advanced freezing and packaging methods guarantee long shelf life and freshness for global markets.",
+    "Button": " Order Now"
+
+  },
+  "Packaging": {
+    "Title": "Packaging Excellence",
+    "Desc": "Every product is packaged with international export standards in mind. Our focus on hygiene, durability, and presentation ensures that goods arrive in perfect condition, ready for distribution.",
+    "Button": " Order Now"
+
+  },
+  "CustomOrder": {
+    "Title": "Custom Orders",
+    "Desc": "We understand that every market has different needs. That’s why we provide customized sourcing solutions — from product selection to packaging sizes — tailored to meet specific client requirements.",
+    "Button": " Order Now"
+  }
+
+
 }
