@@ -192,6 +192,11 @@
   "btn2": "Envoyez-nous un email"
 }
 ,
+"HeadOfficeInfo": {
+  "title": "Sièges principaux",
+  "desc": "Notre présence mondiale garantit des opérations fluides dans toutes les régions."
+}
+,
   "contactCard": {
     "Title": "Contactez-nous",
     "Subtitle": "Contactez-nous de la manière qui vous convient",

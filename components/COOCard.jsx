@@ -40,7 +40,7 @@ export default function COOCard() {
           className="relative w-40 h-40 rounded-xl overflow-hidden shadow-md mx-auto md:mx-0 border-4 border-white"
         >
           <CldImage
-            src="salah_allam_portrait" // <-- replace with Cloudinary public ID
+            src="IMG_20250919_200848_kox1y2" // <-- replace with Cloudinary public ID
             alt="Salah Allam"
             width="300"
             height="300"

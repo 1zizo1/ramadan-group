@@ -2,15 +2,14 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
-import Image from "next/image";
 
 export default function CEOSpotlight() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-yellow-50 via-white to-yellow-50">
       {/* Background overlay */}
       <div className="absolute inset-0">
-        <Image
-          src="/images/ceo-bg.jpg" // replace with a professional/abstract bg
+        <CldImage
+          src="blurred-silhouette-business-man_l3i1nq" // replace with a professional/abstract bg
           alt="CEO Background"
           fill
           className="object-cover opacity-40"
@@ -30,7 +29,7 @@ export default function CEOSpotlight() {
           className="relative w-64 h-64 rounded-2xl overflow-hidden shadow-2xl border-2 border-yellow-500"
         >
           <CldImage
-            src="/images/atef-ramadan.jpg" // replace with Atef Ramadan's photo
+            src="Picsart_25-09-19_19-50-43-713_eqe1hg" // replace with Atef Ramadan's photo
             alt="Atef Ramadan - CEO"
             fill
             className="object-cover"

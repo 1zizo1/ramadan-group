@@ -184,12 +184,16 @@
       }
     }
   },
-  "ContactHero":{
-    "name":"Ramadan Group",
-    "title":"Get in Touch with",
-    "desc":" Connecting businesses worldwide through trusted import & export solutions.",
-    "btn":"Contact Us",
-    "btn2":"Email Us"
+  "ContactHero": {
+    "name": "Ramadan Group",
+    "title": "Get in Touch with",
+    "desc": " Connecting businesses worldwide through trusted import & export solutions.",
+    "btn": "Contact Us",
+    "btn2": "Email Us"
+  },
+  "HeadOfficeInfo": {
+    "title": "Head Offices",
+    "desc": "Our global presence ensures seamless operations across regions."
   },
   "contactCard": {
     "Title": "Contact Us",

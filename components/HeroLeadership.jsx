@@ -6,9 +6,10 @@ import Image from "next/image";
 
 export default function HeroLeadership() {
   const leaders = [
-    { name: "Atef Ramadan", role: "CEO", img: "/images/ceo.jpg" },
-    { name: "Ahmed Abd ellaziz", role: "CTO", img: "/images/cto.jpg" },
-    { name: "Salah Allam", role: "COO", img: "/images/coo.jpg" },
+    { name: "Ahmed Abd ellaziz", role: "CTO", img: "IMG_20250919_200802_nnbllm" },
+    { name: "Atef Ramadan", role: "CEO", img: "Picsart_25-09-19_19-50-43-713_eqe1hg" },
+
+    { name: "Salah Allam", role: "COO", img: "IMG_20250919_200848_kox1y2" },
   ];
 
   return (
@@ -57,7 +58,7 @@ export default function HeroLeadership() {
             >
               {/* Portrait */}
               <div className="relative aspect-[3/4] w-full">
-                <Image
+                <CldImage
                   src={leader.img}
                   alt={leader.name}
                   fill

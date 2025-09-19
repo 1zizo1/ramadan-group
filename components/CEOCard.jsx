@@ -23,7 +23,7 @@ export default function CEOCard() {
         {/* Portrait via Cloudinary */}
         <div className="relative w-40 h-40 rounded-xl overflow-hidden shadow-md mx-auto md:mx-0">
           <CldImage
-            src="atef_ramadan_portrait" // <-- your Cloudinary public ID here
+            src="Picsart_25-09-19_19-50-43-713_eqe1hg" // <-- your Cloudinary public ID here
             alt="Atef Ramadan"
             width="300"
             height="300"

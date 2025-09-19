@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function HeadOfficeInfo() {
+const t = useTranslations("HeadOfficeInfo")
   const offices = [
     {
       country: "Egypt",
@@ -33,10 +35,11 @@ export default function HeadOfficeInfo() {
           transition={{ duration: 0.8 }}
           className="text-3xl md:text-4xl font-bold text-center text-gray-800"
         >
-          Head Offices
+          {t("title")}
         </motion.h2>
         <p className="mt-4 text-center text-gray-600">
-          Our global presence ensures seamless operations across regions.
+                    {t("desc")}
+
         </p>
 
         {/* Office Cards */}

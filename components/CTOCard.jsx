@@ -27,7 +27,7 @@ export default function CTOCard() {
           className="relative w-40 h-40 rounded-xl overflow-hidden shadow-md mx-auto md:mx-0 "
         >
           <CldImage
-            src="ahmed_abdelaziz_portrait" // <-- Cloudinary public ID
+            src="IMG_20250919_200802_nnbllm" // <-- Cloudinary public ID
             alt="Ahmed Abdelaziz"
             width="300"
             height="300"
