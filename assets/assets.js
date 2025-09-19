@@ -15,6 +15,46 @@ export const assets = {
   SilderIcon03: { id: face, w: "6600", h: "3713" },
   SilderIcon04: { id: face, w: "6600", h: "3713" },
 };
+// data/pins.js
+export const pins = [
+  {
+    id: "cairo",
+    title: "Cairo, Egypt",
+    desc: "Headquarters — Export & Logistics hub",
+    lat: 30.0444,
+    lng: 31.2357,
+    color: "#2563eb", // blue pin
+    link: "/locations/cairo",
+  },
+  {
+    id: "jeddah",
+    title: "Jeddah, Saudi Arabia",
+    desc: "Regional export partner",
+    lat: 21.4858,
+    lng: 39.1925,
+    color: "#2563eb",
+  },
+  {
+    id: "rotterdam",
+    title: "Rotterdam, Netherlands",
+    desc: "European distribution port",
+    lat: 51.9244,
+    lng: 4.4777,
+    color: "#2563eb",
+  },
+  {
+    id: "newyork",
+    title: "New York, USA",
+    desc: "North American partner",
+    lat: 40.7128,
+    lng: -74.006,
+    color: "#2563eb",
+  },
+  // add more pins...
+];
+
+
+
 // export const BagIcon = () => {
 //   return (
 //     <svg className="w-5 h-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">

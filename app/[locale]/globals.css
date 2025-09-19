@@ -67,3 +67,64 @@ body {
     );
   }
 }
+
+/* ExportMap.module.css */
+.mapWrap {
+  height: calc(100vh - 160px); /* adjust to desired full-screen minus header */
+  min-height: 360px;
+}
+
+/* Custom pin visuals (circle inside a teardrop) */
+.custom-pin {
+  display: block;
+  transform: translateY(-10px);
+}
+
+.pin-outer {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  border: 4px solid white;
+}
+
+.pin-inner {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* Small pointer triangle using :after is not available inside DivIcon html easily,
+   but the marker anchor handles pointer visually. If you'd like a teardrop shape, 
+   create it as inline SVG inside html instead of divs. */
+
+
+/* Animations */
+@keyframes move0 {
+  from { offset-distance: 0%; }
+  to   { offset-distance: 100%; }
+}
+@keyframes move1 {
+  from { offset-distance: 0%; }
+  to   { offset-distance: 100%; }
+}
+@keyframes move2 {
+  from { offset-distance: 0%; }
+  to   { offset-distance: 100%; }
+}
+@keyframes move3 {
+  from { offset-distance: 0%; }
+  to   { offset-distance: 100%; }
+}
+@keyframes move4 {
+  from { offset-distance: 0%; }
+  to   { offset-distance: 100%; }
+}
+@keyframes move5 {
+  from { offset-distance: 0%; }
+  to   { offset-distance: 100%; }
+}
