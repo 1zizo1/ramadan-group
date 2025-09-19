@@ -6,12 +6,25 @@ import WhyUs from '@/components/WhyUs';
 import Vision from '@/components/Vision';
 import ProgressSliderPage from '@/components/ProgressSlider';
 import AccordionBox from '@/components/AccordionBox';
+import WhoWeAre from '@/components/WhoWeAre';
+import WhatWeDo from '@/components/WhatWeDo';
+import OurPromise from '@/components/OurPromise';
 
 export default function HomePage() {
   return (
     <div>
 
       <Hero />
+      <WhoWeAre />
+      <WhatWeDo />
+      <OurPromise />
+      <Vision />
+      <WhyUs />
+
+
+      <AccordionBox />
+
+      {/* delete */}
       <Services />
 
       <section className="max-w-6xl mx-auto">
@@ -22,10 +35,7 @@ export default function HomePage() {
           <ServicesGrid />
         </div>
       </section>
-      <Vision />
       <ProgressSliderPage />
-      <AccordionBox/>
-      <WhyUs />
     </div>
   );
 }

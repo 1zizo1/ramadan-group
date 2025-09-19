@@ -1,5 +1,5 @@
 "use client";
-import { Button, Text } from "@radix-ui/themes";
+import { Button } from "@radix-ui/themes";
 import { useTranslations } from "next-intl";
 import TrueFocus from "@/components/TrueFocus";
 import { CldImage } from "next-cloudinary";
@@ -8,86 +8,81 @@ export default function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="h-[100vh] flex flex-col justify-center items-center text-center  text-white ">
+    <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
       <CldImage
         src="Picture1_dnxzec"
         width="6600"
         height="3713"
         alt="Ramadan Group Hero"
-        className="absolute -z-10 top-0 h-[100vh]"
+        className="absolute inset-0 -z-10 h-full w-full object-cover"
+        priority
       />
-      <div className="">
-        <div className="flex items-center flex-col">
-          <div className="min-w-1/2 p-18 m-2 ">
-            <Text className="text-yellow-500 capitalize text-5xl">
-              <TrueFocus
-                text={t("slogan")}
-                typingSpeed={75}
-                pauseDuration={1500}
-                showCursor={true}
-                cursorCharacter="|"
-              />
-            </Text>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50" />
+
+      {/* Content */}
+      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center md:text-left grid md:grid-cols-2 gap-10 items-center">
+        {/* Left: Text */}
+        <div>
+          <p className="text-yellow-400 font-semibold uppercase tracking-wide mb-3">
+            Ramadan Group
+          </p>
+
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white leading-snug">
+            <TrueFocus
+              text={t("slogan")}
+              typingSpeed={75}
+              pauseDuration={1500}
+              showCursor={true}
+              cursorCharacter="|"
+            />
+          </h1>
+
+          <p className="mt-4 text-gray-200 text-lg italic">
+            {t("subtitle")}
+          </p>
+
+          {/* CTA Buttons */}
+          <div className="flex gap-4 mt-8 flex-wrap">
+            <Button
+              size="3"
+              style={{
+                backgroundColor: "#facc15",
+                color: "black",
+                fontWeight: 700,
+              }}
+              className="hover:scale-105 transition"
+            >
+              Start Now
+            </Button>
+
+            <Button
+              size="3"
+              variant="soft"
+              style={{
+                backgroundColor: "transparent",
+                border: "2px solid white",
+                color: "white",
+              }}
+              className="hover:bg-white/10 hover:scale-105 transition"
+            >
+              Learn More
+            </Button>
           </div>
+        </div>
 
-          <div className="flex">
-            <div className="z-10 text-white px-6 w-2/3 bg-gray-500/20 rounded-md m-2 p-2">
-              <p className="text-sm text-yellow-400 font-semibold capitalize">
-                ramadan group
-              </p>
-
-              <h1 className="text-3xl md:text-4xl font-bold leading-snug mt-2">
-                {t("title")}
-              </h1>
-
-              <p className="text-gray-300 italic mt-3 text-base">
-                {t("subtitle")}
-              </p>
-
-              {/* Buttons */}
-              <div className="flex gap-4 mt-6">
-                <Button
-                  size="3"
-                  style={{
-                    backgroundColor: "#facc15",
-                    color: "black",
-                    fontWeight: 700,
-                  }}
-                >
-                  START NOW
-                </Button>
-
-                <Button
-                  size="3"
-                  variant="soft"
-                  style={{
-                    backgroundColor: "transparent",
-                    border: "2px solid white",
-                    color: "white",
-                  }}
-                >
-                  Learn more
-                </Button>
-              </div>
-            </div>
-
-            <div className=" w-1/3 rounded-2xl flex items-center justify-center m-2">
-              <CldImage
-                src="Picture2_jbvhwg"
-                width="2294"
-                height="2294"
-                alt="Company Logo"
-                className="w-1/2 opacity-80 hover:opacity-100 hover:scale-110 transition "
-              />
-            </div>
-          </div>
-
-          {/* <div className="absolute inset-0 bg-black/60" /> */}
+        {/* Right: Logo/Visual */}
+        <div className="flex justify-center md:justify-end">
+          <CldImage
+            src="Picture2_jbvhwg"
+            width="2294"
+            height="2294"
+            alt="Company Logo"
+            className="w-2/3 md:w-1/2 opacity-90 hover:opacity-100 hover:scale-110 transition"
+          />
         </div>
       </div>
-      {/* <a href="/contact" className="px-6 py-3 bg-white text-blue-900 font-semibold rounded shadow hover:bg-gray-200">
-         {t?.hero?.cta}
-      </a> */}
     </section>
   );
 }

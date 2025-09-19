@@ -9,7 +9,7 @@ export default function WhyUs() {
 
   // get members as object
   return (
-    <section className="max-w-5xl mx-auto">
+    <section className="max-w-5xl mx-auto my-4">
 <Cards t={t} icons={icons }/>
     </section>
   );

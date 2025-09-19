@@ -23,7 +23,9 @@ export default function Navbar() {
           <Link href="/" className="hover:text-yellow-500">
             Home
           </Link>
+          
           <ServicesMenu />
+
           <Link href="/products" className="hover:text-yellow-500">
             Products
           </Link>
