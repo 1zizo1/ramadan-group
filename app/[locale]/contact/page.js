@@ -9,6 +9,9 @@ import { ContactForm } from "@/components/ContactForm";
 import { CldImage } from "next-cloudinary";
 import ContactHero from "@/components/ContactHero";
 import HeadOfficeInfo from "@/components/HeadOfficeInfo";
+import ContactChannels from "@/components/ContactChannels";
+import BusinessInquiries from "@/components/BusinessInquiries";
+import CTABanner from "@/components/ui/CTABanner";
 
 export default function Contact() {
   const t = useTranslations("contactCard");
@@ -16,11 +19,14 @@ export default function Contact() {
   return (
     <section className="relative">
       <ContactHero />
-      <HeadOfficeInfo/>
-      <Cards t={t} icons={icons} />
-
+      <HeadOfficeInfo />
+      <ContactChannels />
+      <BusinessInquiries />
       {/* Form */}
       <ContactForm />
+      <CTABanner />
+      <Cards t={t} icons={icons} />
+
     </section>
   )
 }

@@ -1,0 +1,78 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { EnvelopeIcon, PhoneIcon, ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
+
+export default function ContactChannels() {
+  const channels = [
+    {
+      title: "Email Us",
+      description: "Reach out to our support and business team via email.",
+      icon: EnvelopeIcon,
+      link: "mailto:info@ramadangroup.com",
+      action: "Send Email",
+    },
+    {
+      title: "Call Us",
+      description: "Speak directly with our team for quick assistance.",
+      icon: PhoneIcon,
+      link: "tel:+201116946096",
+      action: "Call Now",
+    },
+    {
+      title: "Contact Form",
+      description: "Submit your request and we’ll get back to you promptly.",
+      icon: ChatBubbleLeftRightIcon,
+      link: "#contact-form", // replace with your route
+      action: "Open Form",
+    },
+  ];
+
+  return (
+    <section className="relative py-16 bg-white">
+      <div className="max-w-6xl mx-auto px-6">
+        {/* Heading */}
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-3xl md:text-4xl font-bold text-center text-gray-800"
+        >
+          Contact Channels
+        </motion.h2>
+        <p className="mt-4 text-center text-gray-600">
+          Multiple ways to connect with our team.
+        </p>
+
+        {/* Cards */}
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+          {channels.map((channel, i) => (
+            <motion.div
+              key={channel.title}
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: i * 0.2 }}
+              whileHover={{ scale: 1.05 }}
+              className="bg-gray-50 rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition flex flex-col items-center text-center"
+            >
+              {/* Icon */}
+              <channel.icon className="w-12 h-12 text-yellow-600 mb-4" />
+
+              {/* Title */}
+              <h3 className="text-xl font-semibold text-gray-800">{channel.title}</h3>
+              <p className="mt-3 text-gray-600">{channel.description}</p>
+
+              {/* Action */}
+              <a
+                href={channel.link}
+                className="mt-6 px-5 py-2 bg-yellow-500 text-white rounded-lg shadow hover:bg-yellow-600 transition font-medium"
+              >
+                {channel.action}
+              </a>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -11,38 +11,6 @@ const Footer = () => {
       <div className="absolute bottom-0 w-full -z-50">
         <Wave />
       </div>
-
-      {/* CTA Banner */}
-      <motion.div
-        className="bg-yellow-500 flex flex-col md:flex-row items-center justify-between mx-auto rounded-lg shadow-md hover:shadow-lg transition p-4 md:p-6 max-w-5xl -mt-8 relative z-10"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
-      >
-        <div className="w-full md:w-3/4 text-center md:text-left">
-          <h3 className="font-bold text-base md:text-lg text-black">
-            Your Success Starts Here!
-          </h3>
-          <p className="mt-1 text-xs md:text-sm text-black/80">
-            Contact us for the right solutions and efficient business support.
-          </p>
-        </div>
-
-        <motion.div
-          className="w-full md:w-auto mt-3 md:mt-0 flex justify-center md:justify-end"
-          whileHover={{ scale: 1.05 }}
-          transition={{ type: "spring", stiffness: 250 }}
-        >
-          <a
-            href="/contact"
-            className="px-5 py-2 bg-white text-black text-sm font-medium rounded-md shadow hover:bg-gray-100 transition"
-          >
-            Get in Touch
-          </a>
-        </motion.div>
-      </motion.div>
-
       {/* Main Footer Content */}
       <div className="flex flex-col md:flex-row items-start justify-between px-6 md:px-16 lg:px-24 gap-10 py-12 border-b border-gray-300/40">
         {/* Logo + Description */}

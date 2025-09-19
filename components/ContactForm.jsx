@@ -16,7 +16,6 @@ import { getContactFormSchema } from "@/lib/contact-form.schema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
-import Image from "next/image";
 import { CldImage } from "next-cloudinary";
 
 export function ContactForm() {
@@ -37,22 +36,35 @@ export function ContactForm() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="grid w-full max-w-5xl grid-cols-1 md:grid-cols-3 rounded-lg shadow-lg overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-4 py-12 bg-gray-50" id="contact-form">
+      <div className="grid w-full max-w-6xl grid-cols-1 md:grid-cols-3 rounded-xl shadow-xl overflow-hidden bg-white">
+        
         {/* Left side: Form */}
-        <div className="bg-card p-8 md:col-span-2">
-          <h2 className="text-2xl font-bold mb-6">{t("submit")}</h2>
+        <div className="p-10 md:col-span-2">
+          <h2 className="text-3xl font-extrabold text-gray-900 mb-2">
+            {t("submit")}
+          </h2>
+          <p className="text-gray-500 mb-8">
+            {t("desc")}
+          </p>
 
           <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+            <form
+              onSubmit={form.handleSubmit(onSubmit)}
+              className="space-y-6"
+            >
               <FormField
                 control={form.control}
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t("name")}</FormLabel>
+                    <FormLabel className="text-gray-700">{t("name")}</FormLabel>
                     <FormControl>
-                      <Input placeholder="Your name" {...field} />
+                      <Input
+                        placeholder="Your name"
+                        {...field}
+                        className="focus:ring-2 focus:ring-yellow-500 transition"
+                      />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -64,12 +76,13 @@ export function ContactForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t("email")}</FormLabel>
+                    <FormLabel className="text-gray-700">{t("email")}</FormLabel>
                     <FormControl>
                       <Input
                         placeholder="your.email@example.com"
                         type="email"
                         {...field}
+                        className="focus:ring-2 focus:ring-yellow-500 transition"
                       />
                     </FormControl>
                     <FormMessage />
@@ -82,11 +95,11 @@ export function ContactForm() {
                 name="message"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t("message")}</FormLabel>
+                    <FormLabel className="text-gray-700">{t("message")}</FormLabel>
                     <FormControl>
                       <Textarea
                         placeholder="Type your message here..."
-                        className="resize-none"
+                        className="resize-none focus:ring-2 focus:ring-yellow-500 transition"
                         {...field}
                       />
                     </FormControl>
@@ -94,14 +107,19 @@ export function ContactForm() {
                   </FormItem>
                 )}
               />
-              <Button type="submit" className="w-full">
+
+              <Button
+                type="submit"
+                className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold shadow-md"
+              >
                 {t("submit")}
               </Button>
             </form>
           </Form>
         </div>
+
         {/* Right side: Image + CTA */}
-        <div className=" relative hidden md:block md:col-span-1">
+        <div className="relative hidden md:block md:col-span-1">
           <CldImage
             src={assets.ships.id}
             alt="Services"
@@ -109,97 +127,16 @@ export function ContactForm() {
             height={assets.ships.h}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/40 flex flex-col justify-end items-start p-6 text-white">
-            <h2 className="text-l font-light max-w-xs leading-snug">
-            {t("desc")}
-            </h2>
-           
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex flex-col justify-end items-start p-8 text-white">
+            <h3 className="text-2xl font-bold mb-2">
+              {t("contactCTA") ?? "We’ll reply within 24–48h"}
+            </h3>
+            <p className="text-sm text-gray-200 max-w-xs">
+              {t("ctaDesc") ?? "Our team is here to support your trade inquiries with speed and reliability."}
+            </p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
-
-// function ServicesContent() {
-//   return (
-//     <div className="grid md:grid-cols-3">
-//       {/* Left side (services grid) */}
-//       <div className="w-full max-w-md bg-card p-8 rounded-lg shadow-sm">
-//         <Form {...form}>
-//           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-//             <FormField
-//               control={form.control}
-//               name="name"
-//               render={({ field }) => (
-//                 <FormItem>
-//                   <FormLabel>{t("name")}</FormLabel>
-//                   <FormControl>
-//                     <Input placeholder="Your name" {...field} />
-//                   </FormControl>
-//                   <FormMessage />
-//                 </FormItem>
-//               )}
-//             />
-
-//             <FormField
-//               control={form.control}
-//               name="email"
-//               render={({ field }) => (
-//                 <FormItem>
-//                   <FormLabel>{t("email")}</FormLabel>
-//                   <FormControl>
-//                     <Input
-//                       placeholder="your.email@example.com"
-//                       type="email"
-//                       {...field}
-//                     />
-//                   </FormControl>
-//                   <FormMessage />
-//                 </FormItem>
-//               )}
-//             />
-
-//             <FormField
-//               control={form.control}
-//               name="message"
-//               render={({ field }) => (
-//                 <FormItem>
-//                   <FormLabel>{t("message")}</FormLabel>
-//                   <FormControl>
-//                     <Textarea
-//                       placeholder="Type your message here..."
-//                       className="resize-none"
-//                       {...field}
-//                     />
-//                   </FormControl>
-//                   <FormMessage />
-//                 </FormItem>
-//               )}
-//             />
-
-//             <Button type="submit">{t("submit")}</Button>
-//           </form>
-//         </Form>
-
-//         <div className="grid grid-cols-2 col-span-2 gap-6 p-6"></div>
-//       </div>
-//       {/* Right side (image + CTA) */}
-//       <div className="relative hidden md:block">
-//         <Image
-//           src={assets.containers}
-//           alt="Services"
-//           className="w-full h-full object-cover"
-//         />
-//         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-start p-6 text-white">
-//           <h2 className="text-lg font-bold">
-//             All the Services You Need in One Place.
-//           </h2>
-//           <button className="mt-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-4 py-2 rounded-lg">
-//             Get Your Service
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
