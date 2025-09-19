@@ -1,15 +1,166 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About",
+    "Products": "Products",
+    "Global": "Global",
+    "Team": "Team",
+    "About": "About Us",
+    "contact": "Contact Us"
+  },
+  "NavService": {
     "services": "Services",
-    "contact": "Contact"
+    "OurServices": "Our Services",
+    "solgn": "All the Services You Need in One Place.",
+    "btn": "Get Your Service",
+    "members": {
+      "0": {
+        "title": "Customs clearance",
+        "description": "Fast and efficient customs clearance to facilitate the import and export of your goods."
+      },
+      "1": {
+        "title": "Public tenders and private",
+        "description": "Efficiently manage and implement public and private tenders to ensure the best offers and results."
+      },
+      "2": {
+        "title": "Import and export",
+        "description": "Import and export to facilitate business transactions efficiently and at the best prices."
+      },
+      "3": {
+        "title": "General Trade and Distribution",
+        "description": "Expand your business efficiently and provide products at the best prices."
+      },
+      "4": {
+        "title": "Business services",
+        "description": "Customized services to support growth, achieve goals, and expand."
+      },
+      "5": {
+        "title": "Commercial agencies",
+        "description": "Obtain corporate agency rights to expand in local and international markets."
+      }
+    }
   },
   "hero": {
+    "name": "Ramadan Group",
     "slogan": "Bringing the world to your doorstep",
     "title": " Your Best Partner for Business Growth in Egypt and Beyond.",
     "subtitle": "We Offer a Comprehensive Range of Services and Innovative Solutions to Develop Your Business and Facilitate Your Company's Success.",
-    "cta": "Get in Touch"
+    "button": "Start Now",
+    "button2": "Learn More"
+  },
+  "WhoWeAre": {
+    "title": "Who We Are",
+    "At": "At",
+    "high": "Ramadan Group",
+    "desc": "we are more than an import & export company — we are a trusted partner in global trade. With decades of expertise, we connect businesses across",
+    "low": "Egypt, the Gulf, and Europe",
+    "restDesc": " delivering excellence in logistics, compliance, and market growth.",
+    "0": "Reliable & Transparent Trade Operations",
+    "1": " Global Network with Local Expertise",
+    "2": "Commitment to Compliance & Quality"
+  },
+  "WhatWeDo": {
+    "Title": "What We Do",
+    "desc": "Simplifying global trade with trusted, transparent, and world-class solutions.",
+    "services": {
+      "0": {
+        "title": "Import & Export",
+        "description": "Seamless global trade routes connecting Egypt to worldwide markets."
+      },
+      "1": {
+        "title": "Logistics",
+        "description": "Efficient, reliable transport solutions across land, sea, and air."
+      },
+      "2": {
+        "title": "Quality Assurance",
+        "description": "Strict compliance and verification to meet global standards."
+      },
+      "3": {
+        "title": "Partnerships",
+        "description": "Building lasting collaborations with trusted international partners."
+      }
+    }
+  },
+  "OurPromise": {
+    "title": "Our Promise",
+    "desc": "At Ramadan Group, we stand by trust, quality, and long-term partnerships. Every shipment, every deal, every journey—delivered with integrity.",
+    "btn": "Get in Touch"
+  },
+  "faqs": {
+    "title": "FAQs",
+    "members": {
+      "0": {
+        "title": "What types of products do you import and export?",
+        "text": "We handle a wide range of products including raw materials, consumer goods, and industrial equipment. Each shipment is carefully managed to ensure safe delivery.",
+        "active": false
+      },
+      "1": {
+        "title": "Do you offer customs clearance and documentation services?",
+        "text": "Yes, we manage all customs clearance, import/export documentation, and compliance requirements to ensure smooth and hassle-free shipments.",
+        "active": false
+      },
+      "2": {
+        "title": "What regions or countries do you operate in?",
+        "text": "Ramadan Group operates globally, connecting Egypt with markets across Africa, Europe, Asia, and the Americas for seamless international trade.",
+        "active": false
+      },
+      "3": {
+        "title": "How do you ensure the safety and quality of shipments?",
+        "text": "We follow strict quality control procedures, regular inspections, and partner only with trusted logistics providers to guarantee the safety and integrity of every shipment.",
+        "active": true
+      },
+      "4": {
+        "title": "Can you handle large-scale or bulk shipments?",
+        "text": "Absolutely. Our logistics network and experience allow us to manage both small and large-scale shipments efficiently and cost-effectively.",
+        "active": false
+      },
+      "5": {
+        "title": "Do you provide tracking for shipments?",
+        "text": "Yes, we offer real-time shipment tracking and status updates, so you always know where your goods are during transit.",
+        "active": false
+      },
+      "6": {
+        "title": "How can I get a quote for my shipment?",
+        "text": "Simply contact our team with the details of your shipment, and we’ll provide a customized quote tailored to your needs.",
+        "active": false
+      }
+    }
+  },
+  "homeService": {
+    "title": "What We Offer",
+    "desc": "End-to-end solutions that simplify and elevate global trade for our partners.",
+    "high": "Our Core Services",
+    "services": {
+      "0": {
+        "title": "Import Solutions",
+        "desc": "Reliable sourcing and delivery worldwide.",
+        "image": "port-1845350_1280_bhqrou",
+        "imgW": "6600",
+        "imgH": "3713"
+      },
+      "1": {
+        "title": "Export Services",
+        "desc": "Expand your business across global markets.",
+        "image": "Picture4_cjuewq",
+        "imgW": "6600",
+        "imgH": "3713"
+      },
+      "2": {
+        "title": "Logistics",
+        "desc": "Smooth shipping and customs clearance.",
+        "image": "image55_evnhiy",
+        "imgW": "6600",
+        "imgH": "3713"
+      },
+      "3": {
+        "title": "Quality Control",
+        "desc": "Ensuring standards in every shipment.",
+        "image": "IMG-20250919-WA0052_zfo3om",
+        "imgW": "6600",
+        "imgH": "3713"
+      }
+    },
+    "btn": "Explore More Services",
+    "btn2": "Start Your Journey"
   },
   "serviceCard": {
     "Title": "Why choose us ?",
@@ -32,6 +183,13 @@
         "data": "We Are Committed to Delivering Our Services with Efficiency and Speed..."
       }
     }
+  },
+  "ContactHero":{
+    "name":"Ramadan Group",
+    "title":"Get in Touch with",
+    "desc":" Connecting businesses worldwide through trusted import & export solutions.",
+    "btn":"Contact Us",
+    "btn2":"Email Us"
   },
   "contactCard": {
     "Title": "Contact Us",
@@ -64,7 +222,9 @@
     "email": "Email",
     "message": "Message",
     "submit": "Submit",
-    "desc": "at Ramadan Group, we care about our customers' opinions. Their success is our priority, and their opinions are a testament to the quality of our services and our role in achieving confident and stable business growth."
+    "desc": "at Ramadan Group, we care about our customers' opinions. Their success is our priority, and their opinions are a testament to the quality of our services and our role in achieving confident and stable business growth.",
+    "contactCTA": "We’ll reply within 24h",
+    "ctaDesc": "Our team is here to support your trade inquiries with speed and reliability."
   },
   "validation": {
     "invalid": "Email invalid",
@@ -135,32 +295,32 @@
     "Desc": "From sourcing and packaging to shipping and customs clearance — every step is designed to deliver reliability and growth.",
     "steps": {
       "0": {
-      "title": "Sourcing & Procurement",
-      "desc": "Identify reliable suppliers and align specs to market demand."
+        "title": "Sourcing & Procurement",
+        "desc": "Identify reliable suppliers and align specs to market demand."
       },
       "1": {
-      "title": "Quality Control & Packaging",
-      "desc": "Inspect, grade, and package to meet international standards."
+        "title": "Quality Control & Packaging",
+        "desc": "Inspect, grade, and package to meet international standards."
       },
       "2": {
-      "title": "Documentation",
-      "desc": "Prepare invoices, certificates, and compliance paperwork."
+        "title": "Documentation",
+        "desc": "Prepare invoices, certificates, and compliance paperwork."
       },
       "3": {
-      "title": "Shipping & Customs",
-      "desc": "Book freight, clear customs, and track shipments end-to-end."
+        "title": "Shipping & Customs",
+        "desc": "Book freight, clear customs, and track shipments end-to-end."
       },
       "4": {
-      "title": "Delivery & Support",
-      "desc": "On-time delivery with post-delivery support and feedback loop."
+        "title": "Delivery & Support",
+        "desc": "On-time delivery with post-delivery support and feedback loop."
       }
     }
   },
   "QualtiyAsure": {
     "Title": "Quality Assurance",
     "Desc": "We believe that trust begins with quality. Ramadan Group enforces",
-    "info":"strict quality control measures",
-    "high":"to guarantee that every product shipped meets the highest international standards.",
+    "info": "strict quality control measures",
+    "high": "to guarantee that every product shipped meets the highest international standards.",
     "Button": "Certified Excellence"
   },
   "Partners": {
@@ -172,22 +332,19 @@
     "high": "long-term partnerships",
     "Button": "Let’s Grow Together"
   },
-  "serviceHeading":{
+  "serviceHeading": {
     "Title": "Our Services",
     "Desc": "At Ramadan Group, we specialize in creating strong trade connections between Egypt and the world. Our services are designed to make international business simple, reliable, and profitable for our partners."
-  }
-  ,
+  },
   "FruitsProduct": {
     "Title": "Fresh Fruits",
     "Desc": "Egyptian fruits are celebrated worldwide for their rich flavor and quality. Ramadan Group supplies markets with popular fruit varieties, ensuring freshness and excellent shelf life throughout the shipping process.",
     "Button": " Order Now"
-    
   },
   "VegetablesProduct": {
     "Title": "Fresh Vegetables",
     "Desc": "We export a wide range of fresh vegetables, known for their natural taste and nutritional value. From everyday staples to seasonal crops, our vegetables are grown in Egypt’s fertile soil and delivered fresh to global kitchens.",
     "Button": " Order Now"
-
   },
   "GrainsProduct": {
     "Title": "Grains & Legumes",
@@ -201,25 +358,20 @@
     "Title": "LED Lights & Fixtures",
     "Desc": "Beyond food products, Ramadan Group supplies energy-efficient LED lighting solutions. Our range includes household, industrial, and commercial lighting designed to meet international safety and efficiency standards.",
     "Button": " Order Now"
-
   },
   "FrozenProduct": {
     "Title": "Frozen Foods",
     "Desc": "We provide a variety of frozen fruits, vegetables, and ready-to-cook products that maintain their natural taste and nutrients. Our advanced freezing and packaging methods guarantee long shelf life and freshness for global markets.",
     "Button": " Order Now"
-
   },
   "Packaging": {
     "Title": "Packaging Excellence",
     "Desc": "Every product is packaged with international export standards in mind. Our focus on hygiene, durability, and presentation ensures that goods arrive in perfect condition, ready for distribution.",
     "Button": " Order Now"
-
   },
   "CustomOrder": {
     "Title": "Custom Orders",
     "Desc": "We understand that every market has different needs. That’s why we provide customized sourcing solutions — from product selection to packaging sizes — tailored to meet specific client requirements.",
     "Button": " Order Now"
   }
-
-
 }

@@ -7,18 +7,19 @@ import { CldImage } from "next-cloudinary";
 import { motion, AnimatePresence } from "framer-motion";
 import LocaleSwitcher from "./LocaleSwitcher";
 import ServicesMenu from "./ServicesMenu";
-
+import { useTranslations } from "next-intl";
 export default function Navbar() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("nav");
 
   const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/products", label: "Products" },
-    { href: "/global", label: "Global" },
-    { href: "/team", label: "Team" },
-    { href: "/about", label: "About Us" },
-    { href: "/contact", label: "Contact" },
+    { href: "/", label: t("home") },
+    { href: "/products", label: t("Products") },
+    { href: "/global", label: t("Global") },
+    { href: "/team", label: t("Team") },
+    { href: "/about", label: t("About") },
+    { href: "/contact", label: t("contact") },
   ];
 
   return (
@@ -37,7 +38,11 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
           {navLinks.map((link, i) => (
-            <motion.div key={i} whileHover={{ y: -2 }} whileTap={{ scale: 0.95 }}>
+            <motion.div
+              key={i}
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.95 }}
+            >
               <Link
                 href={link.href}
                 className="relative font-medium hover:text-yellow-500 transition"

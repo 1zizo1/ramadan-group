@@ -10,7 +10,7 @@ import ValuesCard from "@/components/ValuesCard";
 import AdvantageCard from "@/components/AdvantageCard";
 
 export default function About() {
-  const t = useTranslations("values");
+  const t = useTranslations("nav");
 
   return (
     <section>
@@ -18,7 +18,7 @@ export default function About() {
         <div className=" absolute w-full p-18 m-2 flex items-center justify-center">
           <Text className="text-yellow-500 capitalize text-5xl">
             <TrueFocus
-              text={t("Title")}
+              text={t("About")}
               typingSpeed={75}
               pauseDuration={1500}
               showCursor={true}

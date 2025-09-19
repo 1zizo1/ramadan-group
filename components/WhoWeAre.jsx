@@ -2,8 +2,9 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
-
+import { useTranslations } from "next-intl";
 export default function WhoWeAre() {
+const t= useTranslations("WhoWeAre")
   return (
     <section className="relative py-20 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
       {/* Background Accent (optional decorative) */}
@@ -25,7 +26,7 @@ export default function WhoWeAre() {
           className="relative rounded-2xl overflow-hidden shadow-lg"
         >
           <CldImage
-            src="Picture4_cjuewq" 
+            src="Picture4_cjuewq"
             alt="Who We Are"
             width="1200"
             height="800"
@@ -44,14 +45,13 @@ export default function WhoWeAre() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900">
-            Who We Are
+            {t("title")}
           </h2>
           <p className="mt-4 text-lg text-gray-600 leading-relaxed">
-            At <span className="font-semibold text-yellow-600">Ramadan Group</span>,
-            we are more than an import & export company — we are a trusted partner in
-            global trade. With decades of expertise, we connect businesses across{" "}
-            <span className="font-semibold">Egypt, the Gulf, and Europe</span>,
-            delivering excellence in logistics, compliance, and market growth.
+            {t("At")}
+            <span className="font-semibold text-yellow-600">{t("high")}</span>,
+            {t("desc")}
+            <span className="font-semibold">{t("low")}</span>,{t("restDesc")}
           </p>
 
           <ul className="mt-6 space-y-4 text-gray-700">
@@ -59,19 +59,19 @@ export default function WhoWeAre() {
               <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
                 ✓
               </span>
-              Reliable & Transparent Trade Operations
+              {t("0")}
             </li>
             <li className="flex items-center gap-3">
               <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
                 ✓
               </span>
-              Global Network with Local Expertise
+              {t("1")}
             </li>
             <li className="flex items-center gap-3">
               <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
                 ✓
               </span>
-              Commitment to Compliance & Quality
+              {t("2")}
             </li>
           </ul>
         </motion.div>

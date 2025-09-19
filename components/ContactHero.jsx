@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function ContactHero() {
+  const t = useTranslations("ContactHero");
   return (
     <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-gray-900">
       {/* Background Globe / Trade Imagery */}
@@ -28,7 +30,7 @@ export default function ContactHero() {
           transition={{ duration: 1 }}
           className="text-4xl md:text-6xl font-extrabold text-white"
         >
-          Get in Touch with <span className="text-yellow-400">Ramadan Group</span>
+          {t("title")} <span className="text-yellow-400">{t("name")}</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -38,7 +40,7 @@ export default function ContactHero() {
           transition={{ duration: 1, delay: 0.3 }}
           className="mt-4 text-lg md:text-xl text-gray-200"
         >
-          Connecting businesses worldwide through trusted import & export solutions.
+          {t("desc")}
         </motion.p>
 
         {/* Call-to-Action */}
@@ -52,13 +54,13 @@ export default function ContactHero() {
             href="#contact-form"
             className="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition"
           >
-            Contact Us
+          {t("btn")}
           </a>
           <a
             href="mailto:info@ramadangroup.com"
             className="px-6 py-3 border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-semibold rounded-lg shadow-md transition"
           >
-            Email Us
+          {t("btn2")}
           </a>
         </motion.div>
       </div>

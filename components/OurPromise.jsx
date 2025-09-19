@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function OurPromise() {
+const t = useTranslations("OurPromise")
   return (
     <section className="relative h-[70vh] flex items-center justify-center text-center overflow-hidden">
       {/* Background */}
@@ -25,12 +27,10 @@ export default function OurPromise() {
         className="relative z-10 max-w-3xl px-6"
       >
         <h2 className="text-3xl md:text-5xl font-extrabold text-white">
-          Our Promise
+         {t("title")}
         </h2>
         <p className="mt-4 text-lg md:text-xl text-gray-200 leading-relaxed">
-          At Ramadan Group, we stand by trust, quality, and long-term
-          partnerships. Every shipment, every deal, every journey—delivered with
-          integrity.
+          {t("desc")}
         </p>
 
         <motion.a
@@ -39,7 +39,7 @@ export default function OurPromise() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Get in Touch
+         {t("btn")}
         </motion.a>
       </motion.div>
     </section>

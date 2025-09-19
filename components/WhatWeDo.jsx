@@ -1,40 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  GlobeAltIcon,
-  TruckIcon,          // ✅ Available in @heroicons/react/24/solid, not outline
-  ShieldCheckIcon,
-  UsersIcon,          // 👈 Use this instead of HandshakeIcon
-} from "@heroicons/react/24/outline";
+import { GlobeAltIcon, ShieldCheckIcon, UsersIcon } from "@heroicons/react/24/outline";
+import { TruckIcon } from "@heroicons/react/24/solid";
+import { useTranslations } from "next-intl";
 
+// Icons array
+const servicesIcons = [GlobeAltIcon, TruckIcon, ShieldCheckIcon, UsersIcon];
 
-const services = [
-  {
-    title: "Import & Export",
-    desc: "Seamless global trade routes connecting Egypt to worldwide markets.",
-    icon: GlobeAltIcon,
-  },
-  {
-    title: "Logistics",
-    desc: "Efficient, reliable transport solutions across land, sea, and air.",
-    icon: TruckIcon, // ✅ from solid
-  },
-  {
-    title: "Quality Assurance",
-    desc: "Strict compliance and verification to meet global standards.",
-    icon: ShieldCheckIcon,
-  },
-  {
-    title: "Partnerships",
-    desc: "Building lasting collaborations with trusted international partners.",
-    icon: UsersIcon, // ✅ instead of Handshake
-  },
-];
-
-
-// Reusable Card Component
-const ServiceCard = ({ service, i }) => {
+// Service Card Component
+const ServiceCard = ({ service }) => {
+  const Icon = service.icon; // ✅ Capitalized for React
   return (
     <motion.div
       initial={{ opacity: 0, y: 40, rotate: 2 }}
@@ -47,7 +23,7 @@ const ServiceCard = ({ service, i }) => {
     >
       {/* Icon */}
       <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-yellow-100 mb-6 group-hover:bg-yellow-500 transition">
-        <service.icon className="w-8 h-8 text-yellow-600 group-hover:text-white transition" />
+        <Icon className="w-8 h-8 text-yellow-600 group-hover:text-white transition" />
       </div>
 
       {/* Title */}
@@ -56,9 +32,7 @@ const ServiceCard = ({ service, i }) => {
       </h3>
 
       {/* Description */}
-      <p className="mt-3 text-gray-600 text-sm leading-relaxed">
-        {service.desc}
-      </p>
+      <p className="mt-3 text-gray-600 text-sm leading-relaxed">{service.description}</p>
 
       {/* Decorative hover glow */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-tr from-yellow-400 to-yellow-200 transition" />
@@ -66,7 +40,20 @@ const ServiceCard = ({ service, i }) => {
   );
 };
 
+// Main Component
 export default function WhatWeDo() {
+  const t = useTranslations("WhatWeDo");
+
+  // Get translations from i18n JSON
+  const bullets = Object.values(t.raw("services"));
+
+  // Combine icons with translations
+  const localizedServices = servicesIcons.map((Icon, i) => ({
+    icon: Icon,
+    title: bullets[i]?.title || "",
+    description: bullets[i]?.description || "",
+  }));
+
   return (
     <section className="py-24 bg-gradient-to-b from-gray-50 to-white relative">
       <div className="max-w-7xl mx-auto px-6 text-center">
@@ -77,9 +64,10 @@ export default function WhatWeDo() {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-extrabold text-gray-900"
         >
-          What We Do
+          {t("Title")}
         </motion.h2>
 
+        {/* Description */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -87,14 +75,13 @@ export default function WhatWeDo() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto"
         >
-          Simplifying global trade with trusted, transparent, and world-class
-          solutions.
+          {t("desc")}
         </motion.p>
 
         {/* Cards */}
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-          {services.map((service, i) => (
-            <ServiceCard key={service.title} service={service} i={i} />
+          {localizedServices.map((service, i) => (
+            <ServiceCard key={service.title} service={service} />
           ))}
         </div>
       </div>

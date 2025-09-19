@@ -7,7 +7,7 @@ export default function HeadOfficeInfo() {
   const offices = [
     {
       country: "Egypt",
-      flag: "egypt_flag", // Cloudinary public ID
+      flag: "27140_bsuwip", // Cloudinary public ID
       address: "Cairo, Egypt",
       details: "123 Nile Street, Downtown, Cairo",
       phone: "+20 123 456 7890",
@@ -15,7 +15,7 @@ export default function HeadOfficeInfo() {
     },
     {
       country: "England",
-      flag: "england_flag", // Cloudinary public ID
+      flag: "18166_m3wqbl", // Cloudinary public ID
       address: "London, UK",
       details: "45 Thames Avenue, Canary Wharf, London",
       phone: "+44 20 7946 0123",

@@ -26,7 +26,7 @@ export default function Hero() {
         {/* Left: Text */}
         <div>
           <p className="text-yellow-400 font-semibold uppercase tracking-wide mb-3">
-            Ramadan Group
+            {t("name")}
           </p>
 
           <h1 className="text-3xl md:text-5xl font-extrabold text-white leading-snug">
@@ -39,9 +39,7 @@ export default function Hero() {
             />
           </h1>
 
-          <p className="mt-4 text-gray-200 text-lg italic">
-            {t("subtitle")}
-          </p>
+          <p className="mt-4 text-gray-200 text-lg italic">{t("subtitle")}</p>
 
           {/* CTA Buttons */}
           <div className="flex gap-4 mt-8 flex-wrap">
@@ -54,7 +52,7 @@ export default function Hero() {
               }}
               className="hover:scale-105 transition"
             >
-              Start Now
+              {t("button")}
             </Button>
 
             <Button
@@ -67,7 +65,7 @@ export default function Hero() {
               }}
               className="hover:bg-white/10 hover:scale-105 transition"
             >
-              Learn More
+              {t("button2")}
             </Button>
           </div>
         </div>

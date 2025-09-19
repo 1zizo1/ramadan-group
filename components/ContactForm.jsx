@@ -129,7 +129,7 @@ export function ContactForm() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex flex-col justify-end items-start p-8 text-white">
             <h3 className="text-2xl font-bold mb-2">
-              {t("contactCTA") ?? "We’ll reply within 24–48h"}
+              {t("contactCTA") ?? "We’ll reply within 24h"}
             </h3>
             <p className="text-sm text-gray-200 max-w-xs">
               {t("ctaDesc") ?? "Our team is here to support your trade inquiries with speed and reliability."}

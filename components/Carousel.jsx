@@ -66,7 +66,7 @@ export default function Carousel({ items }) {
                 src={item.img}
                 width={1024}
                 height={576}
-                alt={item.desc}
+                alt="ramadan group"
               />
             </Transition>
           ))}

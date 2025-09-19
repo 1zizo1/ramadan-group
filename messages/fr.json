@@ -1,15 +1,166 @@
 {
   "nav": {
     "home": "Accueil",
-    "about": "À propos",
-    "services": "Services",
+    "Products": "Produits",
+    "Global": "Mondial",
+    "Team": "Équipe",
+    "About": "À propos",
     "contact": "Contact"
   },
+  "NavService": {
+    "services": "Services",
+    "OurServices": "Nos Services",
+    "solgn": "Tous les services dont vous avez besoin en un seul endroit.",
+    "btn": "Obtenez votre service",
+    "members": {
+      "0": {
+        "title": "Dédouanement",
+        "description": "Un dédouanement rapide et efficace pour faciliter l'importation et l'exportation de vos marchandises."
+      },
+      "1": {
+        "title": "Appels d’offres publics et privés",
+        "description": "Gérer et exécuter efficacement les appels d’offres publics et privés pour garantir les meilleures offres et résultats."
+      },
+      "2": {
+        "title": "Importation et exportation",
+        "description": "Importer et exporter afin de faciliter les transactions commerciales efficacement et aux meilleurs prix."
+      },
+      "3": {
+        "title": "Commerce général et distribution",
+        "description": "Développez votre activité efficacement et fournissez vos produits aux meilleurs prix."
+      },
+      "4": {
+        "title": "Services aux entreprises",
+        "description": "Des services personnalisés pour soutenir la croissance, atteindre vos objectifs et vous développer."
+      },
+      "5": {
+        "title": "Agences commerciales",
+        "description": "Obtenez des droits d’agence pour vous développer sur les marchés locaux et internationaux."
+      }
+    }
+  },
   "hero": {
+    "name": "Ramadan Group",
     "slogan": "Apporter le monde jusqu’à votre porte",
     "title": " Votre meilleur partenaire pour la croissance de votre entreprise en Égypte et au-delà.",
     "subtitle": "Nous offrons une gamme complète de services et des solutions innovantes pour développer votre entreprise et faciliter la réussite de votre société.",
-    "cta": "Contactez-nous"
+    "button": "Commencer",
+    "button2": "En savoir plus"
+  },
+  "WhoWeAre": {
+    "title": "Qui Nous Sommes",
+    "At": "Chez",
+    "high": "Ramadan Group",
+    "desc": "nous sommes bien plus qu’une société d’import-export — nous sommes un partenaire de confiance dans le commerce mondial. Forts de plusieurs décennies d’expertise, nous connectons les entreprises à travers",
+    "low": "l’Égypte, le Golfe et l’Europe",
+    "restDesc": " en offrant l’excellence en logistique, conformité et croissance des marchés.",
+    "0": "Opérations commerciales fiables et transparentes",
+    "1": "Réseau mondial avec expertise locale",
+    "2": "Engagement envers la conformité et la qualité"
+  },
+  "WhatWeDo": {
+    "Title": "Ce que nous faisons",
+    "desc": "Simplifier le commerce mondial grâce à des solutions fiables, transparentes et de classe mondiale.",
+    "services": {
+      "0": {
+        "title": "Import & Export",
+        "description": "Des routes commerciales fluides reliant l’Égypte aux marchés mondiaux."
+      },
+      "1": {
+        "title": "Logistique",
+        "description": "Des solutions de transport efficaces et fiables par terre, mer et air."
+      },
+      "2": {
+        "title": "Assurance qualité",
+        "description": "Conformité stricte et vérification pour respecter les normes mondiales."
+      },
+      "3": {
+        "title": "Partenariats",
+        "description": "Construire des collaborations durables avec des partenaires internationaux de confiance."
+      }
+    }
+  },
+  "OurPromise": {
+    "title": "Notre Promesse",
+    "desc": "Chez Ramadan Group, nous nous engageons à la confiance, à la qualité et aux partenariats à long terme. Chaque expédition, chaque transaction, chaque voyage — livré avec intégrité.",
+    "btn": "Contactez-nous"
+  },
+  "faqs": {
+    "title": "FAQ",
+    "members": {
+      "0": {
+        "title": "Quels types de produits importez-vous et exportez-vous ?",
+        "text": "Nous gérons une large gamme de produits, y compris les matières premières, les biens de consommation et les équipements industriels. Chaque expédition est soigneusement gérée pour garantir une livraison sécurisée.",
+        "active": false
+      },
+      "1": {
+        "title": "Offrez-vous des services de dédouanement et de documentation ?",
+        "text": "Oui, nous gérons toutes les procédures de dédouanement, la documentation d'import/export et les exigences de conformité pour garantir des expéditions fluides et sans tracas.",
+        "active": false
+      },
+      "2": {
+        "title": "Dans quelles régions ou pays opérez-vous ?",
+        "text": "Ramadan Group opère à l'échelle mondiale, connectant l'Égypte avec les marchés en Afrique, Europe, Asie et Amériques pour un commerce international fluide.",
+        "active": false
+      },
+      "3": {
+        "title": "Comment garantissez-vous la sécurité et la qualité des expéditions ?",
+        "text": "Nous suivons des procédures strictes de contrôle qualité, des inspections régulières et ne collaborons qu'avec des transporteurs fiables pour garantir la sécurité et l'intégrité de chaque expédition.",
+        "active": true
+      },
+      "4": {
+        "title": "Pouvez-vous gérer des expéditions à grande échelle ou en vrac ?",
+        "text": "Absolument. Notre réseau logistique et notre expérience nous permettent de gérer efficacement et à moindre coût les petites et grandes expéditions.",
+        "active": false
+      },
+      "5": {
+        "title": "Fournissez-vous un suivi des expéditions ?",
+        "text": "Oui, nous proposons un suivi en temps réel et des mises à jour de statut, afin que vous sachiez toujours où se trouvent vos marchandises pendant le transport.",
+        "active": false
+      },
+      "6": {
+        "title": "Comment puis-je obtenir un devis pour mon envoi ?",
+        "text": "Il vous suffit de contacter notre équipe avec les détails de votre envoi, et nous vous fournirons un devis personnalisé adapté à vos besoins.",
+        "active": false
+      }
+    }
+  },
+  "homeService": {
+    "title": "Ce que nous proposons",
+    "desc": "Des solutions de bout en bout qui simplifient et renforcent le commerce mondial pour nos partenaires.",
+    "high": "Nos services principaux",
+    "services": {
+      "0": {
+        "title": "Solutions d'importation",
+        "desc": "Sourcing fiable et livraison dans le monde entier.",
+        "image": "port-1845350_1280_bhqrou",
+        "imgW": "6600",
+        "imgH": "3713"
+      },
+      "1": {
+        "title": "Services d'exportation",
+        "desc": "Développez votre entreprise sur les marchés mondiaux.",
+        "image": "Picture4_cjuewq",
+        "imgW": "6600",
+        "imgH": "3713"
+      },
+      "2": {
+        "title": "Logistique",
+        "desc": "Expédition fluide et dédouanement.",
+        "image": "image55_evnhiy",
+        "imgW": "6600",
+        "imgH": "3713"
+      },
+      "3": {
+        "title": "Contrôle de qualité",
+        "desc": "Assurer les standards pour chaque expédition.",
+        "image": "IMG-20250919-WA0052_zfo3om",
+        "imgW": "6600",
+        "imgH": "3713"
+      }
+    },
+    "btn": "Découvrez plus de services",
+    "btn2": "Commencez votre voyage"
   },
   "serviceCard": {
     "Title": "Pourquoi nous choisir ?",
@@ -33,6 +184,14 @@
       }
     }
   },
+  "ContactHero": {
+  "name": "Ramadan Group",
+  "title": "Prenez contact avec",
+  "desc": "Connecter les entreprises dans le monde entier grâce à des solutions fiables d'importation et d'exportation.",
+  "btn": "Contactez-nous",
+  "btn2": "Envoyez-nous un email"
+}
+,
   "contactCard": {
     "Title": "Contactez-nous",
     "Subtitle": "Contactez-nous de la manière qui vous convient",
@@ -64,7 +223,9 @@
     "email": "E-mail",
     "message": "Message",
     "submit": "Envoyer",
-    "desc": "Chez Ramadan Group, nous nous soucions des avis de nos clients. Leur succès est notre priorité, et leurs opinions témoignent de la qualité de nos services et de notre rôle dans la réalisation d'une croissance commerciale stable et confiante."
+    "desc": "Chez Ramadan Group, nous nous soucions des avis de nos clients. Leur succès est notre priorité, et leurs opinions témoignent de la qualité de nos services et de notre rôle dans la réalisation d'une croissance commerciale stable et confiante.",
+    "contactCTA": "Nous vous répondrons sous 24h",
+    "ctaDesc": "Notre équipe est à votre service pour répondre rapidement et efficacement à vos demandes commerciales."
   },
   "validation": {
     "invalid": "E-mail invalide",
@@ -96,41 +257,42 @@
   "Advantage": {
     "Title": "L’Avantage Ramadan Group",
     "Desc": "Ce qui nous distingue, ce n’est pas seulement les produits que nous livrons, mais aussi notre façon de faire des affaires. Avec une équipe de direction solide, un large réseau et un engagement envers la satisfaction des clients, nous garantissons que chaque partenariat repose sur la confiance et une croissance mutuelle.",
-     "Button": "Travaillez avec nous"
+    "Button": "Travaillez avec nous"
   },
   "ImgBanner": {
-  "Title": "Service de haute qualité",
-  "Desc": "Nous fournissons des solutions de premier ordre adaptées aux besoins de votre entreprise, avec une expertise professionnelle et une satisfaction garantie.",
-  "Button": "Commander maintenant"
-},
-"Vision": {
-  "Title": "Vision & Mission",
-  "Intro": "Chez Ramadan Group, notre vision et notre mission nous guident — en combinant intégrité, qualité et innovation pour créer des partenariats durables à travers les marchés mondiaux.",
-  "MissionTitle": "Mission",
-  "MissionPoints": [
-    "Fournir des solutions commerciales innovantes basées sur l'intégrité.",
-    "Construire des partenariats durables basés sur la confiance.",
-    "Garantir la qualité et le professionnalisme dans chaque transaction."
-  ],
-  "VisionTitle": "Vision",
-  "VisionPoints": [
-    "Être un leader mondial de confiance dans l'import & l'export.",
-    "Fournir des solutions durables qui connectent les marchés.",
-    "Stimuler la croissance grâce à la qualité, l'intégrité et l'innovation."
-  ],
-  "Button": "En savoir plus"
-},"ExprotService": {
-  "Title": "Services d’exportation",
-  "Desc": "Nous exportons avec fierté des produits agricoles frais et d’autres biens égyptiens vers les marchés internationaux. Chaque expédition est soigneusement gérée afin de garantir la fraîcheur, la qualité et la conformité aux normes internationales.",
-  "Button": "En savoir plus"
-},
-"ImportService": {
-  "Title": "Services d’importation",
-  "Desc": "En plus des exportations, nous aidons nos partenaires à importer des produits de haute qualité en Égypte, en offrant des solutions d’approvisionnement adaptées aux besoins du marché avec des prix compétitifs et une logistique efficace.",
-  "Button": "En savoir plus"
-},
-"Logistics": {
-  "Title": "Logistique & Chaîne d’Approvisionnement",
+    "Title": "Service de haute qualité",
+    "Desc": "Nous fournissons des solutions de premier ordre adaptées aux besoins de votre entreprise, avec une expertise professionnelle et une satisfaction garantie.",
+    "Button": "Commander maintenant"
+  },
+  "Vision": {
+    "Title": "Vision & Mission",
+    "Intro": "Chez Ramadan Group, notre vision et notre mission nous guident — en combinant intégrité, qualité et innovation pour créer des partenariats durables à travers les marchés mondiaux.",
+    "MissionTitle": "Mission",
+    "MissionPoints": [
+      "Fournir des solutions commerciales innovantes basées sur l'intégrité.",
+      "Construire des partenariats durables basés sur la confiance.",
+      "Garantir la qualité et le professionnalisme dans chaque transaction."
+    ],
+    "VisionTitle": "Vision",
+    "VisionPoints": [
+      "Être un leader mondial de confiance dans l'import & l'export.",
+      "Fournir des solutions durables qui connectent les marchés.",
+      "Stimuler la croissance grâce à la qualité, l'intégrité et l'innovation."
+    ],
+    "Button": "En savoir plus"
+  },
+  "ExprotService": {
+    "Title": "Services d’exportation",
+    "Desc": "Nous exportons avec fierté des produits agricoles frais et d’autres biens égyptiens vers les marchés internationaux. Chaque expédition est soigneusement gérée afin de garantir la fraîcheur, la qualité et la conformité aux normes internationales.",
+    "Button": "En savoir plus"
+  },
+  "ImportService": {
+    "Title": "Services d’importation",
+    "Desc": "En plus des exportations, nous aidons nos partenaires à importer des produits de haute qualité en Égypte, en offrant des solutions d’approvisionnement adaptées aux besoins du marché avec des prix compétitifs et une logistique efficace.",
+    "Button": "En savoir plus"
+  },
+  "Logistics": {
+    "Title": "Logistique & Chaîne d’Approvisionnement",
     "Desc": "De l’approvisionnement et l’emballage à l’expédition et au dédouanement — chaque étape est conçue pour garantir fiabilité et croissance.",
     "steps": {
       "0": {
@@ -154,28 +316,28 @@
         "desc": "Livraison à temps avec assistance post-livraison et boucle de retour."
       }
     }
-  
-},
-"QualtiyAsure": {
-  "Title": "Assurance Qualité",
+  },
+  "QualtiyAsure": {
+    "Title": "Assurance Qualité",
     "Desc": "Nous croyons que la confiance commence par la qualité. Ramadan Group applique",
     "info": "des mesures strictes de contrôle qualité",
     "high": "pour garantir que chaque produit expédié respecte les normes internationales les plus élevées.",
     "Button": "Excellence Certifiée"
-},
-"Partners": {
-"Title": "Approche Partenariale",
-"at": "Chez",
+  },
+  "Partners": {
+    "Title": "Approche Partenariale",
+    "at": "Chez",
     "info": ", nous ne travaillons pas seulement avec des clients — nous construisons",
     "Desc": ". Notre succès repose sur la collaboration, la confiance et un engagement envers une croissance partagée. À chaque poignée de main, nous promettons engagement, transparence et résultats.",
     "highRG": "Ramadan Group",
     "high": "partenariats à long terme",
     "Button": "Grandissons Ensemble"
-}, "serviceHeading": {
+  },
+  "serviceHeading": {
     "Title": "Nos Services",
     "Desc": "Chez Ramadan Group, nous sommes spécialisés dans la création de solides liens commerciaux entre l'Égypte et le reste du monde. Nos services sont conçus pour rendre les affaires internationales simples, fiables et rentables pour nos partenaires."
   },
-   "FruitsProduct": {
+  "FruitsProduct": {
     "Title": "Fruits Frais",
     "Desc": "Les fruits égyptiens sont célèbres dans le monde entier pour leur saveur riche et leur qualité. Ramadan Group approvisionne les marchés avec des variétés populaires, garantissant fraîcheur et longue durée de conservation durant l’expédition.",
     "Button": "Commander"
@@ -215,7 +377,4 @@
     "Desc": "Nous comprenons que chaque marché a des besoins différents. C’est pourquoi nous proposons des solutions d’approvisionnement personnalisées — du choix des produits aux tailles d’emballage — adaptées aux exigences spécifiques de chaque client.",
     "Button": "Commander"
   }
-
-
-
 }
