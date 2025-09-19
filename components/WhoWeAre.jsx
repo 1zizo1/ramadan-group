@@ -25,7 +25,7 @@ export default function WhoWeAre() {
           className="relative rounded-2xl overflow-hidden shadow-lg"
         >
           <CldImage
-            src="dock_workers_sample" // Replace with Cloudinary ID
+            src="Picture4_cjuewqim" // Replace with Cloudinary ID
             alt="Who We Are"
             width="1200"
             height="800"
