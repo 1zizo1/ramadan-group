@@ -1,4 +1,7 @@
-import face from "@/assets/facebook_icon.svg"
+import ice from "@/assets/ice-cube.svg"
+import leaf from "@/assets/leaf.svg"
+import carrot from "@/assets/carrot.svg"
+import furitBowl from "@/assets/fruit-bowl.svg"
 export const assets = {
   heroImg: { id: "Picture1_dnxzec", w: "6600", h: "3713" },
   ships: { id: "image55_evnhiy", w: "2294", h: "2294" },
@@ -6,14 +9,14 @@ export const assets = {
   logs: { id: "Picture4_cjuewq", w: "6600", h: "3713" },
   wave: { id: "Picture4_cjuewq", w: "6600", h: "3713" },
   container: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
-  SilderImg01: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
+  SilderImg01: { id: "top-view-arrangement-frozen-food_hwieb6", w: "6600", h: "3713" },
   SilderImg02: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
-  SilderImg03: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
-  SilderImg04: { id: "Picture5_nqovvi", w: "6600", h: "3713" },
-  SilderIcon01: { id: face, w: "6600", h: "3713" },
-  SilderIcon02: { id: face, w: "6600", h: "3713" },
-  SilderIcon03: { id: face, w: "6600", h: "3713" },
-  SilderIcon04: { id: face, w: "6600", h: "3713" },
+  SilderImg03: { id: "red-fresh-tomatoes-gathered-into-cardboaard-boxes-purchasing_fv787q", w: "6600", h: "3713" },
+  SilderImg04: { id: "top-view-tasty-sliced-fruits-with-fresh-vegetables-gray-background_d3r3up", w: "6600", h: "3713" },
+  SilderIcon01: { id: ice, w: "60", h: "60" },
+  SilderIcon02: { id: leaf, w: "60", h: "60" },
+  SilderIcon03: { id: carrot, w: "60", h: "60" },
+  SilderIcon04: { id: furitBowl, w: "60", h: "60" },
 };
 // data/pins.js
 export const pins = [

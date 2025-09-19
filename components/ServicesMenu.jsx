@@ -15,12 +15,7 @@ const services = [
       "Fast and efficient customs clearance to facilitate the import and export of your goods.",
     icon: <Package className="w-5 h-5 text-yellow-600" />,
   },
-  {
-    title: "Public cleaning services",
-    description:
-      "Professional corporate cleaning services to ensure a clean and healthy work environment.",
-    icon: <Users className="w-5 h-5 text-yellow-600" />,
-  },
+
   {
     title: "Public tenders and private",
     description:
@@ -61,12 +56,12 @@ const services = [
 
 export default function ServicesMenu() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="">
       {/* Desktop HoverCard */}
       <div className="hidden md:block z-50 ">
         <HoverCard.Root openDelay={200}>
           <HoverCard.Trigger asChild>
-           <Link href="/services" className="hover:text-yellow-500 flex items-center">
+           <Link href="/services" className="flex justify-center items-center text-gray-700 font-medium hover:text-yellow-500 transition">
             Services <ChevronDownIcon/>
           </Link>
           </HoverCard.Trigger>
@@ -82,12 +77,14 @@ export default function ServicesMenu() {
       </div>
 
       {/* Mobile Dialog */}
-      <div className="md:hidden">
+      <div className="md:hidden flex items-start">
         <Dialog.Root>
           <Dialog.Trigger asChild>
-            <button className="px-4 py-2 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600">
+            <Link
+            href="/services"
+            className="self-start text-gray-700 font-medium hover:text-yellow-500 transition">
               Services
-            </button>
+            </Link>
           </Dialog.Trigger>
           <Dialog.Portal>
             <Dialog.Overlay className="fixed inset-0 bg-black/50" />
@@ -140,9 +137,9 @@ function ServicesContent() {
           <h2 className="text-lg font-bold">
             All the Services You Need in One Place.
           </h2>
-          <button className="mt-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-4 py-2 rounded-lg">
+          <Link href="/services" className="mt-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-4 py-2 rounded-lg">
             Get Your Service
-          </button>
+          </Link>
         </div>
       </div>
     </div>

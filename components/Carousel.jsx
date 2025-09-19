@@ -89,9 +89,9 @@ export default function Carousel({ items }) {
               <span className="relative mb-2 flex h-9 w-9 items-center justify-center rounded-full bg-indigo-100">
                 <Image src={item.buttonIcon} alt={item.desc} />
               </span>
-              <span className="mb-2 block text-sm font-medium text-slate-900">
+              {/* <span className="mb-2 block text-sm font-medium text-slate-900">
                 {item.desc}
-              </span>
+              </span> */}
               <span
                 className="relative block h-1 w-full rounded-full bg-slate-200"
                 role="progressbar"

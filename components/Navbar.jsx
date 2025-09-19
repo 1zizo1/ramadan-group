@@ -1,14 +1,30 @@
 "use client";
+
 import Link from "next/link";
-// import LanguageSwitcher from './LanguageSwitcher';
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { CldImage } from "next-cloudinary";
+import { motion, AnimatePresence } from "framer-motion";
 import LocaleSwitcher from "./LocaleSwitcher";
 import ServicesMenu from "./ServicesMenu";
-import { CldImage } from "next-cloudinary";
 
 export default function Navbar() {
+  const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/products", label: "Products" },
+    { href: "/global", label: "Global" },
+    { href: "/team", label: "Team" },
+    { href: "/about", label: "About Us" },
+    { href: "/contact", label: "Contact" },
+  ];
+
   return (
-    <nav className="flex items-center sticky justify-between px-6 md:px-16 lg:px-32 py-3 border-b border-gray-300 text-gray-700 bg-white">
-      <div className="">
+    <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+      <div className="flex items-center justify-between px-6 md:px-16 lg:px-32 py-3 text-gray-700">
+        {/* Logo */}
         <CldImage
           className="cursor-pointer w-28 md:w-32"
           onClick={() => router.push("/")}
@@ -17,34 +33,68 @@ export default function Navbar() {
           height="80"
           alt="Ramadan Group Logo"
         />
-      </div>
-      <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
-        <div className="space-x-6 hidden md:flex">
-          <Link href="/" className="hover:text-yellow-500">
-            Home
-          </Link>
-          
+
+        {/* Desktop Menu */}
+        <div className="hidden md:flex space-x-8">
+          {navLinks.map((link, i) => (
+            <motion.div key={i} whileHover={{ y: -2 }} whileTap={{ scale: 0.95 }}>
+              <Link
+                href={link.href}
+                className="relative font-medium hover:text-yellow-500 transition"
+              >
+                {link.label}
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span>
+              </Link>
+            </motion.div>
+          ))}
+
+          {/* Dropdown Service Menu */}
           <ServicesMenu />
-
-          <Link href="/products" className="hover:text-yellow-500">
-            Products
-          </Link>
-          <Link href="/global" className="hover:text-yellow-500">
-            Global
-          </Link>
-          <Link href="/team" className="hover:text-yellow-500">
-            Team
-          </Link>
-          <Link href="/about" className="hover:text-yellow-500">
-            About Us
-          </Link>
-          <Link href="/contact" className="hover:text-yellow-500">
-            Contact
-          </Link>
         </div>
+
+        {/* Locale Switcher */}
+        <div className="hidden md:flex">
+          <LocaleSwitcher />
+        </div>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="md:hidden flex flex-col gap-[4px] focus:outline-none"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span className="w-6 h-[2px] bg-gray-700"></span>
+          <span className="w-6 h-[2px] bg-gray-700"></span>
+          <span className="w-6 h-[2px] bg-gray-700"></span>
+        </button>
       </div>
 
-      <LocaleSwitcher />
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="md:hidden bg-white border-t border-gray-200 shadow-inner"
+          >
+            <div className="flex flex-col px-6 py-4 space-y-4">
+              {navLinks.map((link, i) => (
+                <Link
+                  key={i}
+                  href={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="text-gray-700 font-medium hover:text-yellow-500 transition"
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <ServicesMenu />
+              <LocaleSwitcher />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 }
