@@ -8,6 +8,7 @@ import Vision from "@/components/Vision";
 import ImageBanner from "@/components/ImageBanner";
 import ValuesCard from "@/components/ValuesCard";
 import AdvantageCard from "@/components/AdvantageCard";
+import AccordionBox from "@/components/AccordionBox";
 
 export default function About() {
   const t = useTranslations("nav");
@@ -36,6 +37,7 @@ export default function About() {
       <Vision />
       <ValuesCard/>
       <AdvantageCard/>
+      <AccordionBox/>
     </section>
   )
 }

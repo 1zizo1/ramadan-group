@@ -9,6 +9,8 @@ import WhoWeAre from '@/components/WhoWeAre';
 import WhatWeDo from '@/components/WhatWeDo';
 import OurPromise from '@/components/OurPromise';
 import { ContactForm } from '@/components/ContactForm';
+import GlobalStandards from '@/components/GlobalStandards';
+import LogisticsNetwork from '@/components/LogisticsNetwork';
 
 export default function HomePage() {
   return (
@@ -21,9 +23,12 @@ export default function HomePage() {
       <Vision />
       <WhyUs />
       <Services />
+      <LogisticsNetwork />
+      <GlobalStandards />
+
       <ContactForm />
-      <AccordionBox />
-      <ProgressSliderPage />
+      {/* <AccordionBox /> */}
+      {/* <ProgressSliderPage /> */}
     </div>
   );
 }
