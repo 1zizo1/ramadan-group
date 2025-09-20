@@ -20,6 +20,7 @@ export default function Product() {
   const dates = useTranslations("DatesProduct")
   const grains = useTranslations("GrainsProduct")
   const packaging = useTranslations("Packaging")
+  const t = useTranslations("nav")
   const custom = useTranslations("CustomOrder")
   const vid = "https://res.cloudinary.com/db4f5zwsc/video/upload/v1757367829/peer_tree_z25khl.mp4"
   const grainsvid = "https://res.cloudinary.com/db4f5zwsc/video/upload/v1757460874/1471454_People_Business_1280x720_x0zfop.mp4"
@@ -35,7 +36,7 @@ export default function Product() {
         <div className=" absolute w-full p-18 m-2 flex items-center justify-center">
           <Text className="text-yellow-500 capitalize text-5xl">
             <TrueFocus
-              text="Title"
+              text={t("Products")}
               typingSpeed={75}
               pauseDuration={1500}
               showCursor={true}
