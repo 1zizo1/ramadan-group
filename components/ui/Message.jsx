@@ -1,8 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function Message() {
+  const t =useTranslations("TeamMessage")
   return (
     <section className="relative bg-gray-900 text-white py-20">
       {/* Background image (can replace with cldimg) */}
@@ -24,8 +26,7 @@ export default function Message() {
           viewport={{ once: true }}
           className="text-2xl md:text-3xl font-semibold italic leading-relaxed"
         >
-          “At Ramadan Group, we believe that trust, innovation, and global
-          partnerships are the foundation for lasting success.”
+         {t("message")}
         </motion.blockquote>
 
         <motion.p
@@ -34,7 +35,7 @@ export default function Message() {
           transition={{ delay: 0.6, duration: 1 }}
           className="mt-6 text-lg text-gray-300"
         >
-          — The Ramadan Group Team
+         {t("sender")}
         </motion.p>
       </div>
     </section>

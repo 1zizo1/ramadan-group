@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import { BriefcaseIcon } from "@heroicons/react/24/solid";
+import { useTranslations } from "next-intl";
 
 export default function BusinessInquiries() {
+  const t = useTranslations("BusinessInquiries")
   return (
     <section className="relative py-12 bg-gray-50">
       <div className="max-w-4xl mx-auto px-6">
@@ -21,11 +23,11 @@ export default function BusinessInquiries() {
 
           {/* Text */}
           <h3 className="text-2xl md:text-3xl font-bold">
-            Business Inquiries
+            {t("title")}
           </h3>
           <p className="mt-3 text-lg md:text-xl font-medium">
-            We reply to all inquiries within{" "}
-            <span className="font-extrabold">24 hours</span>.
+            {t("desc")}
+            <span className="font-extrabold">{t("high")}</span>.
           </p>
 
           {/* CTA */}
@@ -33,7 +35,7 @@ export default function BusinessInquiries() {
             href="mailto:info@ramadangroup.com"
             className="inline-block mt-6 px-6 py-3 bg-white text-yellow-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition"
           >
-            Send Inquiry
+            {t("btn")}
           </a>
         </motion.div>
       </div>

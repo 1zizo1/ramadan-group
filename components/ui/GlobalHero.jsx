@@ -3,8 +3,10 @@
 import TradeRoutes from "@/components/ui/TradeRoutes";
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function GlobalHero() {
+    const t = useTranslations("GlobalHero")
     return (
         <section className="relative h-[90vh] flex items-center justify-center  overflow-hidden">
             {/* Background World Map */}
@@ -28,7 +30,7 @@ export default function GlobalHero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7 }}
                 >
-                    Global Trade, Local Trust
+                    {t("title")}
                 </motion.h1>
 
                 <motion.p
@@ -37,17 +39,16 @@ export default function GlobalHero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                    Ramadan Group connects Egypt to the world with seamless import & export
-                    solutions, trusted logistics, and a commitment to quality.
+                 {t("desc")}  
                 </motion.p>
 
                 <motion.a
-                    href="#services"
+                    href="#why"
                     className="px-6 py-3 bg-yellow-500 text-black font-semibold rounded-lg shadow hover:bg-yellow-600 transition"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    Explore Services
+                   {t("btn")}
                 </motion.a>
             </div>
         </section>

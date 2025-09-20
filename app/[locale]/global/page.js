@@ -12,11 +12,11 @@ import dynamic from "next/dynamic";
 const ExportMap = dynamic(() => import("@/components/ExportMap"), { ssr: false });
 
 export default function Global() {
+
     return (
         <main>
             <GlobalHero />
-            <WhyEgypt />
-            <h1 className="text-3xl font-bold text-center my-8">Export Destinations</h1>
+            <WhyEgypt/>
             <ExportMap />
             <MiniCarousel />
             <LogisticsNetwork />

@@ -2,12 +2,21 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
-import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function HeroLeadership() {
+  const t = useTranslations("HeroLeadership")
   const leaders = [
-    { name: "Ahmed Abd ellaziz", role: "CTO", img: "IMG_20250919_200802_nnbllm" },
-    { name: "Atef Ramadan", role: "CEO", img: "Picsart_25-09-19_19-50-43-713_eqe1hg" },
+    {
+      name: "Ahmed Abd ellaziz",
+      role: "CTO",
+      img: "IMG_20250919_200802_nnbllm",
+    },
+    {
+      name: "Atef Ramadan",
+      role: "CEO",
+      img: "Picsart_25-09-19_19-50-43-713_eqe1hg",
+    },
 
     { name: "Salah Allam", role: "COO", img: "IMG_20250919_200848_kox1y2" },
   ];
@@ -34,7 +43,7 @@ export default function HeroLeadership() {
           transition={{ duration: 1 }}
           className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white"
         >
-          Meet Our Leadership Team
+          {t("title")}
         </motion.h1>
 
         <motion.p
@@ -43,7 +52,8 @@ export default function HeroLeadership() {
           transition={{ duration: 1, delay: 0.2 }}
           className="mt-4 text-base sm:text-lg md:text-xl text-gray-300"
         >
-          Driving Innovation, Strategy, and Growth
+          {t("desc")}
+          
         </motion.p>
 
         {/* Leaders Grid */}
@@ -71,7 +81,9 @@ export default function HeroLeadership() {
 
               {/* Text */}
               <div className="absolute bottom-6 left-0 right-0 text-center px-3">
-                <h3 className="text-white text-lg sm:text-xl font-bold">{leader.name}</h3>
+                <h3 className="text-white text-lg sm:text-xl font-bold">
+                  {leader.name}
+                </h3>
                 <p className="text-yellow-400 font-semibold text-sm sm:text-base">
                   {leader.role}
                 </p>

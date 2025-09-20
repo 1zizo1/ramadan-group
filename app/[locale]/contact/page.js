@@ -2,11 +2,7 @@
 import Cards from "@/components/Cards";
 import { useTranslations } from "next-intl";
 import { FaceIcon, ImageIcon, SunIcon } from "@radix-ui/react-icons";
-import { assets } from "@/assets/assets";
-import { Text } from "@radix-ui/themes";
-import TrueFocus from "@/components/TrueFocus";
 import { ContactForm } from "@/components/ContactForm";
-import { CldImage } from "next-cloudinary";
 import ContactHero from "@/components/ContactHero";
 import HeadOfficeInfo from "@/components/HeadOfficeInfo";
 import ContactChannels from "@/components/ContactChannels";
@@ -15,6 +11,7 @@ import CTABanner from "@/components/ui/CTABanner";
 
 export default function Contact() {
   const t = useTranslations("contactCard");
+
   const icons = [SunIcon, ImageIcon, FaceIcon, SunIcon];
   return (
     <section className="relative">
@@ -24,7 +21,7 @@ export default function Contact() {
       <BusinessInquiries />
       {/* Form */}
       <ContactForm />
-      <CTABanner />
+      <CTABanner  />
       <Cards t={t} icons={icons} />
 
     </section>

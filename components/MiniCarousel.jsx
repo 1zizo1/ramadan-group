@@ -2,30 +2,31 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 export default function MiniCarousel() {
+  const t = useTranslations("MiniCarousel")
   const partners = [
-    { name: "EU", logo: "815405b6-0c14-4ef4-9991-bc1927d5a9c0" },
-    { name: "China", logo: "815405b6-0c14-4ef4-9991-bc1927d5a9c0" },
-    { name: "USA", logo: "815405b6-0c14-4ef4-9991-bc1927d5a9c0" },
-    { name: "Saudi Arabia", logo: "815405b6-0c14-4ef4-9991-bc1927d5a9c0" },
-    { name: "India", logo: "815405b6-0c14-4ef4-9991-bc1927d5a9c0" },
-    { name: "UAE", logo: "815405b6-0c14-4ef4-9991-bc1927d5a9c0" },
-    { name: "Turkey", logo: "815405b6-0c14-4ef4-9991-bc1927d5a9c0" },
-    { name: "Brazil", logo: "815405b6-0c14-4ef4-9991-bc1927d5a9c0" },
+    { name: "EU", logo: "18166_m3wqbl" },
+    { name: "China", logo: "IMG-20250921-WA0008_rstzn0" },
+    { name: "USA", logo: "flag-Stars-and-Stripes-May-1-1795_yrac2x" },
+    { name: "Saudi Arabia", logo: "Flag_of_Saudi_Arabia.svg_qlknhd" },
+    { name: "India", logo: "Flag_of_India.svg_wtkw6w" },
+    { name: "UAE", logo: "IMG-20250921-WA0007_ayait8" },
+    { name: "Turkey", logo: "Flag_of_Turkey.svg_ktzuj6" },
+    { name: "South africa", logo: "Flag_of_South_Africa.svg_xpbvp3" },
   ];
 
   return (
-    <section className="py-12 px-6 md:px-12 lg:px-20 bg-gray-50">
+    <section className="py-12 my-6 px-6 md:px-12 lg:px-20 bg-gray-50">
       <div className="max-w-7xl mx-auto text-center">
         <h3 className="text-sm text-yellow-600 font-semibold uppercase">
-          Trade Partnerships
+          {t("name")}
         </h3>
         <h2 className="mt-2 text-2xl md:text-3xl font-bold text-gray-900">
-          Global Trade Connections
+          {t("head")}
         </h2>
         <p className="mt-2 text-gray-600">
-          Egypt partners with leading markets worldwide, strengthening
-          international trade access.
+          {t("desc")}
         </p>
 
         {/* Carousel container */}

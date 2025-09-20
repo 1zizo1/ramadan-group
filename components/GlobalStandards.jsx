@@ -2,28 +2,30 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function GlobalStandards() {
+  const t =useTranslations("GlobalStandards")
   const certificates = [
     {
       title: "ISO 9001",
       desc: "International Quality Management Standards.",
-      img: "iso_9001_certificate_example", // replace with Cloudinary public ID
+      img: "815405b6-0c14-4ef4-9991-bc1927d5a9c0", // replace with Cloudinary public ID
     },
     {
       title: "ISO 22000",
       desc: "Food Safety Management Certification.",
-      img: "iso_22000_certificate_example",
+      img: "kiwa-logo-1_pfqyrc",
     },
     {
       title: "HACCP",
       desc: "Hazard Analysis & Critical Control Points.",
-      img: "haccp_certificate_example",
+      img: "files-56f90a24-c839-4b25-ae89-2eca327d29d9_chlyd4",
     },
     {
       title: "GMP",
       desc: "Good Manufacturing Practices Compliance.",
-      img: "gmp_certificate_example",
+      img: "92d1f6ec-d9c2-42b3-8de1-a2ce84a84e25",
     },
   ];
 
@@ -39,15 +41,17 @@ export default function GlobalStandards() {
           className="text-center mb-16"
         >
           <h3 className="text-sm text-yellow-600 font-semibold uppercase tracking-widest">
-            Global Standards
+            {t("title")}
           </h3>
           <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-gray-900">
-            Certified Quality & Compliance
+            {t("head")}
           </h2>
           <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-            We strictly follow international standards to guarantee{" "}
-            <span className="font-semibold text-gray-800">quality, safety, and trust</span>{" "}
-            in every product we export.
+            {t("we")}
+            <span className="font-semibold text-gray-800">
+              {t("high")}
+              </span>
+            {t("desc")}
           </p>
         </motion.div>
 

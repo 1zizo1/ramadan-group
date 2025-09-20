@@ -5,7 +5,6 @@ import CTOCard from '@/components/CTOCard'
 import GovernanceCompliance from '@/components/GovernanceCompliance'
 import HeroLeadership from '@/components/HeroLeadership'
 import Message from '@/components/ui/Message'
-import React from 'react'
 
 export default function Team() {
   return (

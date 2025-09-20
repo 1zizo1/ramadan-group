@@ -2,10 +2,12 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function ExpansionVision() {
+  const t = useTranslations("ExpansionVision");
   const markets = [
-   { name: "Europe", x: 700, y: 180, color: "blue" },
+    { name: "Europe", x: 700, y: 180, color: "blue" },
     { name: "Asia", x: 1050, y: 330, color: "red" },
     { name: "Africa", x: 820, y: 480, color: "green" },
     { name: "North America", x: 500, y: 320, color: "orange" },
@@ -22,7 +24,7 @@ export default function ExpansionVision() {
           viewport={{ once: true }}
           className="text-sm text-yellow-600 font-semibold uppercase tracking-widest"
         >
-          Expansion Vision
+          {t("title")}
         </motion.h3>
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
@@ -31,7 +33,7 @@ export default function ExpansionVision() {
           viewport={{ once: true }}
           className="mt-3 text-3xl md:text-4xl font-extrabold text-gray-900"
         >
-          Our Future Market Growth
+          {t("head")}
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 30 }}
@@ -40,11 +42,9 @@ export default function ExpansionVision() {
           viewport={{ once: true }}
           className="mt-3 text-gray-600 max-w-2xl mx-auto"
         >
-          Ramadan Group is expanding into new territories, connecting Egypt to{" "}
-          <span className="font-semibold text-gray-800">
-            global markets
-          </span>{" "}
-          with stronger logistics and trade partnerships.
+          {t("we")}
+          <span className="font-semibold text-gray-800">{t("high")}</span>
+          {t("desc")}
         </motion.p>
       </div>
 
@@ -98,7 +98,9 @@ export default function ExpansionVision() {
           {markets.map((m, i) => (
             <motion.path
               key={`route-${i}`}
-              d={`M800,400 Q${(800 + m.x) / 2},${(400 + m.y) / 2 - 100} ${m.x},${m.y}`}
+              d={`M800,400 Q${(800 + m.x) / 2},${(400 + m.y) / 2 - 100} ${
+                m.x
+              },${m.y}`}
               stroke={m.color}
               strokeWidth="2"
               fill="transparent"

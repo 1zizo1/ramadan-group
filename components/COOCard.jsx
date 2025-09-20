@@ -7,8 +7,10 @@ import {
   GlobeAltIcon,     // 🌍 Global
   TruckIcon,        // ⚓ Logistics
 } from "@heroicons/react/24/outline";
+import { useTranslations } from "next-intl";
 
 export default function COOCard() {
+  const t = useTranslations("COOCard")
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -53,12 +55,14 @@ export default function COOCard() {
         {/* Text Content */}
         <div className="flex-1 text-white">
           <h3 className="text-2xl md:text-3xl font-bold">
-            Salah Allam – COO & Legal
+            {t("name")}
           </h3>
           <p className="mt-4 leading-relaxed">
-            As the <span className="font-semibold">Chief Operating Officer</span> and{" "}
-            <span className="font-semibold">Head of Legal Affairs</span>, Salah Allam
-            ensures seamless operations while safeguarding compliance in global trade.
+            {t("as")} <span className="font-semibold">{t("span")}</span> {t("and")}
+            <span className="font-semibold">
+              {t("span2")}
+              </span>
+
           </p>
 
           {/* Key Contributions */}
@@ -71,8 +75,7 @@ export default function COOCard() {
                 <TruckIcon className="w-6 h-6 text-white" />
               </div>
               <p>
-                <span className="font-semibold">Operational Excellence:</span> Oversees
-                port logistics, customs processes, and smooth supply chain execution.
+                <span className="font-semibold">{t("point")}</span> {t("pointdesc")}
               </p>
             </motion.li>
 
@@ -84,9 +87,8 @@ export default function COOCard() {
                 <ScaleIcon className="w-6 h-6 text-white" />
               </div>
               <p>
-                <span className="font-semibold">Legal Expertise:</span> Ensures
-                contracts, licenses, and international regulations are met with the
-                highest standards.
+                <span className="font-semibold">{t("point2")}</span> 
+                {t("pointdesc2")}
               </p>
             </motion.li>
 
@@ -98,8 +100,7 @@ export default function COOCard() {
                 <GlobeAltIcon className="w-6 h-6 text-white" />
               </div>
               <p>
-                <span className="font-semibold">Global Reach:</span> Bridges operations
-                across Egypt, the Gulf, and international trade hubs.
+                <span className="font-semibold">{t("point3")}</span> {t("pointdesc3")}
               </p>
             </motion.li>
           </ul>

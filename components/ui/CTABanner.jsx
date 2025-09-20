@@ -1,11 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
-export default function CTABanner({
-  title = "Let’s build the future of trade together.",
-  buttonText = "Send Inquiry",
-}) {
+export default function CTABanner() {
+    const t = useTranslations("CTABannerContact")
+
   return (
     <section className="relative w-full bg-gradient-to-r from-yellow-500 to-yellow-600 py-12 md:py-16">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-6">
@@ -17,7 +17,7 @@ export default function CTABanner({
           transition={{ duration: 0.8 }}
           className="text-2xl md:text-4xl font-extrabold text-white"
         >
-          {title}
+          {t("title")}
         </motion.h2>
 
         {/* Button */}
@@ -27,7 +27,7 @@ export default function CTABanner({
           whileTap={{ scale: 0.95 }}
           className="px-6 py-3 bg-white text-yellow-700 font-semibold rounded-lg shadow-md hover:bg-gray-100 transition"
         >
-          {buttonText}
+          {t("buttonText")}
         </motion.a>
       </div>
     </section>

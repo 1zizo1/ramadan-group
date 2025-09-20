@@ -185,18 +185,186 @@
     }
   },
   "ContactHero": {
-  "name": "Ramadan Group",
-  "title": "Prenez contact avec",
-  "desc": "Connecter les entreprises dans le monde entier grâce à des solutions fiables d'importation et d'exportation.",
-  "btn": "Contactez-nous",
-  "btn2": "Envoyez-nous un email"
-}
-,
-"HeadOfficeInfo": {
-  "title": "Sièges principaux",
-  "desc": "Notre présence mondiale garantit des opérations fluides dans toutes les régions."
-}
-,
+    "name": "Ramadan Group",
+    "title": "Prenez contact avec",
+    "desc": "Connecter les entreprises dans le monde entier grâce à des solutions fiables d'importation et d'exportation.",
+    "btn": "Contactez-nous",
+    "btn2": "Envoyez-nous un email"
+  },
+  "HeadOfficeInfo": {
+    "title": "Sièges principaux",
+    "desc": "Notre présence mondiale garantit des opérations fluides dans toutes les régions."
+  },
+  "Channels": {
+    "title": "Canaux de contact",
+    "desc": "Plusieurs façons de contacter notre équipe.",
+    "contactChannels": {
+      "0": {
+        "title": "Envoyez-nous un email",
+        "description": "Contactez notre équipe support et commerciale par email.",
+        "icon": "EnvelopeIcon",
+        "link": "mailto:info@ramadangroup.com",
+        "action": "Envoyer un email"
+      },
+      "1": {
+        "title": "Appelez-nous",
+        "description": "Parlez directement avec notre équipe pour une assistance rapide.",
+        "icon": "PhoneIcon",
+        "link": "tel:+201116946096",
+        "action": "Appeler maintenant"
+      },
+      "2": {
+        "title": "Formulaire de contact",
+        "description": "Soumettez votre demande et nous vous répondrons rapidement.",
+        "icon": "ChatBubbleLeftRightIcon",
+        "link": "#contact-form",
+        "action": "Ouvrir le formulaire"
+      }
+    }
+  },
+  "BusinessInquiries": {
+    "title": "Demandes commerciales",
+    "desc": "Nous répondons à toutes les demandes dans les",
+    "high": "24h",
+    "btn": "Envoyer une demande"
+  },
+  "CTABannerContact": {
+    "title": "Construisons ensemble l’avenir du commerce.",
+    "buttonText": "Envoyer une demande"
+  },
+  "HeroLeadership": {
+    "title": "Rencontrez notre équipe de direction",
+    "desc": "Stimuler l’innovation, la stratégie et la croissance"
+  },
+  "CEOSpotlight": {
+    "title": "Portrait du PDG",
+    "name": "Atef Ramadan – Leader visionnaire du Ramadan Group",
+    "desc1": "Avec des décennies d'expérience en",
+    "highlight1": "commerce",
+    "desc2": ", et",
+    "logistics": "logistique,",
+    "highlight2": " Atef Ramadan a guidé le Ramadan Group pour devenir un partenaire mondial fiable dans l'import et l'export. Son leadership met l'accent sur",
+    "highlight3": "l'innovation",
+    "desc3": ",",
+    "highlight4": "la fiabilité",
+    "desc4": ", et",
+    "highlight5": "la croissance durable",
+    "desc5": "sur les marchés internationaux.",
+    "btn": "En savoir plus"
+  },
+  "CEOCard": {
+    "name": "Atef Ramadan – Histoire & Réalisations",
+    "desc0": "Atef Ramadan, PDG de",
+    "highdecs": "Ramadan Group,",
+    "decs": "a joué un rôle déterminant dans l'expansion de l'entreprise à travers l'Europe et le Golfe. Son leadership stratégique rapproche les cultures et les marchés, renforçant la position de l'Égypte dans le commerce international.",
+    "highspan": "Pologne :",
+    "span": "Établissement de partenariats solides en Europe de l'Est, ouvrant des canaux commerciaux pour des produits très demandés.",
+    "span2": "Royaume-Uni :",
+    "highspan2": "Expansion des opérations avec une expertise fiable en logistique et en conformité, construisant une présence solide sur le marché britannique.",
+    "highspan3": "Région du Golfe :",
+    "span3": "Développement de réseaux d'import/export en Arabie Saoudite, aux Émirats Arabes Unis et au Qatar, assurant un flux régulier de biens et services."
+  },
+  "CTOCard": {
+    "name": "Ahmed Abdelaziz – Directeur Technique",
+    "at": "En tant que",
+    "of": "de",
+    "span": "Directeur Technique",
+    "span2": "Ramadan Group",
+    "desc": ", Ahmed Abdelaziz stimule l’innovation en développant des plateformes numériques évolutives et en créant des solutions pionnières qui transforment la logistique du commerce mondial.",
+    "members": {
+      "0": {
+        "title": "Infrastructure numérique",
+        "desc": "A dirigé la création de systèmes sécurisés, cloud-native, qui simplifient les opérations d’import/export internationales."
+      },
+      "1": {
+        "title": "Innovations technologiques",
+        "desc": "A introduit le contrôle qualité basé sur l’IA, l’optimisation des routes et la documentation automatisée pour la conformité commerciale."
+      },
+      "2": {
+        "title": "Leadership",
+        "desc": "Encadre les équipes d’ingénierie et favorise une culture d’innovation et de collaboration transfrontalière."
+      }
+    }
+  },
+  "COOCard": {
+    "name": "Salah Allam – Directeur des Opérations et Juridique",
+    "as": "En tant que",
+    "span": "Directeur des Opérations",
+    "and": "et",
+    "span2": "Responsable des Affaires Juridiques",
+    "desc": ", Salah Allam garantit des opérations fluides tout en assurant la conformité dans le commerce mondial.",
+    "point": "Excellence opérationnelle :",
+    "pointdesc": "Supervise la logistique portuaire, les processus douaniers et l’exécution fluide de la chaîne d’approvisionnement.",
+    "point2": "Expertise juridique :",
+    "pointdesc2": "S’assure que les contrats, licences et réglementations internationales respectent les normes les plus élevées.",
+    "point3": "Portée mondiale :",
+    "pointdesc3": "Relie les opérations entre l’Égypte, le Golfe et les grands centres du commerce international."
+  },
+  "GovernanceCompliance": {
+    "title": "Gouvernance & Conformité",
+    "members": {
+      "0": {
+        "title": "Gestion des risques",
+        "description": "Surveillance proactive et stratégies d’atténuation pour protéger les opérations commerciales et la stabilité financière."
+      },
+      "1": {
+        "title": "Contrats & Juridique",
+        "description": "Supervision complète des contrats, des licences et de la conformité réglementaire sur les marchés mondiaux."
+      },
+      "2": {
+        "title": "Assurance qualité",
+        "description": "Respect des normes internationales, certifications et processus d’inspection pour garantir l’excellence."
+      }
+    }
+  },
+  "TeamMessage": {
+    "message": "« Chez Ramadan Group, nous croyons que la confiance, l’innovation et les partenariats mondiaux sont la base d’un succès durable. »",
+    "sender": "— L’équipe de Ramadan Group"
+  },
+  "GlobalHero": {
+    "title": "Commerce mondial, confiance locale",
+    "desc": "Ramadan Group relie l’Égypte au monde grâce à des solutions d’import & export fluides, une logistique fiable et un engagement envers la qualité.",
+    "btn": "Explorer les services"
+  },
+  "WhyEgypt": {
+    "title": "Pourquoi l’Égypte ?",
+    "desc": "Un hub stratégique pour le commerce mondial",
+    "info": "L’Égypte relie l’Afrique, l’Europe et l’Asie — offrant un accès rapide aux marchés internationaux grâce au canal de Suez, à des ports modernes et à une solide infrastructure logistique.",
+    "point": "Accès direct au canal de Suez — la voie maritime la plus rapide entre l’Asie et l’Europe.",
+    "point2": "Ports bien connectés et plateformes logistiques modernes.",
+    "point3": "Large portée du marché à travers l’Afrique, le Moyen-Orient et l’Europe.",
+    "btn": "Contacter notre équipe commerciale"
+  },
+  "ExportMap": {
+    "error": "Aucune destination d’exportation disponible",
+    "header": "Destinations d’exportation"
+  },
+  "MiniCarousel": {
+    "name": "Partenariats commerciaux",
+    "head": "Connexions commerciales mondiales",
+    "desc": "L’Égypte collabore avec les principaux marchés mondiaux, renforçant ainsi l’accès au commerce international."
+  },
+  "LogisticsNetwork": {
+    "title": "Réseau logistique",
+    "head": "Transport mondial connecté",
+    "we": "Nous connectons les routes",
+    "high": "maritimes, terrestres et aériennes",
+    "desc": "pour garantir une livraison rapide, fiable et efficace dans le monde entier."
+  },
+  "GlobalStandards": {
+    "title": "Normes mondiales",
+    "head": "Qualité & conformité certifiées",
+    "we": "Nous respectons strictement les normes internationales pour garantir",
+    "high": "la qualité, la sécurité et la confiance",
+    "desc": "dans chaque produit que nous exportons."
+  },
+  "ExpansionVision": {
+    "title": "Vision d’expansion",
+    "head": "Notre croissance future sur les marchés",
+    "we": "Ramadan Group s’étend vers de nouveaux territoires, reliant l’Égypte aux",
+    "high": "marchés mondiaux",
+    "desc": "avec une logistique renforcée et des partenariats commerciaux solides."
+  },
   "contactCard": {
     "Title": "Contactez-nous",
     "Subtitle": "Contactez-nous de la manière qui vous convient",

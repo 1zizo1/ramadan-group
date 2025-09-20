@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function CEOSpotlight() {
+  const t = useTranslations("CEOSpotlight");
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-yellow-50 via-white to-yellow-50">
       {/* Background overlay */}
@@ -44,18 +46,18 @@ export default function CEOSpotlight() {
           className="max-w-xl"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 drop-shadow-sm">
-            CEO Spotlight
+            {t("title")}
           </h2>
           <p className="mt-2 text-xl text-yellow-600 font-semibold">
-            Atef Ramadan – Visionary Leader of Ramadan Group
+            {t("name")}
           </p>
           <p className="mt-6 text-gray-700 leading-relaxed">
-            With decades of experience in <span className="font-semibold">trade</span> 
-            and <span className="font-semibold">logistics</span>, Atef Ramadan has guided 
-            Ramadan Group towards becoming a trusted global import and export partner. 
-            His leadership emphasizes <span className="font-semibold">innovation</span>, 
-            <span className="font-semibold">reliability</span>, and 
-            <span className="font-semibold"> sustainable growth</span> in international markets.
+            {t("desc1")}
+            <span className="font-semibold"> {t("highlight1")}</span>
+            {t("desc2")} <span className="font-semibold">{t("logistics")}</span> {t("highlight2")}
+            <span className="font-semibold">{t("highlight3")}</span>,
+            <span className="font-semibold">{t("highlight4")}</span>{t("desc4")}
+            <span className="font-semibold"> {t("highlight5")}</span> {t("desc5")}
           </p>
 
           <motion.button
@@ -63,7 +65,7 @@ export default function CEOSpotlight() {
             whileTap={{ scale: 0.95 }}
             className="mt-8 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition"
           >
-            Learn More
+            {t("btn")}
           </motion.button>
         </motion.div>
       </div>

@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function CEOCard() {
+  const t = useTranslations("CEOCard");
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -14,7 +16,7 @@ export default function CEOCard() {
       {/* Header Section */}
       <div className="relative h-48 bg-gradient-to-r from-yellow-400 to-yellow-600 flex items-center justify-center">
         <h3 className="text-2xl md:text-3xl font-bold text-white text-center px-4">
-          Atef Ramadan – Story & Achievements
+          {t("name")}
         </h3>
       </div>
 
@@ -36,11 +38,8 @@ export default function CEOCard() {
         {/* Text Content */}
         <div className="flex-1">
           <p className="text-gray-700 leading-relaxed">
-            Atef Ramadan, CEO of <span className="font-semibold">Ramadan Group</span>,
-            has played a pivotal role in expanding the company’s footprint across
-            Europe and the Gulf. His strategic leadership bridges cultural and
-            commercial divides, strengthening Egypt’s position in international
-            trade.
+            {t("desc0")}
+            <span className="font-semibold">{t("highdecs")}</span>{t("decs")}
           </p>
 
           {/* Achievements List */}
@@ -50,9 +49,7 @@ export default function CEOCard() {
                 ✓
               </span>
               <p>
-                <span className="font-semibold">Poland:</span> Established strong
-                partnerships in Eastern Europe, opening trade channels for
-                high-demand commodities.
+                <span className="font-semibold">{t("highspan")}</span> {t("span")}
               </p>
             </li>
 
@@ -61,9 +58,7 @@ export default function CEOCard() {
                 ✓
               </span>
               <p>
-                <span className="font-semibold">United Kingdom:</span> Expanded
-                operations with trusted logistics and compliance expertise,
-                building a reliable presence in the UK market.
+                <span className="font-semibold">{t("span2")}</span> {t("highspan2")}
               </p>
             </li>
 
@@ -72,9 +67,7 @@ export default function CEOCard() {
                 ✓
               </span>
               <p>
-                <span className="font-semibold">Gulf Region:</span> Developed
-                import/export networks in Saudi Arabia, UAE, and Qatar, ensuring
-                a steady pipeline of goods and services.
+                <span className="font-semibold">{t("highspan3")}</span>{t("span3")}
               </p>
             </li>
           </ul>

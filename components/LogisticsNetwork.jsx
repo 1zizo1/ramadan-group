@@ -2,22 +2,24 @@
 
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 export default function LogisticsNetwork() {
+  const t =useTranslations("LogisticsNetwork")
   const logistics = [
     {
       title: "Shipping",
-      img: "shipping_container_ship_example", // replace with your Cloudinary public ID
+      img: "IMG-20250919-WA0054_ritnej", // replace with your Cloudinary public ID
       delay: 0,
     },
     {
       title: "Trucking",
-      img: "trucking_logistics_example",
+      img: "IMG-20250921-WA0010_rx8o3i",
       delay: 0.2,
     },
     {
       title: "Air Freight",
-      img: "airfreight_plane_example",
+      img: "place-flying-sunset-sky_jqjnrx",
       delay: 0.4,
     },
   ];
@@ -34,15 +36,17 @@ export default function LogisticsNetwork() {
           className="text-center mb-12"
         >
           <h3 className="text-sm text-yellow-600 font-semibold uppercase tracking-widest">
-            Logistics Network
+            {t("title")}
           </h3>
           <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-gray-900">
-            Connected Global Transportation
+            {t("head")}
           </h2>
           <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-            We connect{" "}
-            <span className="font-semibold text-gray-800">sea, land, and air</span>{" "}
-            routes to ensure fast, reliable, and efficient delivery worldwide.
+           {t("we")}
+            <span className="font-semibold text-gray-800">
+              {t("high")}
+              </span>
+            {t("desc")}
           </p>
         </motion.div>
 

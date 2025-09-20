@@ -2,10 +2,10 @@
 
 import { useEffect, useMemo } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
-import { motion } from "framer-motion";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import {pins} from "@/assets/assets"; // your data
+import { pins } from "@/assets/assets"; // your data
+import { useTranslations } from "next-intl";
 
 // Fix Leaflet's default icon issue
 delete L.Icon.Default.prototype._getIconUrl;
@@ -28,17 +28,21 @@ function FitBounds({ pins = [] }) {
 
 export default function ExportMap({ center = [26.8206, 30.8025], zoom = 3 }) {
   const memoPins = useMemo(() => pins || [], []);
-
+const t = useTranslations("ExportMap")
   if (!Array.isArray(memoPins) || memoPins.length === 0) {
     return (
       <div className="w-full text-center py-10">
-        <p className="text-gray-500">No export destinations available</p>
+        <p className="text-gray-500">{t("error")}</p>
       </div>
     );
   }
 
   return (
-    <section className="max-w-3/4 mx-auto h-[70vh]">
+    <section className="max-w-3/4 mx-auto h-[70vh] my-4">
+      <h1 className="text-3xl font-bold text-center my-8">
+        {t("header")}
+      </h1>
+
       <div className="mapwrap rounded-xl shadow-lg overflow-hidden h-full">
         <MapContainer
           center={center}
@@ -67,4 +71,3 @@ export default function ExportMap({ center = [26.8206, 30.8025], zoom = 3 }) {
     </section>
   );
 }
-    

@@ -195,6 +195,43 @@
     "title": "Head Offices",
     "desc": "Our global presence ensures seamless operations across regions."
   },
+  "Channels": {
+    "title": " Contact Channels",
+    "desc": "Multiple ways to connect with our team.",
+    "contactChannels": {
+      "0": {
+        "title": "Email Us",
+        "description": "Reach out to our support and business team via email.",
+        "icon": "EnvelopeIcon",
+        "link": "mailto:info@ramadangroup.com",
+        "action": "Send Email"
+      },
+      "1": {
+        "title": "Call Us",
+        "description": "Speak directly with our team for quick assistance.",
+        "icon": "PhoneIcon",
+        "link": "tel:+201116946096",
+        "action": "Call Now"
+      },
+      "2": {
+        "title": "Contact Form",
+        "description": "Submit your request and we’ll get back to you promptly.",
+        "icon": "ChatBubbleLeftRightIcon",
+        "link": "#contact-form",
+        "action": "Open Form"
+      }
+    }
+  },
+  "BusinessInquiries": {
+    "title": "Business Inquiries",
+    "desc": "We reply to all inquiries within",
+    "high": "24 hours",
+    "btn": "Send Inquiry"
+  },
+  "CTABannerContact": {
+    "title": "Let’s build the future of trade together.",
+    "buttonText": "Send Inquiry"
+  },
   "contactCard": {
     "Title": "Contact Us",
     "Subtitle": "Contact us in any way suits you",
@@ -234,6 +271,139 @@
     "invalid": "Email invalid",
     "required": "Name required",
     "min": "Message required to be at least 10 characters"
+  },
+  "HeroLeadership": {
+    "title": "Meet Our Leadership Team",
+    "desc": "Driving Innovation, Strategy, and Growth"
+  },
+  "CEOSpotlight": {
+    "title": "CEO Spotlight",
+    "name": "Atef Ramadan – Visionary Leader of Ramadan Group",
+    "desc1": "With decades of experience in",
+    "highlight1": "trade",
+    "desc2": ", and",
+    "logistics": "logistics,",
+    "highlight2": " Atef Ramadan has guided Ramadan Group towards becoming a trusted global import and export partner. His leadership emphasizes",
+    "highlight3": "innovation",
+    "desc3": ",",
+    "highlight4": "reliability",
+    "desc4": ", and",
+    "highlight5": "sustainable growth",
+    "desc5": "in international markets.",
+    "btn": "learn more"
+  },
+  "CEOCard": {
+    "name": "Atef Ramadan – Story & Achievements",
+    "desc0": "Atef Ramadan, CEO of",
+    "decs": "has played a pivotal role in expanding the company’s footprint across Europe and the Gulf. His strategic leadership bridges cultural and commercial divides, strengthening Egypt’s position in international trade.",
+    "highdecs": "Ramadan Group,",
+    "span": "Established strong partnerships in Eastern Europe, opening trade channels for high-demand commodities.",
+    "highspan": "Poland:",
+    "span2": "United Kingdom:",
+    "highspan2": "Expanded operations with trusted logistics and compliance expertise, building a reliable presence in the UK market.",
+    "span3": "Developed import/export networks in Saudi Arabia, UAE, and Qatar, ensuring a steady pipeline of goods and services.",
+    "highspan3": "Gulf Region:"
+  },
+  "CTOCard": {
+    "name": " Ahmed Abdelaziz – CTO Spotlight",
+    "at": "As the",
+    "of": "of",
+    "span": "Chief Technology Officer",
+    "span2": "Ramadan Group",
+    "desc": ", Ahmed Abdelaziz drives innovation by building scalable digital platforms and pioneering solutions that transform global trade logistics.",
+    "members": {
+      "0": {
+        "title": "Digital Infrastructure",
+        "desc": "Led the creation of secure, cloud-native systems that streamline international import/export operations."
+      },
+      "1": {
+        "title": "Tech Innovations",
+        "desc": "Introduced AI-driven quality control, route optimization, and automated documentation systems for trade compliance."
+      },
+      "2": {
+        "title": "Leadership",
+        "desc": "Mentors engineering teams, fostering a culture of innovation and cross-border collaboration."
+      }
+    }
+  },
+  "COOCard": {
+    "name": "Salah Allam – COO & Legal",
+    "as": " As the",
+    "span": "Chief Operating Officer",
+    "and": "and",
+    "span2": "Head of Legal Affairs",
+    "desc": ", Salah Allam ensures seamless operations while safeguarding compliance in global trade.",
+    "point": "Operational Excellence:",
+    "pointdesc": "Oversees port logistics, customs processes, and smooth supply chain execution.",
+    "point2": "Legal Expertise:",
+    "pointdesc2": "Ensures contracts, licenses, and international regulations are met with the highest standards.",
+    "point3": "Global Reach:",
+    "pointdesc3": "Bridges operations across Egypt, the Gulf, and international trade hubs."
+  },
+  "GovernanceCompliance": {
+    "title": " Governance & Compliance",
+    "members": {
+      "0": {
+        "title": "Risk Management",
+        "description": "Proactive monitoring and mitigation strategies to safeguard trade operations and financial stability."
+      },
+      "1": {
+        "title": "Contracts & Legal",
+        "description": "Comprehensive oversight of contracts, licensing, and regulatory compliance across global markets."
+      },
+      "2": {
+        "title": "Quality Assurance",
+        "description": "Adherence to international standards, certifications, and inspection processes to ensure excellence."
+      }
+    }
+  },
+  "TeamMessage": {
+    "message": " “At Ramadan Group, we believe that trust, innovation, and global partnerships are the foundation for lasting success.”",
+    "sender": " — The Ramadan Group Team"
+  },
+  "GlobalHero": {
+    "title": "Global Trade, Local Trust",
+    "desc": " Ramadan Group connects Egypt to the world with seamless import & export solutions, trusted logistics, and a commitment to quality.",
+    "btn": " Explore Services"
+  },
+  "WhyEgypt": {
+    "title": "Why Egypt?",
+    "desc": " A Strategic Hub for Global Trade",
+    "info": "Egypt connects Africa, Europe, and Asia — offering rapid access to international markets via the Suez Canal, modern ports, and strong logistics infrastructure.",
+    "point": "Direct Suez Canal access — fastest shipping lanes between Asia and Europe.",
+    "point2": "Well-connected ports and modern logistics hubs.",
+    "point3": "Large market reach across Africa, Middle East, and Europe.",
+    "btn": " Contact Our Trade Team"
+  },
+  "ExportMap": {
+    "error": "No export destinations available",
+    "header": " Export Destinations"
+  },
+  "MiniCarousel": {
+    "name": "Trade Partnerships",
+    "head": "Global Trade Connections",
+    "desc": "Egypt partners with leading markets worldwide, strengthening international trade access."
+  },
+  "LogisticsNetwork": {
+    "title": "Logistics Network",
+    "head": "Connected Global Transportation",
+    "we": " We connect",
+    "high": "sea, land, and air",
+    "desc": "routes to ensure fast, reliable, and efficient delivery worldwide."
+  },
+  "GlobalStandards": {
+    "title": " Global Standards",
+    "head": "Certified Quality & Compliance",
+    "we": " We strictly follow international standards to guarantee",
+    "high": "quality, safety, and trust",
+    "desc": "in every product we export."
+  },
+  "ExpansionVision": {
+    "title": " Expansion Vision",
+    "head": "Our Future Market Growth",
+    "we": "  Ramadan Group is expanding into new territories, connecting Egypt to",
+    "high": "global markets",
+    "desc": " with stronger logistics and trade partnerships."
   },
   "values": {
     "Title": "Our values",
