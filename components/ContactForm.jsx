@@ -17,10 +17,13 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
 import { CldImage } from "next-cloudinary";
+import { useState } from "react";
 
 export function ContactForm() {
   const t = useTranslations("contactForm");
   const validationMessages = useTranslations("validation");
+
+  const [status, setStatus] = useState("");
 
   const form = useForm({
     resolver: zodResolver(getContactFormSchema(validationMessages)),
@@ -31,28 +34,45 @@ export function ContactForm() {
     },
   });
 
-  function onSubmit(data) {
-    console.log("Form submitted:", data);
+  async function onSubmit(data) {
+    setStatus("Sending...");
+
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      const result = await res.json();
+
+      if (result.success) {
+        setStatus("✅ Message sent successfully!");
+        form.reset();
+      } else {
+        setStatus("❌ Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setStatus("⚠️ Server error. Try later.");
+    }
   }
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-12 bg-gray-50" id="contact-form">
+    <section
+      className="min-h-screen flex items-center justify-center px-4 py-12 bg-gray-50"
+      id="contact-form"
+    >
       <div className="grid w-full max-w-6xl grid-cols-1 md:grid-cols-3 rounded-xl shadow-xl overflow-hidden bg-white">
-        
         {/* Left side: Form */}
         <div className="p-10 md:col-span-2">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-2">
             {t("submit")}
           </h2>
-          <p className="text-gray-500 mb-8">
-            {t("desc")}
-          </p>
+          <p className="text-gray-500 mb-8">{t("desc")}</p>
 
           <Form {...form}>
-            <form
-              onSubmit={form.handleSubmit(onSubmit)}
-              className="space-y-6"
-            >
+            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
               <FormField
                 control={form.control}
                 name="name"
@@ -116,6 +136,8 @@ export function ContactForm() {
               </Button>
             </form>
           </Form>
+
+          {status && <p className="mt-4 text-sm text-gray-600">{status}</p>}
         </div>
 
         {/* Right side: Image + CTA */}
@@ -132,7 +154,8 @@ export function ContactForm() {
               {t("contactCTA") ?? "We’ll reply within 24h"}
             </h3>
             <p className="text-sm text-gray-200 max-w-xs">
-              {t("ctaDesc") ?? "Our team is here to support your trade inquiries with speed and reliability."}
+              {t("ctaDesc") ??
+                "Our team is here to support your trade inquiries with speed and reliability."}
             </p>
           </div>
         </div>

@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
+import { useTranslations } from "next-intl";
 
 const vegetables = [
   {
@@ -19,15 +20,17 @@ const vegetables = [
   { id: 6, name: "Dates", img: "85_bczduo" },
 ];
 
-export default function FreshGrid(t) {
+export default function FreshGrid() {
+    const t = useTranslations("FreshGrid")
+
   return (
     <section className="py-16 px-6 md:px-12 bg-gradient-to-b from-white to-green-50">
       <div className="max-w-7xl mx-auto text-center mb-10">
         <h2 className="text-2xl md:text-3xl font-bold text-yellow-500">
-          Our Main Products
+         {t("title")}
         </h2>
         <p className="mt-2 text-gray-600 text-sm md:text-base">
-          Hand-picked from trusted farms, delivered with care.
+         {t("desc")}
         </p>
       </div>
 

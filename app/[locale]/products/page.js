@@ -50,7 +50,7 @@ export default function Product() {
           className="-z-10 relative h-[50vh] object-cover" alt="About ramadan group" />
       </div>
 
-      <FreshGrid />
+      <FreshGrid  />
       <AdvantageSection t={veges} img={vegeimg} />
       <AdvantageVideo t={fruits} img={vid} />
       <AdvantageSection t={frozen} img={frozenImg} />

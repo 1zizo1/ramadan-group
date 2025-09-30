@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Wave from "@/components/ui/wave";
-import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
 
 const Footer = () => {

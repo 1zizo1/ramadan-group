@@ -549,5 +549,9 @@
     "Title": "Commandes Personnalisées",
     "Desc": "Nous comprenons que chaque marché a des besoins différents. C’est pourquoi nous proposons des solutions d’approvisionnement personnalisées — du choix des produits aux tailles d’emballage — adaptées aux exigences spécifiques de chaque client.",
     "Button": "Commander"
+  },
+  "FreshGrid": {
+    "title": "Nos principaux produits",
+    "desc": "Sélectionnés à la main dans des fermes de confiance, livrés avec soin."
   }
 }

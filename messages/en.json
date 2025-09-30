@@ -522,11 +522,15 @@
   },
   "GrainsProduct": {
     "Title": "Grains & Legumes",
-    "Desc": "Our product portfolio also includes grains and legumes, staples for many global cuisines. We provide well-packaged and quality-tested goods that meet international import requirements."
+    "Desc": "Our product portfolio also includes grains and legumes, staples for many global cuisines. We provide well-packaged and quality-tested goods that meet international import requirements.",
+    "Button": " Order Now"
+
   },
   "DatesProduct": {
     "Title": "Premium Dates",
-    "Desc": "Egypt is one of the world’s leading producers of dates, known for their natural sweetness and superior quality. Ramadan Group exports premium date varieties that are carefully selected, processed, and packaged to preserve their rich taste and nutritional value."
+    "Desc": "Egypt is one of the world’s leading producers of dates, known for their natural sweetness and superior quality. Ramadan Group exports premium date varieties that are carefully selected, processed, and packaged to preserve their rich taste and nutritional value.",
+    "Button": " Order Now"
+
   },
   "LightsProduct": {
     "Title": "LED Lights & Fixtures",
@@ -547,5 +551,9 @@
     "Title": "Custom Orders",
     "Desc": "We understand that every market has different needs. That’s why we provide customized sourcing solutions — from product selection to packaging sizes — tailored to meet specific client requirements.",
     "Button": " Order Now"
+  },
+  "FreshGrid":{
+    "title":" Our Main Products",
+    "desc":"Hand-picked from trusted farms, delivered with care."
   }
 }

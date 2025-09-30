@@ -25,10 +25,7 @@ export default function HomePage() {
       <Services />
       <LogisticsNetwork />
       <GlobalStandards />
-
       <ContactForm />
-      {/* <AccordionBox /> */}
-      {/* <ProgressSliderPage /> */}
     </div>
   );
 }
