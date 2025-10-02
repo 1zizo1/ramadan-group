@@ -12,16 +12,16 @@ const t = useTranslations("HeadOfficeInfo")
       flag: "27140_bsuwip", // Cloudinary public ID
       address: "Cairo, Egypt",
       details: "123 Nile Street, Downtown, Cairo",
-      phone: "+20 123 456 7890",
-      email: "egypt@ramadangroup.com",
+      phone: "+20 111 6946 096",
+      email: "contact@ramadan-group.com",
     },
     {
       country: "England",
       flag: "18166_m3wqbl", // Cloudinary public ID
-      address: "London, UK",
-      details: "45 Thames Avenue, Canary Wharf, London",
-      phone: "+44 20 7946 0123",
-      email: "uk@ramadangroup.com",
+      address: "mu, UK",
+      details: "Canary Wharf, London",
+      phone: "+44 7448 124553",
+      email: "info@ramadan-group.com",
     },
   ];
 

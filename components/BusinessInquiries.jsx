@@ -32,7 +32,7 @@ export default function BusinessInquiries() {
 
           {/* CTA */}
           <a
-            href="mailto:info@ramadangroup.com"
+            href="mailto:contact@ramadan-group.com"
             className="inline-block mt-6 px-6 py-3 bg-white text-yellow-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition"
           >
             {t("btn")}

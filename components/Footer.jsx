@@ -51,8 +51,9 @@ const Footer = () => {
         <div className="w-full md:w-1/4">
           <h2 className="font-semibold text-gray-900 mb-4">Get in Touch</h2>
           <div className="text-sm space-y-2 text-gray-600">
-            <p>📞 +1-234-567-890</p>
-            <p>✉️ contact@ramadangroup.com</p>
+            <p>📞 +20-111-6946-096</p>
+            <p>✉️ contact@ramadan-group.com</p>
+            <p>✉️ info@ramadan-group.com</p>
           </div>
         </div>
       </div>
