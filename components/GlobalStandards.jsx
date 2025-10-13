@@ -40,7 +40,7 @@ export default function GlobalStandards() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h3 className="text-sm text-yellow-600 font-semibold uppercase tracking-widest">
+          <h3 className="text-sm text-blue-700 font-semibold uppercase tracking-widest">
             {t("title")}
           </h3>
           <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-gray-900">
@@ -68,7 +68,7 @@ export default function GlobalStandards() {
             >
               {/* Certificate Image */}
               <motion.div
-                className="w-24 h-24 mb-4 flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-50 to-yellow-100"
+                className="w-24 h-24 mb-4 flex items-center justify-center rounded-full bg-gradient-to-tr from-blue-50 to-blue-100"
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 200 }}
               >
@@ -89,7 +89,7 @@ export default function GlobalStandards() {
               <p className="text-sm text-gray-600">{item.desc}</p>
 
               {/* Glow animation */}
-              <span className="absolute inset-0 rounded-xl border-2 border-transparent group-hover:border-yellow-400 transition-all duration-500"></span>
+              <span className="absolute inset-0 rounded-xl border-2 border-transparent group-hover:border-blue-400 transition-all duration-500"></span>
             </motion.div>
           ))}
         </div>

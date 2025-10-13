@@ -45,7 +45,7 @@ export default function LogisticsFlow({
                   transition={{ duration: 0.6, delay: i * 0.2 }}
                 >
                   {/* circle */}
-                  <div className="bg-yellow-500 w-12 h-16 rounded-full flex items-center justify-center shadow-lg ring-8 ring-yellow-100 z-20">
+                  <div className="bg-blue-700 w-12 h-16 rounded-full flex items-center justify-center shadow-lg ring-8 ring-blue-100 z-20">
                     {Icon ? (
                       <Icon className="w-6 h-6 text-white" />
                     ) : (
@@ -84,7 +84,7 @@ export default function LogisticsFlow({
                   transition={{ duration: 0.6, delay: i * 0.2 }}
                 >
                   {/* dot */}
-                  <span className="absolute left-0 top-1 bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center ring-4 ring-yellow-100">
+                  <span className="absolute left-0 top-1 bg-blue-700 w-8 h-8 rounded-full flex items-center justify-center ring-4 ring-blue-100">
                     {Icon ? (
                       <Icon className="w-4 h-4 text-white" />
                     ) : (

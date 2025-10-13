@@ -24,7 +24,7 @@ export default function Cards({ t, icons = [] }) {
     <section className="max-w-6xl mx-auto px-4 py-16">
       {/* Header */}
       <div className="text-center mb-12">
-        <p className="text-yellow-500 text-sm font-semibold tracking-wide uppercase">
+        <p className="text-blue-700 text-sm font-semibold tracking-wide uppercase">
           {t("Title")}
         </p>
         <h1 className="text-2xl md:text-4xl font-extrabold mt-2 text-gray-900">
@@ -53,8 +53,8 @@ export default function Cards({ t, icons = [] }) {
                   className="h-full p-8 text-center"
                 >
                   {/* Icon */}
-                  <div className="rounded-full p-4 bg-yellow-500/20 flex justify-center items-center transition-transform duration-300 group-hover:scale-105">
-                    {Icon && <Icon className="w-7 h-7 text-yellow-600" />}
+                  <div className="rounded-full p-4 bg-blue-700/20 flex justify-center items-center transition-transform duration-300 group-hover:scale-105">
+                    {Icon && <Icon className="w-7 h-7 text-blue-700" />}
                   </div>
 
                   {/* Text */}

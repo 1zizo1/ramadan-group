@@ -12,7 +12,7 @@ export default function ValuesCard() {
   const icons = [CheckIcon, CheckCircledIcon, GlobeIcon, PersonIcon];
   return (
     <section className="py-16 px-6 max-w-7xl mx-auto">
-        <p className="text-yellow-500 my-2">{t("Title")}</p>
+        <p className="text-blue-700 my-2">{t("Title")}</p>
       <h1 className="capitalize mb-6">{t("Subtitle")}</h1>
 
       <ValuesGrid t={t} icons={icons} />

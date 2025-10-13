@@ -5,10 +5,10 @@ import { CldImage } from "next-cloudinary";
 export default function AdvantageSection({t , img}) {
 
     return (
-    <section className="relative py-20 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-yellow-50 via-white to-gray-50 overflow-hidden">
+    <section className="relative py-20 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-blue-50 via-white to-gray-50 overflow-hidden">
       {/* Decorative background element */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-100 rounded-full blur-3xl opacity-40 -z-10" />
-      <div className="absolute bottom-0 right-0 w-72 h-72 bg-yellow-200 rounded-full blur-3xl opacity-30 -z-10" />
+      <div className="absolute top-0 left-0 w-72 h-72 bg-blue-100 rounded-full blur-3xl opacity-40 -z-10" />
+      <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-200 rounded-full blur-3xl opacity-30 -z-10" />
 
       <div className="max-w-6xl mx-auto text-center md:text-left">
         {/* Title */}
@@ -17,7 +17,7 @@ export default function AdvantageSection({t , img}) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6"
+          className="text-3xl md:text-4xl font-extrabold text-blue-700 mb-6"
         >
          {t("Title")}
         </motion.h2>
@@ -40,7 +40,7 @@ export default function AdvantageSection({t , img}) {
               href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
-              className="inline-block mt-4 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-lg shadow-md transition"
+              className="inline-block mt-4 px-6 py-3 bg-blue-900 hover:bg-blue-800 text-white font-semibold rounded-lg shadow-md transition"
             >
               {t("Button")}
             </motion.a>

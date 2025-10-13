@@ -19,7 +19,7 @@ export default function MiniCarousel() {
   return (
     <section className="py-12 my-6 px-6 md:px-12 lg:px-20 bg-gray-50">
       <div className="max-w-7xl mx-auto text-center">
-        <h3 className="text-sm text-yellow-600 font-semibold uppercase">
+        <h3 className="text-sm text-blue-700 font-semibold uppercase">
           {t("name")}
         </h3>
         <h2 className="mt-2 text-2xl md:text-3xl font-bold text-gray-900">

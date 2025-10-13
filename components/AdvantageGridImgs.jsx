@@ -5,10 +5,10 @@ import { CldImage } from "next-cloudinary";
 
 export default function AdvantageGridImgs({ t, images }) {
   return (
-    <section className="relative py-20 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-yellow-50 via-white to-gray-50 overflow-hidden">
+    <section className="relative py-20 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-blue-50 via-white to-gray-50 overflow-hidden">
       {/* Decorative blobs */}
-      <div className="absolute top-0 left-0 w-68 h-68 bg-yellow-100 rounded-full blur-3xl opacity-40 -z-10" />
-      <div className="absolute bottom-0 right-0 w-72 h-72 bg-yellow-200 rounded-full blur-3xl opacity-30 -z-10" />
+      <div className="absolute top-0 left-0 w-68 h-68 bg-blue-100 rounded-full blur-3xl opacity-40 -z-10" />
+      <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-200 rounded-full blur-3xl opacity-30 -z-10" />
 
       <div className="max-w-4xl mx-auto text-center md:text-left">
         {/* Title */}
@@ -40,7 +40,7 @@ export default function AdvantageGridImgs({ t, images }) {
               href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
-              className="inline-block mt-4 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-lg shadow-md transition"
+              className="inline-block mt-4 px-6 py-3 bg-blue-700 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition"
             >
               {t("Button")}
             </motion.a>

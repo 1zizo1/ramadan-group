@@ -35,7 +35,7 @@ const t = useTranslations("OurPromise")
 
         <motion.a
           href="/contact"
-          className="mt-8 inline-block px-6 py-3 bg-yellow-500 text-black font-semibold rounded-lg shadow hover:bg-yellow-600 transition"
+          className="mt-8 inline-block px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >

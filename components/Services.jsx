@@ -14,7 +14,7 @@ export default function Services() {
     <section className="py-20 max-w-7xl mx-auto px-6">
       {/* Section Header */}
       <div className="text-center mb-14">
-        <p className="text-amber-500 uppercase tracking-wide text-sm font-semibold">
+        <p className="text-blue-500 uppercase tracking-wide text-sm font-semibold">
           {t("title")}
 
         </p>
@@ -73,7 +73,7 @@ export default function Services() {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="inline-flex items-center gap-2 px-6 py-3 bg-yellow-500 text-black font-semibold rounded-lg shadow hover:bg-yellow-600 transition"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
         >
           <BackpackIcon />
           {t("btn")}
@@ -82,7 +82,7 @@ export default function Services() {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="inline-flex items-center gap-2 px-6 py-3 bg-yellow-500 text-black font-semibold rounded-lg shadow hover:bg-yellow-600 transition"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
         >
           <PaperPlaneIcon />
           {t("btn2")}

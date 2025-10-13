@@ -40,7 +40,7 @@ export function ServiceCardOverlay({ title, image, className }) {
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          className="mt-5 bg-yellow-500 text-black px-5 py-2 rounded-lg font-semibold shadow-md hover:bg-yellow-400 transition"
+          className="mt-5 bg-blue-700 text-white px-5 py-2 rounded-lg font-semibold shadow-md hover:bg-blue-400 transition"
         >
           Order Now
         </motion.button>

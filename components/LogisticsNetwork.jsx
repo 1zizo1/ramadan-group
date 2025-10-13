@@ -35,7 +35,7 @@ export default function LogisticsNetwork() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h3 className="text-sm text-yellow-600 font-semibold uppercase tracking-widest">
+          <h3 className="text-sm text-blue-700 font-semibold uppercase tracking-widest">
             {t("title")}
           </h3>
           <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-gray-900">

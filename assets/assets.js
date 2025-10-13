@@ -55,6 +55,55 @@ export const pins = [
   },
   // add more pins...
 ];
+export const products = [
+  {
+    slug: "crops",
+    image: "top-view-arrangement-frozen-food_hwieb6",
+    image2: "top-view-arrangement-frozen-food_hwieb6",
+    image3: "top-view-arrangement-frozen-food_hwieb6",
+    image4: "2150170250_d0bdvx",
+    video: "https://res.cloudinary.com/db4f5zwsc/video/upload/v1757460874/1471454_People_Business_1280x720_x0zfop.mp4",
+  },
+  {
+    slug: "decoration", image: "2149400859_wq4yam",
+    image2: "top-view-arrangement-frozen-food_hwieb6",
+    image3: "top-view-arrangement-frozen-food_hwieb6",
+    image4: "2150170250_d0bdvx",
+    video: "https://res.cloudinary.com/db4f5zwsc/video/upload/v1757460874/1471454_People_Business_1280x720_x0zfop.mp4",
+  },
+
+  {
+    slug: "carpets", image: "dbe79f27-59d9-4adb-af04-9ea210f2c303_fvmeig",
+    image2: "top-view-arrangement-frozen-food_hwieb6",
+    image3: "top-view-arrangement-frozen-food_hwieb6",
+    image4: "2150170250_d0bdvx",
+    video: "https://res.cloudinary.com/db4f5zwsc/video/upload/v1757460874/1471454_People_Business_1280x720_x0zfop.mp4",
+  },
+
+  {
+    slug: "marble_grenite",
+    image2: "FB_IMG_1760103558641_ip7qwm",
+    image3: "FB_IMG_1760103556018_syro0h",
+    image4: "FB_IMG_1760103553574_ifkc9r",
+    image: "IMG_20251010_164000_zpufgs"
+  },
+
+  {
+    slug: "clothes",
+    image2: "2150478984_sv5fdl",
+    image3: "2150828629_bczrv3",
+    image4: "2149448791_rbb6wl",
+    image: "2149901815_idmtv3"
+  },
+
+  {
+    slug: "boxs_packages", image: "2149198165_f9hxfx",
+    image2: "top-view-arrangement-frozen-food_hwieb6",
+    image3: "top-view-arrangement-frozen-food_hwieb6",
+    image4: "2150170250_d0bdvx",
+    video: "https://res.cloudinary.com/db4f5zwsc/video/upload/v1757460874/1471454_People_Business_1280x720_x0zfop.mp4",
+  }
+];
 
 
 

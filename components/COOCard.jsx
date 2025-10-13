@@ -71,7 +71,7 @@ export default function COOCard() {
               whileHover={{ scale: 1.05 }}
               className="flex items-start gap-3"
             >
-              <div className="w-10 h-8 flex items-center justify-center rounded-full bg-yellow-600">
+              <div className="w-10 h-8 flex items-center justify-center rounded-full bg-blue-700">
                 <TruckIcon className="w-6 h-6 text-white" />
               </div>
               <p>
@@ -83,7 +83,7 @@ export default function COOCard() {
               whileHover={{ scale: 1.05 }}
               className="flex items-start gap-3"
             >
-              <div className="w-10 h-8 flex items-center justify-center rounded-full bg-yellow-600">
+              <div className="w-10 h-8 flex items-center justify-center rounded-full bg-blue-700">
                 <ScaleIcon className="w-6 h-6 text-white" />
               </div>
               <p>
@@ -96,7 +96,7 @@ export default function COOCard() {
               whileHover={{ scale: 1.05 }}
               className="flex items-start gap-3"
             >
-              <div className="w-8 h-8 flex items-center justify-center rounded-full bg-yellow-600">
+              <div className="w-8 h-8 flex items-center justify-center rounded-full bg-blue-700">
                 <GlobeAltIcon className="w-6 h-6 text-white" />
               </div>
               <p>

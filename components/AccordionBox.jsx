@@ -51,7 +51,7 @@ export default function AccordionBox() {
     <>
       <section className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-slate-50">
         <div className="mx-auto w-full max-w-2xl px-4 py-24 md:px-6">
-          <h2 className="text-2xl font-bold mb-10 text-amber-400">{t("title")}</h2>
+          <h2 className="text-2xl font-bold mb-10 text-blue-400">{t("title")}</h2>
           <div className="divide-y divide-slate-200">
             {bullets.map((faq, index) => (
               <Accordion

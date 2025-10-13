@@ -1,192 +1,193 @@
 {
-  "nav": {
-    "home": "Accueil",
-    "Products": "Produits",
-    "Global": "Mondial",
-    "Team": "Équipe",
-    "About": "À propos",
-    "contact": "Contact"
+ "nav": {
+    "home": " Accueil ",
+    "Products": " Produits ",
+    "Global": " Mondial ",
+    "Team": " Équipe ",
+    "About": " À propos ",
+    "contact": " Contact "
   },
   "NavService": {
-    "services": "Services",
-    "OurServices": "Nos Services",
-    "solgn": "Tous les services dont vous avez besoin en un seul endroit.",
-    "btn": "Obtenez votre service",
+    "services": " Services ",
+    "OurServices": " Nos Services ",
+    "solgn": " Tous les services dont vous avez besoin en un seul endroit. ",
+    "btn": " Obtenez votre service ",
     "members": {
       "0": {
-        "title": "Dédouanement",
-        "description": "Un dédouanement rapide et efficace pour faciliter l'importation et l'exportation de vos marchandises."
+        "title": " Dédouanement ",
+        "description": " Un dédouanement rapide et efficace pour faciliter l'importation et l'exportation de vos marchandises. "
       },
       "1": {
-        "title": "Appels d’offres publics et privés",
-        "description": "Gérer et exécuter efficacement les appels d’offres publics et privés pour garantir les meilleures offres et résultats."
+        "title": " Appels d’offres publics et privés ",
+        "description": " Gérer et exécuter efficacement les appels d’offres publics et privés pour garantir les meilleures offres et résultats. "
       },
       "2": {
-        "title": "Importation et exportation",
-        "description": "Importer et exporter afin de faciliter les transactions commerciales efficacement et aux meilleurs prix."
+        "title": " Importation et exportation ",
+        "description": " Importer et exporter afin de faciliter les transactions commerciales efficacement et aux meilleurs prix. "
       },
       "3": {
-        "title": "Commerce général et distribution",
-        "description": "Développez votre activité efficacement et fournissez vos produits aux meilleurs prix."
+        "title": " Commerce général et distribution ",
+        "description": " Développez votre activité efficacement et fournissez vos produits aux meilleurs prix. "
       },
       "4": {
-        "title": "Services aux entreprises",
-        "description": "Des services personnalisés pour soutenir la croissance, atteindre vos objectifs et vous développer."
+        "title": " Services aux entreprises ",
+        "description": " Des services personnalisés pour soutenir la croissance, atteindre vos objectifs et vous développer. "
       },
       "5": {
-        "title": "Agences commerciales",
-        "description": "Obtenez des droits d’agence pour vous développer sur les marchés locaux et internationaux."
+        "title": " Agences commerciales ",
+        "description": " Obtenez des droits d’agence pour vous développer sur les marchés locaux et internationaux. "
       }
     }
   },
   "hero": {
-    "name": "Ramadan Group",
-    "slogan": "Apporter le monde jusqu’à votre porte",
-    "title": " Votre meilleur partenaire pour la croissance de votre entreprise en Égypte et au-delà.",
-    "subtitle": "Nous offrons une gamme complète de services et des solutions innovantes pour développer votre entreprise et faciliter la réussite de votre société.",
-    "button": "Commencer",
-    "button2": "En savoir plus"
+    "name": " Ramadan Group ",
+    "slogan": " Apporter le monde jusqu’à votre porte ",
+    "title": " Votre meilleur partenaire pour la croissance de votre entreprise en Égypte et au-delà. ",
+    "subtitle": " Nous offrons une gamme complète de services et des solutions innovantes pour développer votre entreprise et faciliter la réussite de votre société. ",
+    "button": " Commencer ",
+    "button2": " En savoir plus "
   },
   "WhoWeAre": {
-    "title": "Qui Nous Sommes",
-    "At": "Chez",
-    "high": "Ramadan Group",
-    "desc": "nous sommes bien plus qu’une société d’import-export — nous sommes un partenaire de confiance dans le commerce mondial. Forts de plusieurs décennies d’expertise, nous connectons les entreprises à travers",
-    "low": "l’Égypte, le Golfe et l’Europe",
-    "restDesc": " en offrant l’excellence en logistique, conformité et croissance des marchés.",
-    "0": "Opérations commerciales fiables et transparentes",
-    "1": "Réseau mondial avec expertise locale",
-    "2": "Engagement envers la conformité et la qualité"
+    "title": " Qui Nous Sommes ",
+    "At": " Chez ",
+    "high": " Ramadan Group ",
+    "desc": " nous sommes bien plus qu’une société d’import-export — nous sommes un partenaire de confiance dans le commerce mondial. Forts de plusieurs décennies d’expertise, nous connectons les entreprises à travers ",
+    "low": " l’Égypte, le Golfe et l’Europe ",
+    "restDesc": " en offrant l’excellence en logistique, conformité et croissance des marchés. ",
+    "0": " Opérations commerciales fiables et transparentes ",
+    "1": " Réseau mondial avec expertise locale ",
+    "2": " Engagement envers la conformité et la qualité "
   },
   "WhatWeDo": {
-    "Title": "Ce que nous faisons",
-    "desc": "Simplifier le commerce mondial grâce à des solutions fiables, transparentes et de classe mondiale.",
+    "Title": " Ce que nous faisons ",
+    "desc": " Simplifier le commerce mondial grâce à des solutions fiables, transparentes et de classe mondiale. ",
     "services": {
       "0": {
-        "title": "Import & Export",
-        "description": "Des routes commerciales fluides reliant l’Égypte aux marchés mondiaux."
+        "title": " Import & Export ",
+        "description": " Des routes commerciales fluides reliant l’Égypte aux marchés mondiaux. "
       },
       "1": {
-        "title": "Logistique",
-        "description": "Des solutions de transport efficaces et fiables par terre, mer et air."
+        "title": " Logistique ",
+        "description": " Des solutions de transport efficaces et fiables par terre, mer et air. "
       },
       "2": {
-        "title": "Assurance qualité",
-        "description": "Conformité stricte et vérification pour respecter les normes mondiales."
+        "title": " Assurance qualité ",
+        "description": " Conformité stricte et vérification pour respecter les normes mondiales. "
       },
       "3": {
-        "title": "Partenariats",
-        "description": "Construire des collaborations durables avec des partenaires internationaux de confiance."
+        "title": " Partenariats ",
+        "description": " Construire des collaborations durables avec des partenaires internationaux de confiance. "
       }
     }
   },
   "OurPromise": {
-    "title": "Notre Promesse",
-    "desc": "Chez Ramadan Group, nous nous engageons à la confiance, à la qualité et aux partenariats à long terme. Chaque expédition, chaque transaction, chaque voyage — livré avec intégrité.",
-    "btn": "Contactez-nous"
+    "title": " Notre Promesse ",
+    "desc": " Chez Ramadan Group, nous nous engageons à la confiance, à la qualité et aux partenariats à long terme. Chaque expédition, chaque transaction, chaque voyage — livré avec intégrité. ",
+    "btn": " Contactez-nous "
   },
   "faqs": {
-    "title": "FAQ",
+    "title": " FAQ ",
     "members": {
       "0": {
-        "title": "Quels types de produits importez-vous et exportez-vous ?",
-        "text": "Nous gérons une large gamme de produits, y compris les matières premières, les biens de consommation et les équipements industriels. Chaque expédition est soigneusement gérée pour garantir une livraison sécurisée.",
+        "title": " Quels types de produits importez-vous et exportez-vous ? ",
+        "text": " Nous gérons une large gamme de produits, y compris les matières premières, les biens de consommation et les équipements industriels. Chaque expédition est soigneusement gérée pour garantir une livraison sécurisée. ",
         "active": false
       },
       "1": {
-        "title": "Offrez-vous des services de dédouanement et de documentation ?",
-        "text": "Oui, nous gérons toutes les procédures de dédouanement, la documentation d'import/export et les exigences de conformité pour garantir des expéditions fluides et sans tracas.",
+        "title": " Offrez-vous des services de dédouanement et de documentation ? ",
+        "text": " Oui, nous gérons toutes les procédures de dédouanement, la documentation d'import/export et les exigences de conformité pour garantir des expéditions fluides et sans tracas. ",
         "active": false
       },
       "2": {
-        "title": "Dans quelles régions ou pays opérez-vous ?",
-        "text": "Ramadan Group opère à l'échelle mondiale, connectant l'Égypte avec les marchés en Afrique, Europe, Asie et Amériques pour un commerce international fluide.",
+        "title": " Dans quelles régions ou pays opérez-vous ? ",
+        "text": " Ramadan Group opère à l'échelle mondiale, connectant l'Égypte avec les marchés en Afrique, Europe, Asie et Amériques pour un commerce international fluide. ",
         "active": false
       },
       "3": {
-        "title": "Comment garantissez-vous la sécurité et la qualité des expéditions ?",
-        "text": "Nous suivons des procédures strictes de contrôle qualité, des inspections régulières et ne collaborons qu'avec des transporteurs fiables pour garantir la sécurité et l'intégrité de chaque expédition.",
+        "title": " Comment garantissez-vous la sécurité et la qualité des expéditions ? ",
+        "text": " Nous suivons des procédures strictes de contrôle qualité, des inspections régulières et ne collaborons qu'avec des transporteurs fiables pour garantir la sécurité et l'intégrité de chaque expédition. ",
         "active": true
       },
       "4": {
-        "title": "Pouvez-vous gérer des expéditions à grande échelle ou en vrac ?",
-        "text": "Absolument. Notre réseau logistique et notre expérience nous permettent de gérer efficacement et à moindre coût les petites et grandes expéditions.",
+        "title": " Pouvez-vous gérer des expéditions à grande échelle ou en vrac ? ",
+        "text": " Absolument. Notre réseau logistique et notre expérience nous permettent de gérer efficacement et à moindre coût les petites et grandes expéditions. ",
         "active": false
       },
       "5": {
-        "title": "Fournissez-vous un suivi des expéditions ?",
-        "text": "Oui, nous proposons un suivi en temps réel et des mises à jour de statut, afin que vous sachiez toujours où se trouvent vos marchandises pendant le transport.",
+        "title": " Fournissez-vous un suivi des expéditions ? ",
+        "text": " Oui, nous proposons un suivi en temps réel et des mises à jour de statut, afin que vous sachiez toujours où se trouvent vos marchandises pendant le transport. ",
         "active": false
       },
       "6": {
-        "title": "Comment puis-je obtenir un devis pour mon envoi ?",
-        "text": "Il vous suffit de contacter notre équipe avec les détails de votre envoi, et nous vous fournirons un devis personnalisé adapté à vos besoins.",
+        "title": " Comment puis-je obtenir un devis pour mon envoi ? ",
+        "text": " Il vous suffit de contacter notre équipe avec les détails de votre envoi, et nous vous fournirons un devis personnalisé adapté à vos besoins. ",
         "active": false
       }
     }
   },
   "homeService": {
-    "title": "Ce que nous proposons",
-    "desc": "Des solutions de bout en bout qui simplifient et renforcent le commerce mondial pour nos partenaires.",
-    "high": "Nos services principaux",
+    "title": " Ce que nous proposons ",
+    "desc": " Des solutions de bout en bout qui simplifient et renforcent le commerce mondial pour nos partenaires. ",
+    "high": " Nos services principaux ",
     "services": {
       "0": {
-        "title": "Solutions d'importation",
-        "desc": "Sourcing fiable et livraison dans le monde entier.",
-        "image": "port-1845350_1280_bhqrou",
-        "imgW": "6600",
-        "imgH": "3713"
+        "title": " Solutions d'importation ",
+        "desc": " Sourcing fiable et livraison dans le monde entier. ",
+        "image": " port-1845350_1280_bhqrou ",
+        "imgW": " 6600 ",
+        "imgH": " 3713 "
       },
       "1": {
-        "title": "Services d'exportation",
-        "desc": "Développez votre entreprise sur les marchés mondiaux.",
-        "image": "Picture4_cjuewq",
-        "imgW": "6600",
-        "imgH": "3713"
+        "title": " Services d'exportation ",
+        "desc": " Développez votre entreprise sur les marchés mondiaux. ",
+        "image": " Picture4_cjuewq ",
+        "imgW": " 6600 ",
+        "imgH": " 3713 "
       },
       "2": {
-        "title": "Logistique",
-        "desc": "Expédition fluide et dédouanement.",
-        "image": "image55_evnhiy",
-        "imgW": "6600",
-        "imgH": "3713"
+        "title": " Logistique ",
+        "desc": " Expédition fluide et dédouanement. ",
+        "image": " image55_evnhiy ",
+        "imgW": " 6600 ",
+        "imgH": " 3713 "
       },
       "3": {
-        "title": "Contrôle de qualité",
-        "desc": "Assurer les standards pour chaque expédition.",
-        "image": "IMG-20250919-WA0052_zfo3om",
-        "imgW": "6600",
-        "imgH": "3713"
+        "title": " Contrôle de qualité ",
+        "desc": " Assurer les standards pour chaque expédition. ",
+        "image": " IMG-20250919-WA0052_zfo3om ",
+        "imgW": " 6600 ",
+        "imgH": " 3713 "
       }
     },
-    "btn": "Découvrez plus de services",
-    "btn2": "Commencez votre voyage"
+    "btn": " Découvrez plus de services ",
+    "btn2": " Commencez votre voyage "
   },
   "serviceCard": {
-    "Title": "Pourquoi nous choisir ?",
-    "Subtitle": "Ce qui nous distingue",
+    "Title": " Pourquoi nous choisir ? ",
+    "Subtitle": " Ce qui nous distingue ",
     "members": {
       "0": {
-        "title": "Expertise sur les marchés égyptien et mondial",
-        "data": "Avec des années d’expérience sur les marchés égyptien et mondial, nous offrons des solutions adaptées aux besoins des entreprises dans divers secteurs."
+        "title": " Expertise sur les marchés égyptien et mondial ",
+        "data": " Avec des années d’expérience sur les marchés égyptien et mondial, nous offrons des solutions adaptées aux besoins des entreprises dans divers secteurs. "
       },
       "1": {
-        "title": "Des solutions personnalisées pour chaque client",
-        "data": "Nous croyons que chaque client a des besoins uniques, c’est pourquoi nous proposons des solutions sur mesure pour garantir des résultats optimaux."
+        "title": " Des solutions personnalisées pour chaque client ",
+        "data": " Nous croyons que chaque client a des besoins uniques, c’est pourquoi nous proposons des solutions sur mesure pour garantir des résultats optimaux. "
       },
       "2": {
-        "title": "Un soutien continu et des prix compétitifs",
-        "data": "Nous nous efforçons d’offrir des prix compétitifs tout en assurant un accompagnement continu pour le confort et le succès de nos clients."
+        "title": " Un soutien continu et des prix compétitifs ",
+        "data": " Nous nous efforçons d’offrir des prix compétitifs tout en assurant un accompagnement continu pour le confort et le succès de nos clients. "
       },
       "3": {
-        "title": "Rapidité et efficacité dans l’exécution des services",
-        "data": "Nous nous engageons à fournir nos services avec le plus haut niveau d’efficacité et de rapidité, sans compromettre la qualité ni la précision."
+        "title": " Rapidité et efficacité dans l’exécution des services ",
+        "data": " Nous nous engageons à fournir nos services avec le plus haut niveau d’efficacité et de rapidité, sans compromettre la qualité ni la précision. "
       }
     }
   },
   "ContactHero": {
     "name": "Ramadan Group",
     "title": "Prenez contact avec",
+    "img": "image55_evnhiy",
     "desc": "Connecter les entreprises dans le monde entier grâce à des solutions fiables d'importation et d'exportation.",
     "btn": "Contactez-nous",
     "btn2": "Envoyez-nous un email"
@@ -386,8 +387,8 @@
       },
       "3": {
         "title": "E-mail",
-        "data": "info@ramadangroup.com",
-        "subData": "sales@ramadangroup.com"
+        "data": "info@ramadan-group.com",
+        "subData": "sales@ramadan-group.com"
       }
     }
   },
@@ -551,7 +552,73 @@
     "Button": "Commander"
   },
   "FreshGrid": {
-    "title": "Nos principaux produits",
-    "desc": "Sélectionnés à la main dans des fermes de confiance, livrés avec soin."
+    "title": " Nos principaux produits ",
+    "desc": " Sélectionnés à la main dans des fermes de confiance, livrés avec soin. "
+  },
+
+  "mainProducts": {
+    "title": " Nos Produits Égyptiens ",
+    "btn": " En savoir plus ",
+    "crops": {
+      "name": " Produits Agricoles ",
+      "short": " Des récoltes égyptiennes de qualité supérieure issues de fermes locales certifiées. ",
+      "description": " Grâce à des partenariats solides avec des fermes égyptiennes certifiées, Ramadan Group fournit les meilleures cultures — oignons, pommes de terre, légumineuses, herbes et céréales. Chaque expédition respecte les normes internationales d’exportation et est préparée avec soin pour les marchés mondiaux. ",
+      "item": {
+        "Title": " Céréales & Légumineuses ",
+        "Desc": " Notre gamme comprend des céréales et des légumineuses, essentielles dans de nombreuses cuisines du monde. Nous offrons des produits testés et emballés selon les normes d’importation internationales. ",
+        "Button": " Commander maintenant "
+      }
+    },
+    "decoration": {
+      "name": " Décoration ",
+      "short": " Matériaux et accessoires de décoration modernes fabriqués en Égypte. ",
+      "description": " Ramadan Group collabore avec les principales usines égyptiennes de décoration et d’ameublement pour offrir des matériaux élégants, durables et économiques. Des murs aux finitions artistiques, nous garantissons la beauté et la qualité du savoir-faire égyptien. ",
+      "item": {
+        "Title": " Finitions & Intérieurs ",
+        "Desc": " Nous fournissons des matériaux décoratifs — peintures, panneaux, papiers peints et moulures — conçus pour ajouter style et solidité, tous produits localement selon les standards d’exportation. ",
+        "Button": " Commander maintenant "
+      }
+    },
+    "carpets": {
+      "name": " Tapis ",
+      "short": " Tapis égyptiens authentiques tissés avec savoir-faire et élégance. ",
+      "description": " Nos tapis égyptiens combinent les techniques de tissage traditionnelles et la précision industrielle moderne. Ramadan Group propose une vaste gamme de tapis et moquettes alliant patrimoine textile et durabilité. ",
+      "item": {
+        "Title": " Tapis faits main et industriels ",
+        "Desc": " Du style oriental classique aux designs modernes, Ramadan Group exporte des tapis égyptiens de haute qualité, adaptés aux marchés internationaux. ",
+        "Button": " Commander maintenant "
+      }
+    },
+    "marble_grenite": {
+      "name": " Marbre & Granit ",
+      "short": " Marbre et granit égyptiens de qualité supérieure pour projets internationaux. ",
+      "description": " Nous exportons du marbre et du granit égyptiens provenant des meilleures carrières du pays. Ramadan Group garantit des prix compétitifs et des finitions haut de gamme pour les projets de construction et de décoration de luxe. ",
+      "item": {
+        "Title": " Pierres Naturelles de Luxe ",
+        "Desc": " Nos collections incluent des marbres et granits égyptiens polis selon des dimensions internationales — parfaits pour sols, murs et projets architecturaux haut de gamme. ",
+        "Button": " Commander maintenant "
+      }
+    },
+    "clothes": {
+      "name": " Vêtements ",
+      "short": " Vêtements égyptiens de haute qualité confectionnés avec précision. ",
+      "description": " L’industrie textile égyptienne est l’une des plus anciennes et des plus reconnues de la région. En partenariat avec de grands fabricants, Ramadan Group fournit des vêtements modernes et prêts à l’exportation, fabriqués avec du coton égyptien de première qualité. ",
+      "item": {
+        "Title": " Vêtements en Coton Égyptien ",
+        "Desc": " Nous exportons chemises, pantalons, uniformes et vêtements de mode fabriqués avec le meilleur coton égyptien, assurant confort et durabilité. ",
+        "Button": " Commander maintenant "
+      }
+    },
+    "boxs_packages": {
+      "name": " Boîtes & Emballages ",
+      "short": " Solutions d’emballage solides et écologiques pour la logistique mondiale. ",
+      "description": " Ramadan Group collabore avec les meilleures usines égyptiennes pour produire des boîtes durables, esthétiques et respectueuses de l’environnement, assurant la sécurité et la présentation parfaite de vos produits. ",
+      "item": {
+        "Title": " Emballages Industriels & Commerciaux ",
+        "Desc": " Notre gamme comprend des boîtes en carton ondulé, des emballages imprimés personnalisés et des solutions écologiques idéales pour l’exportation. ",
+        "Button": " Commander maintenant "
+      }
+    }
   }
 }
+

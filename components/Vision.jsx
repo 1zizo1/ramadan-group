@@ -21,7 +21,7 @@ export default function Vision() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="text-3xl md:text-4xl font-bold mb-12 text-center text-amber-500"
+        className="text-3xl md:text-4xl font-bold mb-12 text-center text-blue-500"
       >
         {t("Title")}
       </motion.h2>
@@ -49,7 +49,7 @@ export default function Vision() {
           className="p-6 w-full bg-gray-100 rounded-2xl hover:scale-105 shadow-md transition-all duration-400"
         >
           <Flex direction="column">
-            <h3 className="font-bold mb-4 text-xl text-amber-500">
+            <h3 className="font-bold mb-4 text-xl text-blue-500">
               {t("MissionTitle")}
             </h3>
             <ul className="space-y-4">
@@ -61,7 +61,7 @@ export default function Vision() {
             </ul>
             <Link
               href="/about"
-              className="mt-6 bg-yellow-500 text-black px-5 py-2 rounded-md font-medium self-start hover:bg-yellow-400 transition"
+              className="mt-6 bg-blue-700 text-white px-5 py-2 rounded-md font-medium self-start hover:bg-blue-400 transition"
             >
               {t("Button")}
             </Link>
@@ -78,7 +78,7 @@ export default function Vision() {
           className="p-6 w-full bg-gray-100 rounded-2xl hover:scale-105 shadow-md transition-all duration-400"
         >
           <Flex direction="column">
-            <h3 className="font-bold mb-4 text-xl text-amber-500">
+            <h3 className="font-bold mb-4 text-xl text-blue-500">
               {t("VisionTitle")}
               
             </h3>
@@ -92,7 +92,7 @@ export default function Vision() {
 
             <Link
               href="/about"
-              className="mt-6 bg-yellow-500 text-black px-5 py-2 rounded-md font-medium self-start hover:bg-yellow-400 transition"
+              className="mt-6 bg-blue-700 text-white px-5 py-2 rounded-md font-medium self-start hover:bg-blue-400 transition"
             >
               {t("Button")}
             </Link>

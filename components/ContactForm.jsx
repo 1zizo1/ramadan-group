@@ -83,7 +83,7 @@ export function ContactForm() {
                       <Input
                         placeholder="Your name"
                         {...field}
-                        className="focus:ring-2 focus:ring-yellow-500 transition"
+                        className="focus:ring-2 focus:ring-blue-700 transition"
                       />
                     </FormControl>
                     <FormMessage />
@@ -102,7 +102,7 @@ export function ContactForm() {
                         placeholder="your.email@example.com"
                         type="email"
                         {...field}
-                        className="focus:ring-2 focus:ring-yellow-500 transition"
+                        className="focus:ring-2 focus:ring-blue-700 transition"
                       />
                     </FormControl>
                     <FormMessage />
@@ -119,7 +119,7 @@ export function ContactForm() {
                     <FormControl>
                       <Textarea
                         placeholder="Type your message here..."
-                        className="resize-none focus:ring-2 focus:ring-yellow-500 transition"
+                        className="resize-none focus:ring-2 focus:ring-blue-700 transition"
                         {...field}
                       />
                     </FormControl>
@@ -130,7 +130,7 @@ export function ContactForm() {
 
               <Button
                 type="submit"
-                className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold shadow-md"
+                className="w-full bg-blue-700 hover:bg-blue-700 text-white font-semibold shadow-md"
               >
                 {t("submit")}
               </Button>

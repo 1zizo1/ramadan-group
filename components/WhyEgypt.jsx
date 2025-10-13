@@ -44,7 +44,7 @@ export default function WhyEgypt() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="space-y-6"
         >
-          <h3 className="text-sm text-yellow-600 font-semibold">{t("title")}</h3>
+          <h3 className="text-sm text-blue-700 font-semibold">{t("title")}</h3>
 
           <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900">
            {t("desc")}
@@ -73,7 +73,7 @@ export default function WhyEgypt() {
           {/* Highlights */}
           <ul className="mt-4 space-y-2">
             <li className="flex items-start gap-2">
-              <span className="mt-1 inline-flex h-3 w-3 rounded-full bg-yellow-500" />
+              <span className="mt-1 inline-flex h-3 w-3 rounded-full bg-blue-700" />
               <p className="text-sm text-gray-600">
                 {t("point")}
               </p>
@@ -98,7 +98,7 @@ export default function WhyEgypt() {
           <div className="mt-6">
             <a
               href="/contact"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-black rounded-md font-semibold shadow"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 hover:bg-blue-700 text-white rounded-md font-semibold shadow"
             >
              {t("btn")}
             </a>

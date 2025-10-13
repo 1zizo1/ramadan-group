@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { ShieldCheck, FileText, BadgeCheck } from "lucide-react"; // optional icon set
 import { useTranslations } from "next-intl";
 const icons =[
-  <FileText className="w-14 h-14 text-yellow-500 mb-6" />,
-  <ShieldCheck className="w-14 h-14 text-yellow-500 mb-6" />,
-  <BadgeCheck className="w-14 h-14 text-yellow-500 mb-6" />,
+  <FileText className="w-14 h-14 text-blue-700 mb-6" />,
+  <ShieldCheck className="w-14 h-14 text-blue-700 mb-6" />,
+  <BadgeCheck className="w-14 h-14 text-blue-700 mb-6" />,
 ]
 export default function GovernanceCompliance() {
   const t =useTranslations("GovernanceCompliance")

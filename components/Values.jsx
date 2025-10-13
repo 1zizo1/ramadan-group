@@ -13,7 +13,7 @@ export default function ValuesGrid({ t ,icons = [] }) {
               className="p-6 bg-gray-100/60 rounded-2xl shadow-md flex flex-col items-center text-center transition-transform duration-300 hover:scale-105"
             >
               <div className="mb-4">
-                {Icon ? <Icon className="w-10 h-10 text-yellow-500" /> : null}
+                {Icon ? <Icon className="w-10 h-10 text-blue-700" /> : null}
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
                 {item.title}

@@ -32,7 +32,7 @@ export function ServiceCardRadix({
           <p className="text-sm text-gray-300">
             High-quality service with professional expertise.
           </p>
-          <button className="mt-3 bg-yellow-500 text-black px-4 py-2 rounded-md font-medium hover:bg-yellow-400 transition">
+          <button className="mt-3 bg-blue-700 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-400 transition">
             Order Now
           </button>
         </HoverCard.Content>

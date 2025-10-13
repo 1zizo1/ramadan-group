@@ -9,8 +9,8 @@ export default function Quality() {
   return (
     <section className="relative py-16 px-6 md:px-12 bg-gray-50 overflow-hidden">
       {/* Background Accent */}
-      <div className="absolute top-0 left-0 w-32 h-32 bg-yellow-200 rounded-full opacity-30 blur-2xl" />
-      <div className="absolute bottom-0 right-0 w-40 h-40 bg-yellow-300 rounded-full opacity-20 blur-3xl" />
+      <div className="absolute top-0 left-0 w-32 h-32 bg-blue-200 rounded-full opacity-30 blur-2xl" />
+      <div className="absolute bottom-0 right-0 w-40 h-40 bg-blue-300 rounded-full opacity-20 blur-3xl" />
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 relative z-10">
         {/* Text Content */}
@@ -21,7 +21,7 @@ export default function Quality() {
           transition={{ duration: 0.7 }}
         >
           <div className="flex items-center gap-3">
-            <ShieldCheckIcon className="w-10 h-10 text-yellow-600" />
+            <ShieldCheckIcon className="w-10 h-10 text-blue-700" />
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
               {t("Title")}
             </h2>
@@ -34,7 +34,7 @@ export default function Quality() {
 
           {/* Badge effect */}
           <motion.div
-            className="mt-6 inline-block px-4 py-2 bg-yellow-500 text-black text-sm font-semibold rounded-lg shadow hover:bg-yellow-600 transition"
+            className="mt-6 inline-block px-4 py-2 bg-blue-700 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-700 transition"
             whileHover={{ scale: 1.05 }}
           >
             {t("Button")}

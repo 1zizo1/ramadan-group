@@ -13,7 +13,7 @@ const t= useTranslations("WhoWeAre")
         whileInView={{ opacity: 0.1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
-        className="absolute top-10 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-yellow-300 blur-3xl"
+        className="absolute top-10 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-blue-300 blur-3xl"
       />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -49,26 +49,26 @@ const t= useTranslations("WhoWeAre")
           </h2>
           <p className="mt-4 text-lg text-gray-600 leading-relaxed">
             {t("At")}
-            <span className="font-semibold text-yellow-600">{t("high")}</span>,
+            <span className="font-semibold text-blue-700">{t("high")}</span>,
             {t("desc")}
             <span className="font-semibold">{t("low")}</span>,{t("restDesc")}
           </p>
 
           <ul className="mt-6 space-y-4 text-gray-700">
             <li className="flex items-center gap-3">
-              <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
+              <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-700 text-white font-bold">
                 ✓
               </span>
               {t("0")}
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
+              <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-700 text-white font-bold">
                 ✓
               </span>
               {t("1")}
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
+              <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-700 text-white font-bold">
                 ✓
               </span>
               {t("2")}

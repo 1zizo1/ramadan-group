@@ -22,7 +22,7 @@ export default function ExpansionVision() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-sm text-yellow-600 font-semibold uppercase tracking-widest"
+          className="text-sm text-blue-700 font-semibold uppercase tracking-widest"
         >
           {t("title")}
         </motion.h3>

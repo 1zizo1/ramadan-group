@@ -14,7 +14,7 @@ export default function BusinessInquiries() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           whileHover={{ scale: 1.02 }}
-          className="relative bg-gradient-to-r from-yellow-500 to-yellow-600 text-white rounded-2xl shadow-lg p-8 md:p-10 text-center"
+          className="relative bg-gradient-to-r from-blue-700 to-blue-700 text-white rounded-2xl shadow-lg p-8 md:p-10 text-center"
         >
           {/* Icon */}
           <div className="flex justify-center mb-4">
@@ -33,7 +33,7 @@ export default function BusinessInquiries() {
           {/* CTA */}
           <a
             href="mailto:contact@ramadan-group.com"
-            className="inline-block mt-6 px-6 py-3 bg-white text-yellow-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition"
+            className="inline-block mt-6 px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition"
           >
             {t("btn")}
           </a>

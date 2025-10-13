@@ -14,7 +14,7 @@ export default function CEOCard() {
       className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-2xl transition mt-4"
     >
       {/* Header Section */}
-      <div className="relative h-48 bg-gradient-to-r from-yellow-400 to-yellow-600 flex items-center justify-center">
+      <div className="relative h-48 bg-gradient-to-r from-blue-400 to-blue-700 flex items-center justify-center">
         <h3 className="text-2xl md:text-3xl font-bold text-white text-center px-4">
           {t("name")}
         </h3>
@@ -45,7 +45,7 @@ export default function CEOCard() {
           {/* Achievements List */}
           <ul className="mt-6 space-y-4">
             <li className="flex items-start gap-3">
-              <span className="w-8 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
+              <span className="w-8 h-6 flex items-center justify-center rounded-full bg-blue-700 text-white font-bold">
                 ✓
               </span>
               <p>
@@ -54,7 +54,7 @@ export default function CEOCard() {
             </li>
 
             <li className="flex items-start gap-3">
-              <span className="w-10 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
+              <span className="w-10 h-6 flex items-center justify-center rounded-full bg-blue-700 text-white font-bold">
                 ✓
               </span>
               <p>
@@ -63,7 +63,7 @@ export default function CEOCard() {
             </li>
 
             <li className="flex items-start gap-3">
-              <span className="w-10 h-6 flex items-center justify-center rounded-full bg-yellow-500 text-white font-bold">
+              <span className="w-10 h-6 flex items-center justify-center rounded-full bg-blue-700 text-white font-bold">
                 ✓
               </span>
               <p>

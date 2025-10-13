@@ -40,23 +40,23 @@
     }
   },
   "hero": {
-    "name": "Ramadan Group",
-    "slogan": "Bringing the world to your doorstep",
-    "title": " Your Best Partner for Business Growth in Egypt and Beyond.",
-    "subtitle": "We Offer a Comprehensive Range of Services and Innovative Solutions to Develop Your Business and Facilitate Your Company's Success.",
-    "button": "Start Now",
-    "button2": "Learn More"
+    "name": " Ramadan Group ",
+    "slogan": " Bringing the world to your doorstep ",
+    "title": " Your Best Partner for Business Growth in Egypt and Beyond. ",
+    "subtitle": " We Offer a Comprehensive Range of Services and Innovative Solutions to Develop Your Business and Facilitate Your Company's Success. ",
+    "button": " Start Now ",
+    "button2": " Learn More "
   },
   "WhoWeAre": {
-    "title": "Who We Are",
-    "At": "At",
-    "high": "Ramadan Group",
-    "desc": "we are more than an import & export company — we are a trusted partner in global trade. With decades of expertise, we connect businesses across",
-    "low": "Egypt, the Gulf, and Europe",
-    "restDesc": " delivering excellence in logistics, compliance, and market growth.",
-    "0": "Reliable & Transparent Trade Operations",
-    "1": " Global Network with Local Expertise",
-    "2": "Commitment to Compliance & Quality"
+    "title": " Who We Are ",
+    "At": " At ",
+    "high": " Ramadan Group ",
+    "desc": " we are more than an import & export company — we are a trusted partner in global trade. With decades of expertise, we connect businesses across ",
+    "low": " Egypt, the Gulf, and Europe ",
+    "restDesc": " delivering excellence in logistics, compliance, and market growth. ",
+    "0": " Reliable & Transparent Trade Operations ",
+    "1": " Global Network with Local Expertise ",
+    "2": " Commitment to Compliance & Quality "
   },
   "WhatWeDo": {
     "Title": "What We Do",
@@ -81,8 +81,8 @@
     }
   },
   "OurPromise": {
-    "title": "Our Promise",
-    "desc": "At Ramadan Group, we stand by trust, quality, and long-term partnerships. Every shipment, every deal, every journey—delivered with integrity.",
+    "title": " Our Promise ",
+    "desc": "At Ramadan Group, we stand by trust, quality, and long-term partnerships. Every shipment, every deal, every journey—delivered with integrity. ",
     "btn": "Get in Touch"
   },
   "faqs": {
@@ -186,6 +186,7 @@
   },
   "ContactHero": {
     "name": "Ramadan Group",
+    "img": "image55_evnhiy",
     "title": "Get in Touch with",
     "desc": " Connecting businesses worldwide through trusted import & export solutions.",
     "btn": "Contact Us",
@@ -253,8 +254,8 @@
       },
       "3": {
         "title": "Email",
-        "data": "info@ramadangroup.com",
-        "subData": "sales@ramadangroup.com"
+        "data": "info@ramadan-group.com",
+        "subData": "sales@ramadan-group.com"
       }
     }
   },
@@ -524,13 +525,11 @@
     "Title": "Grains & Legumes",
     "Desc": "Our product portfolio also includes grains and legumes, staples for many global cuisines. We provide well-packaged and quality-tested goods that meet international import requirements.",
     "Button": " Order Now"
-
   },
   "DatesProduct": {
     "Title": "Premium Dates",
     "Desc": "Egypt is one of the world’s leading producers of dates, known for their natural sweetness and superior quality. Ramadan Group exports premium date varieties that are carefully selected, processed, and packaged to preserve their rich taste and nutritional value.",
     "Button": " Order Now"
-
   },
   "LightsProduct": {
     "Title": "LED Lights & Fixtures",
@@ -552,8 +551,72 @@
     "Desc": "We understand that every market has different needs. That’s why we provide customized sourcing solutions — from product selection to packaging sizes — tailored to meet specific client requirements.",
     "Button": " Order Now"
   },
-  "FreshGrid":{
-    "title":" Our Main Products",
-    "desc":"Hand-picked from trusted farms, delivered with care."
+  "FreshGrid": {
+    "title": " Our Main Products",
+    "desc": "Hand-picked from trusted farms, delivered with care."
+  },
+"mainProducts": {
+  "title": " Our Egyptian Products ",
+  "btn": " Learn More ",
+  "crops": {
+    "name": " Corps ",
+    "short": " Premium Egyptian crops selected from trusted local farms. ",
+    "description": " Through strong partnerships with certified Egyptian farms, Ramadan Group provides the highest-quality agricultural corps — from onions, potatoes, and legumes to herbs and grains. Every shipment meets international export standards and is carefully prepared for global markets. ",
+    "item": {
+      "Title": " Grains & Legumes ",
+      "Desc": " Our product portfolio includes grains and legumes, staples for many global cuisines. We provide well-packaged and quality-tested goods that meet international import requirements. ",
+      "Button": " Order Now "
+    }
+  },
+  "decoration": {
+    "name": " Decoration ",
+    "short": " Modern Egyptian-made decoration materials and accessories. ",
+    "description": " Ramadan Group collaborates with leading decoration and furnishing factories in Egypt to offer elegant, durable, and cost-effective decoration materials. From wall designs to artistic finishes, we ensure beauty and quality that represent Egypt’s creative craftsmanship. ",
+    "item": {
+      "Title": " Decorative Materials & Finishes ",
+      "Desc": " We provide a wide range of Egyptian-made decorative materials including gypsum boards, wall claddings, and marble finishes. Our products combine modern style with traditional artistry to elevate interiors worldwide. ",
+      "Button": " Explore Collection "
+    }
+  },
+  "carpets": {
+    "name": " Carpets ",
+    "short": " Authentic Egyptian carpets and rugs woven with heritage and style. ",
+    "description": " Our Egyptian carpets combine traditional weaving techniques with modern factory precision. Through direct contracts with local manufacturers, we supply a wide range of carpets and rugs that showcase Egypt’s renowned textile heritage and superior durability. ",
+    "item": {
+      "Title": " Handcrafted Carpets & Rugs ",
+      "Desc": " We export a curated selection of Egyptian carpets that blend cultural authenticity with modern design. Each piece is made with durable materials and intricate patterns fit for both homes and businesses. ",
+      "Button": " View Designs "
+    }
+  },
+  "marble_grenite": {
+    "name": " Marble & Granite ",
+    "short": " Top-grade Egyptian marble and granite for global projects. ",
+    "description": " We export Egyptian marble and granite sourced from the country’s finest quarries. Ramadan Group’s direct contracts with production factories guarantee competitive pricing and exceptional finishing quality, ready for luxury construction and decoration projects worldwide. ",
+    "item": {
+      "Title": " Marble & Granite Collections ",
+      "Desc": " Our selection includes premium slabs and tiles available in multiple colors, patterns, and finishes. Each product is precisely cut and polished to meet international standards for elegance and durability. ",
+      "Button": " Discover More "
+    }
+  },
+  "clothes": {
+    "name": " Clothes ",
+    "short": " High-quality Egyptian garments crafted with precision. ",
+    "description": " Egypt’s textile industry is one of the oldest and strongest in the region. Partnering with major clothing manufacturers, Ramadan Group delivers fashionable, export-ready garments made with fine Egyptian cotton and modern tailoring standards. ",
+    "item": {
+      "Title": " Egyptian Cotton Apparel ",
+      "Desc": " We offer a diverse range of clothing from casual wear to formal collections — all made from premium Egyptian cotton known for its softness, breathability, and durability. ",
+      "Button": " Shop Collection "
+    }
+  },
+  "boxs_packages": {
+    "name": " Boxes & Packages ",
+    "short": " Strong, eco-friendly packaging solutions for global logistics. ",
+    "description": " We work directly with Egypt’s best packaging factories to produce boxes and packages that combine strength, design, and sustainability. Ramadan Group ensures your products arrive safely and attractively — anywhere in the world. ",
+    "item": {
+      "Title": " Packaging Excellence ",
+      "Desc": " Our packaging line includes corrugated boxes, eco-friendly cartons, and custom-printed packages designed for strength and brand visibility — ensuring every shipment looks and performs perfectly. ",
+      "Button": " Get Quote "
+    }
   }
+}
 }

@@ -11,11 +11,12 @@ import CTABanner from "@/components/ui/CTABanner";
 
 export default function Contact() {
   const t = useTranslations("contactCard");
+  const hero = useTranslations("ContactHero");
 
   const icons = [SunIcon, ImageIcon, FaceIcon, SunIcon];
   return (
     <section className="relative">
-      <ContactHero />
+      <ContactHero t={hero} />
       <HeadOfficeInfo />
       <ContactChannels />
       <BusinessInquiries />

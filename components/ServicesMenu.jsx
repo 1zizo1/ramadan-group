@@ -10,26 +10,26 @@ import { useTranslations } from "next-intl";
 
 const services = [
   {
-    icon: <Package className="w-5 h-5 text-yellow-600" />,
+    icon: <Package className="w-5 h-5 text-blue-700" />,
   },
 
   {
-    icon: <Briefcase className="w-5 h-5 text-yellow-600" />,
+    icon: <Briefcase className="w-5 h-5 text-blue-700" />,
   },
   {
-    icon: <Building2 className="w-5 h-5 text-yellow-600" />,
+    icon: <Building2 className="w-5 h-5 text-blue-700" />,
   },
   {
-    icon: <Package className="w-5 h-5 text-yellow-600" />,
+    icon: <Package className="w-5 h-5 text-blue-700" />,
   },
   {
-    icon: <Briefcase className="w-5 h-5 text-yellow-600" />,
+    icon: <Briefcase className="w-5 h-5 text-blue-700" />,
   },
   {
-    icon: <Users className="w-5 h-5 text-yellow-600" />,
+    icon: <Users className="w-5 h-5 text-blue-700" />,
   },
   {
-    icon: <Building2 className="w-5 h-5 text-yellow-600" />,
+    icon: <Building2 className="w-5 h-5 text-blue-700" />,
   },
 ];
 
@@ -44,7 +44,7 @@ export default function ServicesMenu() {
           <HoverCard.Trigger asChild>
             <Link
               href="/services"
-              className="flex justify-center items-center text-gray-700 font-medium hover:text-yellow-500 transition"
+              className="flex justify-center items-center text-gray-700 font-medium hover:text-blue-700 transition"
             >
               {t("services")} <ChevronDownIcon />
             </Link>
@@ -66,7 +66,7 @@ export default function ServicesMenu() {
           <Dialog.Trigger asChild>
             <Link
               href="/services"
-              className="self-start text-gray-700 font-medium hover:text-yellow-500 transition"
+              className="self-start text-gray-700 font-medium hover:text-blue-700 transition"
             >
               {t("services")}
             </Link>
@@ -104,7 +104,7 @@ function ServicesContent() {
         {bullets.map((bullet, i) => (
           <div key={i} className="flex items-start gap-3">
             {/* Pick an icon from services by index */}
-            <div className="p-2 bg-yellow-100 rounded-full">
+            <div className="p-2 bg-blue-100 rounded-full">
               {services[i % services.length].icon}
             </div>
 
@@ -129,7 +129,7 @@ function ServicesContent() {
           <h2 className="text-lg font-bold">{t("solgn")}</h2>
           <Link
             href="/services"
-            className="mt-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-4 py-2 rounded-lg"
+            className="mt-3 bg-blue-700 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg"
           >
             {t("btn")}
           </Link>

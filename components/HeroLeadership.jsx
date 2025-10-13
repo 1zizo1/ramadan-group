@@ -84,7 +84,7 @@ export default function HeroLeadership() {
                 <h3 className="text-white text-lg sm:text-xl font-bold">
                   {leader.name}
                 </h3>
-                <p className="text-yellow-400 font-semibold text-sm sm:text-base">
+                <p className="text-blue-400 font-semibold text-sm sm:text-base">
                   {leader.role}
                 </p>
               </div>

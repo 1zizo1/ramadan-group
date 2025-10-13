@@ -17,7 +17,7 @@ export default function About() {
     <section>
       <div className="bg-black/50 ">
         <div className=" absolute w-full p-18 m-2 flex items-center justify-center">
-          <Text className="text-yellow-500 capitalize text-5xl">
+          <Text className="text-blue-700 capitalize text-5xl">
             <TrueFocus
               text={t("About")}
               typingSpeed={75}

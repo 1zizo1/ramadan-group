@@ -48,7 +48,7 @@ export default function ContactChannels() {
                 whileHover={{ scale: 1.05 }}
               >
                 {/* Icon */}
-                {Icon && <Icon className="w-12 h-12 text-yellow-600 mb-4" />}
+                {Icon && <Icon className="w-12 h-12 text-blue-700 mb-4" />}
 
                 {/* Title */}
                 <h3 className="text-xl font-semibold text-gray-800">
@@ -61,7 +61,7 @@ export default function ContactChannels() {
                 {/* Action */}
                 <a
                   href={channel.link}
-                  className="mt-6 px-5 py-2 bg-yellow-500 text-white rounded-lg shadow hover:bg-yellow-600 transition font-medium"
+                  className="mt-6 px-5 py-2 bg-blue-700 text-white rounded-lg shadow hover:bg-blue-700 transition font-medium"
                 >
                   {channel.action}
                 </a>

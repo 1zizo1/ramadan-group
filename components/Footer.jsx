@@ -1,22 +1,19 @@
 "use client";
 import React from "react";
-import Wave from "@/components/ui/wave";
 import { CldImage } from "next-cloudinary";
 
 const Footer = () => {
   return (
-    <footer className="relative  text-gray-700">
+    <footer className="text-gray-700">
       {/* Background wave */}
-      <div className="absolute bottom-0 w-full -z-50">
-        <Wave />
-      </div>
+     
       {/* Main Footer Content */}
       <div className="flex flex-col md:flex-row items-start justify-between px-6 md:px-16 lg:px-24 gap-10 py-12 border-b border-gray-300/40">
         {/* Logo + Description */}
         <div className="w-full md:w-2/5">
           <CldImage
             className="w-32 md:w-40"
-            src="logo_klv1mn"
+            src="logo_1_-0001_2_wztort"
             width="200"
             height="80"
             alt="Company Logo"
@@ -36,7 +33,7 @@ const Footer = () => {
               (item, idx) => (
                 <li key={idx}>
                   <a
-                    className="hover:text-yellow-600 hover:underline transition"
+                    className="hover:text-blue-700 hover:underline transition"
                     href="#"
                   >
                     {item}
@@ -51,7 +48,7 @@ const Footer = () => {
         <div className="w-full md:w-1/4">
           <h2 className="font-semibold text-gray-900 mb-4">Get in Touch</h2>
           <div className="text-sm space-y-2 text-gray-600">
-            <p>📞 +20-111-6946-096</p>
+            <p>📞 +20-101-0080-832</p>
             <p>✉️ contact@ramadan-group.com</p>
             <p>✉️ info@ramadan-group.com</p>
           </div>
@@ -59,7 +56,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <p className="py-5 text-center text-xs md:text-sm text-gray-500">
+      <p className="py-5 text-center text-xs md:text-sm text-white bg-[#BA3030]">
         © 2025 Ramadan Group. All Rights Reserved.
       </p>
     </footer>

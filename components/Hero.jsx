@@ -25,7 +25,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center md:text-left grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Text */}
         <div>
-          <p className="text-yellow-400 font-semibold uppercase tracking-wide mb-3">
+          <p className="text-blue-400 font-semibold uppercase tracking-wide mb-3">
             {t("name")}
           </p>
 
@@ -46,8 +46,8 @@ export default function Hero() {
             <Button
               size="3"
               style={{
-                backgroundColor: "#facc15",
-                color: "black",
+                backgroundColor: "#BA3030",
+                color: "white",
                 fontWeight: 700,
               }}
               className="hover:scale-105 transition"
@@ -71,9 +71,9 @@ export default function Hero() {
         </div>
 
         {/* Right: Logo/Visual */}
-        <div className="flex justify-center md:justify-end">
+        <div className="flex justify-center md:justify-end ">
           <CldImage
-            src="Picture2_jbvhwg"
+            src="logo_1_-0001_2_wztort"
             width="2294"
             height="2294"
             alt="Company Logo"

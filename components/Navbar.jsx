@@ -24,16 +24,18 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-      <div className="flex items-center justify-between px-6 md:px-16 lg:px-32 py-3 text-gray-700">
+      <div className="flex items-center justify-between px-6 md:px-16 lg:px-32 h-16  text-gray-700">
         {/* Logo */}
-        <CldImage
-          className="cursor-pointer w-28 md:w-32"
-          onClick={() => router.push("/")}
-          src="logo_klv1mn"
-          width="200"
-          height="80"
-          alt="Ramadan Group Logo"
-        />
+        <div className="h-full flex items-center">
+          <CldImage
+            className=" w-24 md:w-32 cursor-pointer"
+            onClick={() => router.push("/")}
+            src="logo_1_-0001_2_wztort"
+            width="2328"
+            height="614"
+            alt="Ramadan Group Logo"
+          />
+        </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
@@ -45,10 +47,10 @@ export default function Navbar() {
             >
               <Link
                 href={link.href}
-                className="relative font-medium hover:text-yellow-500 transition"
+                className="relative font-medium hover:text-blue-900 transition"
               >
                 {link.label}
-                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-900 transition-all group-hover:w-full"></span>
               </Link>
             </motion.div>
           ))}
@@ -89,7 +91,7 @@ export default function Navbar() {
                   key={i}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-gray-700 font-medium hover:text-yellow-500 transition"
+                  className="text-gray-700 font-medium hover:text-blue-700 transition"
                 >
                   {link.label}
                 </Link>

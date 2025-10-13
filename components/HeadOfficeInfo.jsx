@@ -75,7 +75,7 @@ const t = useTranslations("HeadOfficeInfo")
                 <span className="font-medium">Email:</span>{" "}
                 <a
                   href={`mailto:${office.email}`}
-                  className="text-yellow-600 hover:underline"
+                  className="text-blue-700 hover:underline"
                 >
                   {office.email}
                 </a>

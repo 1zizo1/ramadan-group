@@ -4,14 +4,13 @@ import { motion } from "framer-motion";
 import { CldImage } from "next-cloudinary";
 import { useTranslations } from "next-intl";
 
-export default function ContactHero() {
-  const t = useTranslations("ContactHero");
+export default function ContactHero({t}) {
   return (
     <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-gray-900">
       {/* Background Globe / Trade Imagery */}
       <div className="absolute inset-0">
         <CldImage
-          src="image55_evnhiy" // <-- replace with your Cloudinary public ID
+          src={t("img")} // <-- replace with your Cloudinary public ID
           alt="Global Trade Background"
           fill
           className="object-cover"
@@ -30,7 +29,7 @@ export default function ContactHero() {
           transition={{ duration: 1 }}
           className="text-4xl md:text-6xl font-extrabold text-white"
         >
-          {t("title")} <span className="text-yellow-400">{t("name")}</span>
+          {t("title")} <span className="text-blue-400">{t("name")}</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -52,13 +51,13 @@ export default function ContactHero() {
         >
           <a
             href="#contact-form"
-            className="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition"
+            className="px-6 py-3 bg-blue-700 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition"
           >
           {t("btn")}
           </a>
           <a
             href="mailto:info@ramadangroup.com"
-            className="px-6 py-3 border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-semibold rounded-lg shadow-md transition"
+            className="px-6 py-3 border border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold rounded-lg shadow-md transition"
           >
           {t("btn2")}
           </a>

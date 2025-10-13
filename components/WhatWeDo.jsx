@@ -18,16 +18,16 @@ const ServiceCard = ({ service }) => {
       viewport={{ once: true }}
       whileHover={{ y: -10, scale: 1.05 }}
       className="group bg-white rounded-2xl shadow-md p-8 border border-gray-100 
-                 hover:border-yellow-400 hover:shadow-yellow-200/50 
+                 hover:border-blue-400 hover:shadow-blue-200/50 
                  transition cursor-pointer relative overflow-hidden"
     >
       {/* Icon */}
-      <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-yellow-100 mb-6 group-hover:bg-yellow-500 transition">
-        <Icon className="w-8 h-8 text-yellow-600 group-hover:text-white transition" />
+      <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-blue-100 mb-6 group-hover:bg-blue-700 transition">
+        <Icon className="w-8 h-8 text-blue-700 group-hover:text-white transition" />
       </div>
 
       {/* Title */}
-      <h3 className="text-xl font-bold text-gray-900 group-hover:text-yellow-600 transition">
+      <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-700 transition">
         {service.title}
       </h3>
 
@@ -35,7 +35,7 @@ const ServiceCard = ({ service }) => {
       <p className="mt-3 text-gray-600 text-sm leading-relaxed">{service.description}</p>
 
       {/* Decorative hover glow */}
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-tr from-yellow-400 to-yellow-200 transition" />
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-tr from-blue-400 to-blue-200 transition" />
     </motion.div>
   );
 };

@@ -23,7 +23,7 @@ export default function GlobalHero() {
             {/* Overlay trade routes (SVG) */}
             <TradeRoutes />
             {/* Hero Content */}
-            <div className="relative text-center text-black px-6">
+            <div className="relative text-center text-white px-6">
                 <motion.h1
                     className="text-3xl md:text-5xl font-extrabold mb-4"
                     initial={{ opacity: 0, y: 40 }}
@@ -34,7 +34,7 @@ export default function GlobalHero() {
                 </motion.h1>
 
                 <motion.p
-                    className="text-sm md:text-lg max-w-xl mx-auto mb-6 text-black/80"
+                    className="text-sm md:text-lg max-w-xl mx-auto mb-6 text-white/80"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
@@ -44,7 +44,7 @@ export default function GlobalHero() {
 
                 <motion.a
                     href="#why"
-                    className="px-6 py-3 bg-yellow-500 text-black font-semibold rounded-lg shadow hover:bg-yellow-600 transition"
+                    className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                 >

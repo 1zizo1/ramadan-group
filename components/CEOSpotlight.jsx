@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 export default function CEOSpotlight() {
   const t = useTranslations("CEOSpotlight");
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-yellow-50 via-white to-yellow-50">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-blue-50 via-white to-blue-50">
       {/* Background overlay */}
       <div className="absolute inset-0">
         <CldImage
@@ -28,7 +28,7 @@ export default function CEOSpotlight() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           whileHover={{ scale: 1.05 }}
-          className="relative w-64 h-64 rounded-2xl overflow-hidden shadow-2xl border-2 border-yellow-500"
+          className="relative w-64 h-64 rounded-2xl overflow-hidden shadow-2xl border-2 border-blue-700"
         >
           <CldImage
             src="Picsart_25-09-19_19-50-43-713_eqe1hg" // replace with Atef Ramadan's photo
@@ -48,7 +48,7 @@ export default function CEOSpotlight() {
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 drop-shadow-sm">
             {t("title")}
           </h2>
-          <p className="mt-2 text-xl text-yellow-600 font-semibold">
+          <p className="mt-2 text-xl text-blue-700 font-semibold">
             {t("name")}
           </p>
           <p className="mt-6 text-gray-700 leading-relaxed">
@@ -63,7 +63,7 @@ export default function CEOSpotlight() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="mt-8 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition"
+            className="mt-8 px-6 py-3 bg-blue-700 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition"
           >
             {t("btn")}
           </motion.button>

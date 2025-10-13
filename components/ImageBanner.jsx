@@ -20,7 +20,7 @@ export default function ImageBanner() {
               {t("Desc")}
             </p>
             <div className="mt-4 flex justify-center md:justify-end">
-              <button className="bg-yellow-500 text-black px-5 py-2 rounded-md font-medium hover:bg-yellow-400 transition">
+              <button className="bg-blue-700 text-white px-5 py-2 rounded-md font-medium hover:bg-blue-400 transition">
                 {t("Button")}
               </button>
             </div>
