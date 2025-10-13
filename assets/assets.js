@@ -73,11 +73,11 @@ export const products = [
   },
 
   {
-    slug: "carpets", image: "dbe79f27-59d9-4adb-af04-9ea210f2c303_fvmeig",
-    image2: "top-view-arrangement-frozen-food_hwieb6",
-    image3: "top-view-arrangement-frozen-food_hwieb6",
+    slug: "carpets", image: "21688_ikncjf",
+    image2: "30905_oty64e",
+    image3: "12867_eqevww",
     image4: "2150170250_d0bdvx",
-    video: "https://res.cloudinary.com/db4f5zwsc/video/upload/v1757460874/1471454_People_Business_1280x720_x0zfop.mp4",
+    video: "https://res.cloudinary.com/db4f5zwsc/video/upload/v1760387521/6356163_Mall_Rug_Vendor_1280x720_lyo7zv.mp4",
   },
 
   {
