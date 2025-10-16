@@ -12,7 +12,7 @@ const t = useTranslations("HeadOfficeInfo")
       flag: "27140_bsuwip", // Cloudinary public ID
       address: "Cairo, Egypt",
       details: "123 Nile Street, Downtown, Cairo",
-      phone: "+20 111 6946 096",
+      phone: "+20 101 0080 832",
       email: "contact@ramadan-group.com",
     },
     {

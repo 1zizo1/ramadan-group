@@ -8,7 +8,7 @@ export default function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[100vh] flex items-center justify-center overflow-hidden ">
       {/* Background Image */}
       <CldImage
         src="Picture1_dnxzec"
@@ -24,8 +24,8 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center md:text-left grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Text */}
-        <div>
-          <p className="text-blue-400 font-semibold uppercase tracking-wide mb-3">
+        <div className="order-2 md:order-1">
+          <p className="text-blue-400 font-semibold uppercase tracking-wide mb-3 hidden md:block">
             {t("name")}
           </p>
 
@@ -42,7 +42,7 @@ export default function Hero() {
           <p className="mt-4 text-gray-200 text-lg italic">{t("subtitle")}</p>
 
           {/* CTA Buttons */}
-          <div className="flex gap-4 mt-8 flex-wrap">
+          <div className="flex gap-4 mt-8 flex-wrap justify-start md:justify-center">
             <Button
               size="3"
               style={{
@@ -71,7 +71,7 @@ export default function Hero() {
         </div>
 
         {/* Right: Logo/Visual */}
-        <div className="flex justify-center md:justify-end ">
+        <div className="order-1 md:order-2 flex justify-start md:justify-center">
           <CldImage
             src="logo_1_-0001_2_wztort"
             width="2294"
