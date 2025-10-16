@@ -23,7 +23,7 @@ export default function ServicesPage() {
     <main>
       <div className="bg-black/50 ">
         <div className=" absolute w-full p-18 m-2 flex items-center justify-center">
-          <Text className="text-blue-700 capitalize text-5xl">
+          <Text className="text-white capitalize text-5xl">
             <TrueFocus
               text="Seamless Trade, End-to-End Solutions."
               typingSpeed={75}

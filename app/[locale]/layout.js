@@ -33,7 +33,7 @@ export const metadata = {
     siteName: "Ramadan Group",
     images: [
       {
-        url: "https://res.cloudinary.com/db4f5zwsc/image/upload/v1760109546/logo_1_-0001_2_wztort.png", // replace with your image
+        url: "https://res.cloudinary.com/db4f5zwsc/image/upload/v1760644072/image_1_jmjwu8.png", // replace with your image
         width: 1200,
         height: 630,
         alt: "Ramadan Group - Import & Export",
@@ -47,7 +47,7 @@ export const metadata = {
     title: "Ramadan Group - Import & Export",
     description:
       "Trusted Egyptian import & export company connecting Europe, the Gulf, and beyond with fresh produce and quality goods.",
-    images: ["https://res.cloudinary.com/db4f5zwsc/image/upload/v1760109546/logo_1_-0001_2_wztort.png"],
+    images: ["https://res.cloudinary.com/db4f5zwsc/image/upload/v1760644072/image_1_jmjwu8.png"],
   },
 };
 

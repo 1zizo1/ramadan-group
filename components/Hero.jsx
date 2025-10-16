@@ -71,7 +71,7 @@ export default function Hero() {
         </div>
 
         {/* Right: Logo/Visual */}
-        <div className="order-1 md:order-2 flex justify-start md:justify-center">
+        <div className="order-1 md:order-2 flex justify-center">
           <CldImage
             src="logo_1_-0001_2_wztort"
             width="2294"
