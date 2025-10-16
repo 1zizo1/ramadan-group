@@ -12,7 +12,7 @@ const vegetables = [
   {
     id: 2,
     name: "Decoration",
-    img: "many-different-berries-form-frame-white-background_u1beym",
+    img: "2149198165_f9hxfx",
   },
   { id: 3, name: "Carpets", img: "30905_oty64e" },
   { id: 4, name: "Marble & Grenite", img: "FB_IMG_1760103553574_ifkc9r" },
