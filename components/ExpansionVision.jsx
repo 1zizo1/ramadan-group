@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 export default function ExpansionVision() {
   const t = useTranslations("ExpansionVision");
   const markets = [
-    { name: "Europe", x: 700, y: 180, color: "blue" },
+    { name: "Europe", x: 820, y: 330, color: "blue" },
     { name: "Asia", x: 1050, y: 330, color: "red" },
     { name: "Africa", x: 820, y: 480, color: "green" },
     { name: "North America", x: 500, y: 320, color: "orange" },
