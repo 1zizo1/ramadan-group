@@ -7,17 +7,17 @@ const vegetables = [
   {
     id: 1,
     name: "Corps",
-    img: "top-view-arrangement-frozen-food_hwieb6",
+    img: "many-different-berries-form-frame-white-background_u1beym",
   },
   {
     id: 2,
     name: "Decoration",
-    img: "red-fresh-tomatoes-gathered-into-cardboaard-boxes-purchasing_fv787q",
+    img: "many-different-berries-form-frame-white-background_u1beym",
   },
-  { id: 3, name: "Carpets", img: "dbe79f27-59d9-4adb-af04-9ea210f2c303_fvmeig" },
-  { id: 4, name: "Marble & Grenite", img: "IMG_5965.HEIC_1_vtsuzv" },
-  { id: 5, name: "Clothes", img: "2150170250_d0bdvx" },
-  { id: 6, name: "Boxs & Packages ", img: "85_bczduo" },
+  { id: 3, name: "Carpets", img: "30905_oty64e" },
+  { id: 4, name: "Marble & Grenite", img: "FB_IMG_1760103553574_ifkc9r" },
+  { id: 5, name: "Clothes", img: "2149448767_atwc4g" },
+  { id: 6, name: "Boxs & Packages ", img: "2149198165_f9hxfx" },
 ];
 
 export default function FreshGrid() {

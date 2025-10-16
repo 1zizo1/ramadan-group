@@ -19,7 +19,7 @@ const ServiceCard = ({ service }) => {
       whileHover={{ y: -10, scale: 1.05 }}
       className="group bg-white rounded-2xl shadow-md p-8 border border-gray-100 
                  hover:border-blue-400 hover:shadow-blue-200/50 
-                 transition cursor-pointer relative overflow-hidden"
+                 transition cursor-pointer relative overflow-hidden flex flex-col justify-center items-center"
     >
       {/* Icon */}
       <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-blue-100 mb-6 group-hover:bg-blue-700 transition">
