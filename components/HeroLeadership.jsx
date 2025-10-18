@@ -15,7 +15,7 @@ export default function HeroLeadership() {
     {
       name: "Atef Ramadan",
       role: "CEO",
-      img: "Picsart_25-09-19_19-50-43-713_eqe1hg",
+      img: "IMG-a7080451d9ac4be1f291ba2c27ca1e10-V_wndnnt",
     },
 
     { name: "Salah Allam", role: "COO", img: "IMG_20250919_200848_kox1y2" },
