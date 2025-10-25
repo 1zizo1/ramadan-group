@@ -31,7 +31,7 @@ export default function CEOSpotlight() {
           className="relative w-64 h-64 rounded-2xl overflow-hidden shadow-2xl border-2 border-blue-700"
         >
           <CldImage
-            src="IMG-a7080451d9ac4be1f291ba2c27ca1e10-V_wndnnt" // replace with Atef Ramadan's photo
+            src="IMG-20251024-WA0018_mfkbg3" // replace with Atef Ramadan's photo
             alt="Atef Ramadan - CEO"
             fill
             className="object-cover"
